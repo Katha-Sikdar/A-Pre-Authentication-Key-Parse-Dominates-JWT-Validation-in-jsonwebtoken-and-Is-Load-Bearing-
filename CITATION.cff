@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it."
+title: "Replication package: a pre-authentication key parse dominates JWT validation in jsonwebtoken"
+abstract: >-
+  Measurements, instrumentation, harnesses and analysis code for a study of
+  where the per-request cost of JSON Web Token validation goes in the Node.js
+  library jsonwebtoken: a discarded asymmetric key-parse attempt, its
+  dependence on the bundled OpenSSL release, a cross-library comparison in
+  four languages, a prevalence survey of public call sites, and a narrow fix
+  that preserves the library's key-confusion defence.
+type: dataset
+authors:
+  - family-names: Katha
+    given-names: Jannatul Ferdous
+  - family-names: Prova
+    given-names: Tasmia Tahmid
+  - family-names: Morol
+    given-names: Md Kishor
+  - family-names: Liew
+    given-names: Tze Hui
+  - family-names: Nandi
+    given-names: Dip
+license: MIT
+repository-code: "https://github.com/Katha-Sikdar/A-Pre-Authentication-Key-Parse-Dominates-JWT-Validation-in-jsonwebtoken-and-Is-Load-Bearing-"
+version: 1.0.0
+date-released: "2026-09-28"
+keywords:
+  - JSON Web Token
+  - jsonwebtoken
+  - Node.js
+  - OpenSSL
+  - key confusion
+  - performance measurement
+  - reproducibility
