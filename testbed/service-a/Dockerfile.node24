@@ -1,0 +1,10 @@
+# Reviewer M2: the same service on a supported Node.js release line that
+# bundles OpenSSL 3.5. Build with:
+#   docker build -f Dockerfile.node24 -t service-a:node24 .
+FROM node:24-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000 9464
+CMD [ "node", "index.js" ]

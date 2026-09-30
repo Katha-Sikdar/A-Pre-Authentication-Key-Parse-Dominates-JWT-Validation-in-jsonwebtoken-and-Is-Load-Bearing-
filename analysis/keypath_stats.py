@@ -30,11 +30,25 @@ BOOT = 10000
 SEED = 20260917
 
 
+# 'percentile' (the default, and what every reported interval uses) or 'bca'.
+# BCa is offered for reviewers who want a bias-corrected interval over the
+# small number of processes; it is not used for any number in the paper.
+CI_METHOD = "percentile"
+
+
 def boot_ci(values: np.ndarray, rng, stat=np.median, alpha=0.05):
-    """Percentile bootstrap CI for `stat` over a sample of invocations."""
+    """Bootstrap CI for `stat` over a sample of invocations (percentile or BCa)."""
     values = np.asarray(values, dtype=float)
     if values.size < 2:
         return (float("nan"), float("nan"))
+    if CI_METHOD == "bca":
+        from scipy.stats import bootstrap
+        if np.all(values == values[0]):
+            return (float(values[0]), float(values[0]))
+        res = bootstrap((values,), lambda x, axis: stat(x, axis=axis), n_resamples=BOOT,
+                        confidence_level=1 - alpha, method="BCa",
+                        random_state=np.random.default_rng(SEED))
+        return (float(res.confidence_interval.low), float(res.confidence_interval.high))
     idx = rng.integers(0, values.size, size=(BOOT, values.size))
     draws = stat(values[idx], axis=1)
     return (float(np.percentile(draws, 100 * alpha / 2)),
@@ -60,7 +74,11 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--run", required=True, help="a *-keypath-mechanism run directory")
     ap.add_argument("--out", default=None, help="defaults to <run>/keypath_stats.json")
+    ap.add_argument("--ci-method", choices=["percentile", "bca"], default="percentile",
+                    help="bootstrap interval method (default: percentile, as reported)")
     args = ap.parse_args(argv)
+    global CI_METHOD
+    CI_METHOD = args.ci_method
 
     run = Path(args.run)
     csv = run / "keypath_mechanism.csv"
@@ -147,6 +165,7 @@ def main(argv=None) -> int:
         "run_dir": str(run),
         "source_csv": str(csv),
         "bootstrap_resamples": BOOT,
+        "bootstrap_ci_method": CI_METHOD,
         "bootstrap_seed": SEED,
         "unit_of_measurement": "one process invocation; each contributes its median of N calls",
         "environments": environments,

@@ -53,7 +53,7 @@ rows = [('verify(), string secret', 'jwt_hs_string'),
         ('symmetric key constructor', 'create_secret_key'),
         ('timer overhead', 'timer_overhead')]
 EMPH = {'probe_throws', 'create_secret_key'}
-fig, (a, b) = plt.subplots(1, 2, figsize=(7.0, 2.5), gridspec_kw={'width_ratios': [3, 2], 'wspace': 0.55})
+fig, (a, b) = plt.subplots(1, 2, figsize=(7.0, 2.5), gridspec_kw={'width_ratios': [3, 2], 'wspace': 0.95})
 for i, (label, c) in enumerate(rows):
     v = C[c]
     a.barh(i, v['median_of_medians_us'], color=ORANGE if c in EMPH else BLUE, height=0.62)
@@ -68,23 +68,23 @@ a.set_xlabel(r'median of per-process medians ($\mu$s)')
 a.set_title('(a) operations in the validation path', loc='left', fontsize=8)
 
 d = host['decomposition']
-segs = [('discarded parse', C['probe_throws']['median_of_medians_us'], ORANGE),
-        ('key conversion', C['create_secret_key']['median_of_medians_us'], AQUA),
-        ('unattributed', d['residual_us']['median'], '#c9c8c3')]
-left = 0
-for label, w, col in segs:
-    b.barh(0, w, left=left, color=col, height=0.45, edgecolor='white', linewidth=1)
-    left += w
+# Reviewer minor 7: the quantities below are medians of per-round PAIRED
+# differences, not a partition of one measurement, so they are drawn as
+# separate bars rather than stacked, and the residual is labelled as such.
 obs = d['observed_penalty_us']['median']
-b.axvline(obs, color=INK, lw=0.8, ls='--')
-b.text(obs, 0.42, f'observed penalty\n{obs:.2f} $\\mu$s', ha='right', va='bottom', fontsize=7, color=INK)
-b.set_yticks([]); b.set_ylim(-0.5, 1.05); b.grid(axis='y', visible=False)
-b.set_xlim(0, obs * 1.08)
-b.set_xlabel(r'$\mu$s per call')
-b.set_title('(b) string-secret penalty, decomposed', loc='left', fontsize=8)
-handles = [plt.Rectangle((0, 0), 1, 1, color=c) for _, _, c in segs]
-b.legend(handles, [s[0] for s in segs], loc='upper center', bbox_to_anchor=(0.45, -0.24),
-         ncol=3, fontsize=7, handlelength=1.0, columnspacing=0.8)
+bars = [('observed string penalty', obs, INK2),
+        ('discarded parse', C['probe_throws']['median_of_medians_us'], ORANGE),
+        ('key conversion', C['create_secret_key']['median_of_medians_us'], AQUA),
+        ('residual (unattributed)', d['residual_us']['median'], '#c9c8c3')]
+for i, (label, w, col) in enumerate(bars):
+    b.barh(i, w, color=col, height=0.6, hatch='///' if label.startswith('residual') else None,
+           edgecolor='white' if not label.startswith('residual') else INK2, linewidth=0.6)
+    b.text(w + obs * 0.02, i, f'{w:.3g}', va='center', fontsize=7, color=INK)
+b.set_yticks(range(len(bars)), [x[0] for x in bars])
+b.invert_yaxis(); b.grid(axis='y', visible=False)
+b.set_xlim(0, obs * 1.25)
+b.set_xlabel(r'$\mu$s per call (paired medians; not additive)')
+b.set_title('(b) string-secret penalty and its parts', loc='left', fontsize=8)
 fig.savefig(OUT / 'fig_decomposition.pdf', bbox_inches='tight'); plt.close(fig)
 
 # --- Figure: runtime matrix --------------------------------------------------

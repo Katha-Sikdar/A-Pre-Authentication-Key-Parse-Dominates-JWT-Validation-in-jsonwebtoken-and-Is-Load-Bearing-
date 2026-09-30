@@ -1,0 +1,1728 @@
+name,version,weekly_downloads,in_frame,queries
+jose,6.2.12,154869632,True,keywords:jwt keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+jws,4.0.1,100529539,True,keywords:jws
+jwa,2.0.1,99982808,True,keywords:jwt keywords:jws
+ecdsa-sig-formatter,1.0.11,88768947,True,keywords:jwt keywords:jsonwebtoken keywords:jose
+jsonwebtoken,9.0.3,66990263,True,keywords:jwt
+jwt-decode,4.0.0,21593046,True,keywords:jwt
+jwks-rsa,4.1.0,17518374,True,keywords:jwt keywords:jwks
+oauth4webapi,3.8.8,16717294,True,keywords:jwt
+openid-client,6.8.8,16335988,True,keywords:jwt
+universal-github-app-jwt,2.2.2,7968484,True,keywords:jwt
+next-auth,4.24.15,6851369,True,keywords:jwt
+@auth/core,0.41.3,5200900,True,keywords:jwt
+@clerk/react,6.17.3,2927628,True,keywords:jwt
+@clerk/nextjs,7.9.8,2849995,True,keywords:jwt
+auth0,7.2.0,2367333,True,keywords:jwt
+@walletconnect/relay-auth,1.1.0,1510849,True,keywords:jwt
+node-jose,2.2.0,1506087,True,keywords:jose keywords:jws keywords:jwk
+jwk-to-pem,2.0.7,1505180,True,keywords:jwt keywords:jsonwebtoken keywords:jwk
+fast-jwt,6.3.3,1415492,True,keywords:jwt
+@clerk/testing,2.2.40,1283246,True,keywords:jwt
+@clerk/localizations,4.21.0,1142817,True,keywords:jwt
+@fastify/jwt,10.2.2,974254,True,keywords:jwt keywords:jsonwebtoken
+express-jwt,8.5.1,949393,True,keywords:jwt
+njwt,2.0.1,937812,True,keywords:jwt
+@clerk/clerk-js,6.35.0,811592,True,keywords:jwt
+@shopify/shopify-api,15.0.0,636492,True,keywords:jwt
+@clerk/themes,2.4.57,595317,True,keywords:jwt
+@okta/jwt-verifier,4.0.2,436169,True,keywords:jwt
+jwt-simple,0.5.6,396499,True,keywords:jwt
+@auth0/angular-jwt,5.2.0,303413,True,keywords:jwt
+@clerk/tanstack-react-start,1.6.2,284264,True,keywords:jwt
+apple-signin-auth,2.1.0,274621,True,keywords:jwt
+idtoken-verifier,2.2.4,272029,True,keywords:jwt
+google-auto-auth,0.10.1,270408,True,keywords:jwt
+auth0-js,10.2.1,263575,True,keywords:jwt
+@tsndr/cloudflare-worker-jwt,3.2.3,251751,True,keywords:jwt
+@clerk/expo,4.7.2,246194,True,keywords:jwt
+oauth2-mock-server,9.2.0,239880,True,keywords:jwt keywords:jwk keywords:jwks
+react-jwt,2.1.1,225184,True,keywords:jwt keywords:jsonwebtoken
+jsontokens,4.0.1,196966,True,keywords:jwt
+jsonwebkey-thumbprint,0.1.0,174351,True,keywords:jwk
+@clerk/fastify,3.1.83,167446,True,keywords:jwt
+@stytch/vanilla-js,6.3.0,157117,True,keywords:jwt
+mock-jwks,3.3.5,108139,True,keywords:jwt keywords:jwks
+@stytch/react,20.3.0,102979,True,keywords:jwt
+@clerk/react-router,3.6.28,102210,True,keywords:jwt
+@clerk/electron,0.0.48,97527,True,keywords:jwt
+apns2,12.2.0,93887,True,keywords:jwt
+@elysiajs/jwt,1.4.2,89046,True,keywords:jwt
+@clerk/chrome-extension,3.1.88,80314,True,keywords:jwt
+@atproto/jwk,0.7.4,75619,True,keywords:jwt keywords:jwk keywords:jwks
+koa-jwt,4.0.4,75550,True,keywords:jwt
+react-relay-network-modern,6.2.2,75275,True,keywords:jwt
+react-apple-signin-auth,1.2.1,72172,True,keywords:jwt
+@stytch/nextjs,22.3.0,71298,True,keywords:jwt
+@atproto/jwk-jose,0.2.4,68306,True,keywords:jose keywords:jwk
+supertokens-node,24.0.3,67733,True,keywords:jwt
+@atproto/jwk-webcrypto,0.3.4,67630,True,keywords:jwk
+@clerk/hono,0.1.83,67432,True,keywords:jwt
+get-jwks,11.0.3,66151,True,keywords:jwt keywords:jwks
+@atlassian/atlassian-jwt,2.2.0,60791,True,keywords:jwt
+dag-jose,5.1.1,60710,True,keywords:jose
+@auth/sveltekit,1.11.3,53977,True,keywords:jwt
+jsonwebtoken-esm,2.0.1,52949,True,keywords:jwt keywords:jsonwebtoken
+@clerk/vue,2.5.7,42320,False,keywords:jwt
+ag-auth,2.1.1,39446,False,keywords:jwt
+express-jwt-authz,2.4.1,38008,False,keywords:jwt
+web-auth-library,1.0.3,37364,False,keywords:jwt keywords:jsonwebtoken keywords:jwk
+@netlify/identity,2.0.0,34476,False,keywords:jwt
+@nestjs-cognito/auth,4.1.0,33019,False,keywords:jwt
+balena-auth,6.1.1,30629,False,keywords:jwt
+@clerk/nuxt,3.1.7,26039,False,keywords:jwt
+@clerk/remix,4.13.43,24462,False,keywords:jwt
+@hapi/jwt,3.2.4,22341,False,keywords:jwt
+svelte-clerk,1.2.0,22220,False,keywords:jwt
+jwt-js,0.5.0,22089,False,keywords:jwt
+expo-jwt,1.8.2,21951,False,keywords:jwt
+@uploadcare/signed-uploads,6.22.0,21236,False,keywords:jwt
+auth0-lock,15.0.1,17622,False,keywords:jwt
+rsa-pem-to-jwk,1.1.3,17577,False,keywords:jwk keywords:jwks
+apollo-link-token-refresh,0.7.0,15872,False,keywords:jwt
+jwks-client,2.1.0,14205,False,keywords:jwt keywords:jwk keywords:jwks
+firebase-auth-cloudflare-workers,2.0.6,13135,False,keywords:jwt
+auth-astro,4.2.0,12148,False,keywords:jwt
+node-kms,0.4.1,11946,False,keywords:jose
+passport-jose,0.3.2,11628,False,keywords:jwt keywords:jose
+node-scr,0.3.0,11289,False,keywords:jose
+cose-to-jwk,1.1.0,11023,False,keywords:jwk
+@elysia/jwt,1.4.2,10745,False,keywords:jwt
+@fivesheepco/cloudflare-apns2,13.0.0,10589,False,keywords:jwt
+@firanorg/mollitia-molestias-accusamus,10.13.142,10522,False,keywords:jwt
+jwt-check-expiration,1.0.5,10440,False,keywords:jwt
+@nestjs-cognito/testing,4.1.0,9618,False,keywords:jwt
+json-web-token,4.0.1,9151,False,keywords:jwt
+@aws-blocks/bb-auth-basic,0.1.9,8991,False,keywords:jwt
+@adobe/jwt-auth,2.0.0,8466,False,keywords:jwt
+@loopback/authentication-jwt,0.16.17,8258,False,keywords:jsonwebtoken
+gapitoken,0.1.5,8153,False,keywords:jwt keywords:jws
+socketio-jwt,4.6.2,7967,False,keywords:jwt
+@access-tokens/express,1.1.0,7838,False,keywords:jwt
+dag-jose-utils,4.0.0,7482,False,keywords:jose
+js-crypto-key-utils,1.0.7,7191,False,keywords:jwk
+@eventcatalog/license,0.0.8,7146,False,keywords:jwt
+google-oauth-jwt,0.2.0,6946,False,keywords:jwt
+@nodii/grpc-auth,0.17.0,6937,False,keywords:jwt keywords:jwks
+rsa-compat,2.0.8,6890,False,keywords:jwk
+@dramaorg/delectus-culpa-reprehenderit,3.5.94,6408,False,keywords:jwt
+react-auth-kit,4.0.2-alpha.11,6337,False,keywords:jwt keywords:jsonwebtoken
+@websanova/vue-auth,4.2.1,5556,False,keywords:jwt
+@sagi.io/workers-jwt,0.0.26,5540,False,keywords:jwt
+@auth/qwik,0.9.3,5346,False,keywords:jwt
+koa-jwt2,1.0.3,5262,False,keywords:jwt
+cose-kit,3.0.0,5239,False,keywords:jose
+@grantex/sdk,0.8.1,4765,False,keywords:jwt
+@xeedware/cognito-jwt,1.2.4,4648,False,keywords:jwt
+@ops-ai/toggly-signed-defs,1.2.10,4567,False,keywords:jwks
+@pomerium/js-sdk,1.2.0,4513,False,keywords:jwt
+egg-jwt,3.1.7,4140,False,keywords:jwt
+angular2-jwt,0.2.3,4093,False,keywords:jwt
+node-jwk,0.1.0,4064,False,keywords:jwt keywords:jws keywords:jwk
+mask-sensitive-data,0.11.5,4000,False,keywords:jwt
+@slashid/slashid,3.30.0,3542,False,keywords:jwt
+@slashid/react,1.36.0,3523,False,keywords:jwt
+fastify-user,1.4.0,3304,False,keywords:jwt
+@canva/app-middleware,0.0.0-beta.8,3163,False,keywords:jwt
+json-server-auth,2.1.0,3140,False,keywords:jwt
+jwt-js-decode,1.9.0,3057,False,keywords:jwt keywords:jsonwebtoken
+@mcp-abap-adt/auth-providers,5.0.1,3014,False,keywords:jwt
+express-jwt-blacklist,1.1.0,3012,False,keywords:jwt keywords:jsonwebtoken
+@activescott/auth,5.7.0,2995,False,keywords:jwt
+@constructive-io/express-context,0.33.3,2916,False,keywords:jwt
+@jc21/cypress-jwt-creation,0.0.6,2903,False,keywords:jwt
+js-crypto-utils,1.0.7,2811,False,keywords:jwk
+chai-jwt,2.0.0,2753,False,keywords:jwt keywords:jsonwebtoken
+@fonderie/auth,7.14.3,2746,False,keywords:jwt
+@owf/eudi-lote,0.4.1,2522,False,keywords:jwt
+@frontmcp/auth,1.8.5,2475,False,keywords:jwt keywords:jwks
+axios-jwt,4.0.3,2474,False,keywords:jwt
+parse-cosekey,1.0.2,2371,False,keywords:jwk
+@memberstack/admin,1.7.0,2317,False,keywords:jwt
+@owf/eudi-attestation-schema,0.4.1,2281,False,keywords:jwt
+validate-azure-ad-token,2.2.0,2241,False,keywords:jsonwebtoken
+@warlock.js/auth,5.25.0,2221,False,keywords:jwt
+@volter/twin-clerk,0.1.17,2200,False,keywords:jwt keywords:jwks
+@volter/identity,0.4.1,2162,False,keywords:jwt
+passport-jwt-mock,0.1.3,2042,False,keywords:jwt
+validate-scope,1.3.0,1968,False,keywords:jwt
+@auth/nextjs,0.0.0-380f8d56,1940,False,keywords:jwt
+flare-redact,1.6.1,1926,False,keywords:jwt
+jose-jwe-jws,0.2.2,1808,False,keywords:jws
+le-acme-core,2.1.4,1805,False,keywords:jwk
+web3-token,1.0.6,1799,False,keywords:jwt
+@sap/node-jwt,1.6.30,1796,False,keywords:jwt
+sc-jsonwebtoken,7.4.2,1789,False,keywords:jwt
+@cfworker/jwt,7.0.4,1751,False,keywords:jwt
+@easyweb/authentication,2.2.0,1745,False,keywords:jwt
+@nodii/auth-sdk,0.16.0,1698,False,keywords:jwt keywords:jwks
+json-web-key,0.4.0,1692,False,keywords:jose keywords:jws keywords:jwk
+@nsxbet/react-relay-network-modern,1.0.1,1680,False,keywords:jwt
+@digitalpersona/core,0.2.6,1668,False,keywords:jwt
+@molecule/app-auth,1.1.2,1648,False,keywords:jwt
+@digitalpersona/services,0.2.8,1638,False,keywords:jwt
+socketio-jwt-auth,0.2.1,1633,False,keywords:jwt
+jwt-check-expiry,1.0.10,1557,False,keywords:jwt
+@antelopejs/interface-auth,0.0.6,1556,False,keywords:jwt
+azure-jwt-verify,1.0.0,1550,False,keywords:jwt
+jwt-utils,1.0.5,1539,False,keywords:jwt
+middy-middleware-jwt-auth,6.3.0,1523,False,keywords:jwt
+@betterportal/auth-default,10.6.32,1520,False,keywords:jwt keywords:jwks
+@venizia/ignis,0.2.0,1464,False,keywords:jwt keywords:jose
+@owf/eudi-jades,0.4.1,1460,False,keywords:jwt keywords:jws
+closevector-crypto-jwt,0.1.0-alpha.3,1459,False,keywords:jwt
+action-cable-react-jwt,0.0.5,1457,False,keywords:jwt
+kill-the-clipboard,1.1.0,1424,False,keywords:jwt keywords:jws
+keycloak-backend,5.1.0,1423,False,keywords:jwt
+@node-rs/jsonwebtoken,0.5.11,1420,False,keywords:jwt keywords:jsonwebtoken
+@adatechnology/auth-keycloak,1.0.0,1406,False,keywords:jwt
+auth-vir,6.0.0,1393,False,keywords:jwt
+duneforge,3.0.0,1379,False,keywords:jwt
+passport-oauth2-jwt-bearer,0.2.0,1377,False,keywords:jwt
+create-stackforge-app,1.5.2,1359,False,keywords:jwt
+@mcp-abap-adt/auth-broker,3.0.4,1350,False,keywords:jwt
+constructive-test,1.17.3,1349,False,keywords:jwt
+@clerk/tanstack-start,0.11.5,1346,False,keywords:jwt
+shopify-typed-node-api,2.1.1,1339,False,keywords:jwt
+@dnsid-ai/protocol,0.24.1,1328,False,keywords:jwks
+jsonwebtoken-refresh,5.7.0,1327,False,keywords:jwt
+@slashid/react-primitives,0.6.2,1324,False,keywords:jwt
+elysia-clerk,1.0.2,1308,False,keywords:jwt
+clearauth,0.7.3,1302,False,keywords:jwt
+keyfetch,3.0.2,1285,False,keywords:jwt keywords:jwk keywords:jwks
+aws-cognito-express,5.0.0,1268,False,keywords:jwt
+ship-safe,10.1.0,1258,False,keywords:jwt
+green-jwt,0.0.8-alpha,1232,False,keywords:jwt keywords:jws keywords:jwk
+jwt-bearer-client-auth,2.0.3,1195,False,keywords:jwt
+@adatechnology/keycloak-jwt,0.1.1,1175,False,keywords:jwt keywords:jose
+@cellarnode/auth,0.20.4,1175,False,keywords:jwt
+@utilix-tech/sdk,0.75.0,1159,False,keywords:jwt
+fxa-jwtool,0.7.2,1156,False,keywords:jwt keywords:jws keywords:jwk
+@hellocoop/httpsig,2.6.0,1144,False,keywords:jwt
+@node-rs/jsonwebtoken-linux-x64-gnu,0.5.11,1140,False,keywords:jwt keywords:jsonwebtoken
+@aooth/auth,0.1.72,1124,False,keywords:jwt
+jwt-decoder,0.0.0,1097,False,keywords:jwt
+@getonlane/mcp-auth,0.11.0,1077,False,keywords:jwt
+@ackplus/nest-auth,2.12.0,1072,False,keywords:jwt
+react-relay-network-layer,2.2.1,1012,False,keywords:jwt
+crypto-key-composer,0.1.3,1006,False,keywords:jwt
+jwt-client,0.2.1,998,False,keywords:jwt
+@antelopejs/auth-jwt,1.0.3,988,False,keywords:jwt
+@dnsid-ai/jose,0.24.1,972,False,keywords:jwt keywords:jose keywords:jws
+loopback-jwt,1.0.2,969,False,keywords:jwt
+@guuey/widget-auth,0.31.1,949,False,keywords:jwt
+@hanzo/iam,0.21.25,943,False,keywords:jwt
+jwt-redis,7.0.3,935,False,keywords:jwt
+nest-azure-ad-jwt-validator,6.0.6,925,False,keywords:jwt
+jwt-claims,1.0.1,917,False,keywords:jwt
+firebase-admin-edge,3.0.2,907,False,keywords:jwt
+@mcp-abap-adt/auth-stores,1.2.4,902,False,keywords:jwt
+express-oauth-jwt,2.0.2,889,False,keywords:jwt keywords:jws keywords:jwks
+hapi-auth-keycloak,5.1.2,870,False,keywords:jwt keywords:jsonwebtoken
+@ibm/ibmi-mcp-server,0.6.1,869,False,keywords:jwt
+node-express-mongodb-jwt-rest-api-skeleton,9.0.5,851,False,keywords:jwt
+@zudojs/auth,1.4.0,838,False,keywords:jwt
+@auth/solid-start,0.19.3,827,False,keywords:jwt
+@decaf-ts/crypto,0.15.9,818,False,keywords:jwt
+@orangecheck/auth-core,2.7.0,817,False,keywords:jwt
+@velajs/cloudflare-access,1.32.0,793,False,keywords:jwt keywords:jwks
+@eventuras/fides-auth,0.14.1,792,False,keywords:jwt
+decane-node,1.5.0,775,False,keywords:jwt keywords:jwks
+@nestjs-cognito/graphql,4.1.0,764,False,keywords:jwt
+vue-authenticate,1.5.0,764,False,keywords:jwt
+@exodus/walletconnect-relay-auth,1.0.4-exodus.1,759,False,keywords:jwt
+actioncable-js-jwt,0.6.3,756,False,keywords:jwt
+node-jsonwebtoken,0.0.1,754,False,keywords:jwt
+@decionis/verify,0.4.0,732,False,keywords:jwks
+jwks-fetch,2.0.1,730,False,keywords:jwk keywords:jwks
+@node-rs/jsonwebtoken-linux-x64-musl,0.5.11,710,False,keywords:jwt keywords:jsonwebtoken
+@auth0/cose,1.0.2,710,False,keywords:jose
+@aserto/aserto-node,0.33.7,709,False,keywords:jwt
+@pgpm/jwt-claims,0.47.0,698,False,keywords:jwt
+express-azure-jwt,0.2.2,697,False,keywords:jwt
+raxuiscli,0.5.0,697,False,keywords:jwt
+bro-framework,3.1.0,689,False,keywords:jwt
+@singlebase/singlebase-sdk,0.7.0,688,False,keywords:jwt
+universal-social-auth,0.2.7,681,False,keywords:jwt
+@southlane/cognito-jwt-verifier,0.1.8,669,False,keywords:jwt keywords:jwks
+@grantex/langchain,0.1.8,664,False,keywords:jwt
+@alaan/s2s-auth,2.0.2,657,False,keywords:jwt
+react-jwt-guard,1.0.3,645,False,keywords:jwt
+ibmcloud-appid-js,2.0.0,639,False,keywords:jwt
+@nitra/njwt,1.2.2,633,False,keywords:jwt
+@learnersguild/idm-jwt-auth,2.1.1,629,False,keywords:jwt
+@startsimpli/auth,0.4.38,628,False,keywords:jwt
+@grantex/vercel-ai,0.1.7,625,False,keywords:jwt
+node-jose-tools,2.0.4,623,False,keywords:jwt keywords:jose keywords:jws keywords:jwk
+keylab,0.1.40,622,False,keywords:jwt keywords:jose keywords:jwks
+react-native-jwt-decode,1.0.3,600,False,keywords:jwt
+@dupecom/botcha-verify,0.2.0,599,False,keywords:jwt
+@kronos-integration/service-authenticator,4.1.41,593,False,keywords:jwt
+@boring-stack-pkg/eslint-plugin-jwt-cookies,0.1.2,593,False,keywords:jwt
+@code-bug/restapi,1.0.2,590,False,keywords:jwt keywords:jsonwebtoken
+pii-safe,0.2.0,585,False,keywords:jwt
+nestjs-better-auth,0.6.4,580,False,keywords:jwt
+najm-auth,4.2.3,574,False,keywords:jwt
+@ciromaciel/auth-elysia,2.0.1,573,False,keywords:jwt
+@ambushsoftworks/nestjs-auth-graphql,0.14.0,572,False,keywords:jwt
+@midwayjs/jwt,4.2.4,566,False,keywords:jwt keywords:jsonwebtoken
+token-verify,0.1.8,552,False,keywords:jwt keywords:jsonwebtoken
+@idevconn/api-client,0.3.3,550,False,keywords:jwt
+restify-jwt-community,2.0.0,547,False,keywords:jwt
+@metalabel/dfos-web-relay,0.54.0,534,False,keywords:jws
+passport-google-oidc-token,1.0.3,531,False,keywords:jwt
+@nexartis/sentinel-sdk,1.9.1,528,False,keywords:jwt
+jsonwebtoken-tool,3.0.0,527,False,keywords:jwt
+azure-ad-jwt-lite,1.2.1,521,False,keywords:jwt keywords:jsonwebtoken
+@now-ims/hapi-now-auth,2.1.0,521,False,keywords:jwt
+@josesuite/node,1.0.1,500,False,keywords:jwt keywords:jose keywords:jws keywords:jwk keywords:jwks
+@metalabel/dfos-protocol,0.54.0,491,False,keywords:jws
+@mn4367/jwk-to-pem,2.1.0,487,False,keywords:jwt keywords:jsonwebtoken keywords:jwk
+@depup/clerk__themes,2.4.57-depup.82,487,False,keywords:jwt
+@mcpfusion/jwt,5.1.0,484,False,keywords:jwt
+@bluelamp/auth-sdk,0.1.3,481,False,keywords:jwt keywords:jwks
+@laylahealth/jwks-rsa,3.2.5,478,False,keywords:jwt keywords:jwks
+authforge-sdk,1.2.0,478,False,keywords:jwt
+node-red-contrib-jwt-verify,1.0.2,470,False,keywords:jwt
+mnki-verifier,0.3.0,469,False,keywords:jws
+@yougrowai/node,0.5.0,467,False,keywords:jwks
+mnki-sdk,0.3.0,466,False,keywords:jws
+oauth2orize-jwt-bearer,0.2.0,462,False,keywords:jwt
+@kokuin/token,0.5.0,457,False,keywords:jwt
+@amaster.ai/auth-client,1.1.69,457,False,keywords:jwt
+@geektech/backone-utils,0.5.2,456,False,keywords:jwt
+@rxap/nest-jwt,11.0.0,455,False,keywords:jwt
+@depup/clerk__nextjs,7.9.8-depup.0,453,False,keywords:jwt
+@opendatalabs/service-auth,1.26.0,452,False,keywords:jwt
+mnki-mcp,0.3.0,450,False,keywords:jws
+@adastracomputing/aer-resource-node,0.3.1,448,False,keywords:jwks
+limen-auth,0.2.1,447,False,keywords:jwt
+@exposify/token-broker,0.3.7,440,False,keywords:jwt
+@hetuh/auth-sdk,0.4.0,437,False,keywords:jwt
+@bluesky-social/jwk-jose,0.1.11,437,False,keywords:jose keywords:jwk
+@bluesky-social/jwk-webcrypto,0.2.0,434,False,keywords:jwk
+47620-solana-mcp,1.1.0,431,False,keywords:jwt
+@ory/argus,1.3.1,429,False,keywords:jwt
+@medi-car-bd/mcb-shared-auth,0.0.17,427,False,keywords:jwt
+@rationalbloks/frontblok-auth,0.5.3,421,False,keywords:jwt
+@foal/jwt,5.3.0,412,False,keywords:jwt
+@junobuild/auth,4.1.2,409,False,keywords:jwt
+@molecule/api-jwt,1.0.3,402,False,keywords:jwt
+vuejs-jwt,1.1.0,400,False,keywords:jwt
+@jeengbe/spiffe,2.1.0,400,False,keywords:jwt
+@tgtone/auth-sdk,5.3.0,399,False,keywords:jwt
+@node-rs/jsonwebtoken-linux-arm64-gnu,0.5.11,398,False,keywords:jwt keywords:jsonwebtoken
+@miampa/ampa-models,4.16.42,393,False,keywords:jwt
+@debito/zeko-auth-guard,0.3.1,392,False,keywords:jwt
+@agntor/sdk,0.2.0,391,False,keywords:jwt
+cognito-jwt-verify,0.2.0,391,False,keywords:jwt
+@vess-id/status-list,0.5.0,388,False,keywords:jwt
+hapi-jsonwebtoken,1.1.0,385,False,keywords:jwt keywords:jsonwebtoken
+@molecule/api-jwt-jsonwebtoken,1.0.2,384,False,keywords:jwt keywords:jsonwebtoken
+@first-ch/tools-mcp,0.31.0,380,False,keywords:jwt keywords:jsonwebtoken
+@caronte-sdk/node,0.5.0,378,False,keywords:jwt
+@grantex/anthropic,0.1.2,371,False,keywords:jwt
+hazo_auth,10.22.2,370,False,keywords:jwt
+adonis5-jwt,1.1.7,369,False,keywords:jwt
+@ackplus/nest-auth-react,2.12.0,366,False,keywords:jwt
+@xeplr/auth,1.1.8,361,False,keywords:jwt
+@factorialco/auth,0.3.0,361,False,keywords:jwt keywords:jose keywords:jwks
+@authup/server-kit,1.0.0-beta.68,357,False,keywords:jwt
+@taxum/jwt,1.1.7,355,False,keywords:jwt
+@nebulr-group/bridge-nestjs,0.7.0,354,False,keywords:jwt
+lacewing,1.2.0,353,False,keywords:jwt keywords:jose keywords:jwks
+bknd,0.20.0,352,False,keywords:jwt
+@staffbase/staffbase-plugin-sdk,1.3.10,349,False,keywords:jwt
+@marketnow/uta-verify,1.0.2,348,False,keywords:jwt
+@callygo/app,0.4.0,345,False,keywords:jwt keywords:jwks
+express-jwt-authorization,1.3.0,339,False,keywords:jwt
+@brunotarditi/peak-auth,1.2.0,337,False,keywords:jwt keywords:jwks
+@nihplod/sso-verify,1.2.0,336,False,keywords:jwt keywords:jwks
+@carecard/jwt-read,3.31.0,334,False,keywords:jwt
+extrem-express,1.0.13,334,False,keywords:jwt
+@plumile/auth,0.2.14,332,False,keywords:jwt
+jwt-then,1.0.1,329,False,keywords:jwt
+auth-verify,1.15.1,329,False,keywords:jwt keywords:jsonwebtoken
+@kokuin/capability,0.3.0,328,False,keywords:jwt
+@bmdinner/logreg,2.5.6,321,False,keywords:jwt
+j-identity-sdk,1.0.1,319,False,keywords:jwt
+@marketnow/trust-adapters,1.0.4,318,False,keywords:jwt
+oauth-entra-id,5.0.0,316,False,keywords:jwt
+@carecard/auth-util,3.31.0,312,False,keywords:jwt
+jose-cjs,6.2.3,310,False,keywords:jwt keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+@ctx-core/jwt,10.5.208,307,False,keywords:jwt
+mnki-cli,0.3.0,307,False,keywords:jws
+@zitadel/react-auth,1.2.4,305,False,keywords:jwt keywords:jwks
+verify-rsa-jwt-cloudflare-worker,1.4.0,305,False,keywords:jwt
+@bluesky-social/jwk,0.6.0,304,False,keywords:jwt keywords:jwk keywords:jwks
+n0passtemps,1.1.3,301,False,keywords:jws
+@grantex/gateway,0.2.1,300,False,keywords:jwt
+@push.rocks/smartjwt,2.6.0,298,False,keywords:jwt keywords:jsonwebtoken
+@magiccall/server,0.5.0,298,False,keywords:jwt
+@nodefony/security,10.0.0-beta.1,296,False,keywords:jwt
+@carisls/sso-core,1.3.0,295,False,keywords:jwt
+@authyon/auth,0.1.5,294,False,keywords:jwt
+@authup/specs,1.0.0-beta.68,293,False,keywords:jwt keywords:jwk
+ecrs-auth-core,1.0.121,293,False,keywords:jwt
+@flusys/nestjs-auth,9.1.0,288,False,keywords:jwt
+@authup/errors,1.0.0-beta.68,287,False,keywords:jwt
+@talosjs/jwt,1.1.9,286,False,keywords:jwt keywords:jose
+@flashyid/sdk,0.1.1,284,False,keywords:jwt keywords:jws
+@authticon/client,0.0.40,277,False,keywords:jwt
+@apicircle/core,2.0.0,276,False,keywords:jwt
+@codixus/server,0.1.14,275,False,keywords:jwt
+@rodit/rodit-auth-be,9.16.2,271,False,keywords:jwt
+@kronos-integration/service-http,14.0.33,267,False,keywords:jwt
+node-jws,0.1.4,267,False,keywords:jwt keywords:jsonwebtoken keywords:jws
+@serafort/core,0.1.0,267,False,keywords:jwt keywords:jwks
+@ava-pay/agent,0.4.1,267,False,keywords:jws
+@nifrajs/middleware,3.5.0,266,False,keywords:jwt
+@globaltracking/auth-middleware,3.5.0,266,False,keywords:jwt
+@awesome-lang-auth/node,1.10.8,265,False,keywords:jwt
+@skyemeta/access,0.2.5,261,False,keywords:jwks
+auth0-api-jwt-rsa-validation,0.0.3,258,False,keywords:jwt
+@armored1486/api-gateway-core,2.2.1,258,False,keywords:jwt
+@nocios/crudify-sdk,3.3.0,252,False,keywords:jwt
+@hexcore-js/darwin-client,1.6.0,250,False,keywords:jwt
+@capgo/capacitor-supabase,8.2.2,250,False,keywords:jwt
+omnideck-mcp,1.0.3,249,False,keywords:jwt
+@bradsearch/search-sdk,2.5.0,248,False,keywords:jwt
+interagentic,0.1.0,246,False,keywords:jwt
+@metalabel/dfos-client,0.54.0,246,False,keywords:jws
+@nitra/jwt,5.0.3,244,False,keywords:jwt
+cross-crypto-ts,3.0.0,244,False,keywords:jws
+@dynamicagents/core,0.12.0,242,False,keywords:jwks
+@skyemeta/skyegate,0.4.6,241,False,keywords:jwt
+jsonwebtoken-promisified,1.0.3,240,False,keywords:jwt keywords:jsonwebtoken
+@boostengine/auth,1.2.1,240,False,keywords:jwt
+@auth31-mobile/auth-service,1.0.2,240,False,keywords:jwt
+@nitra/jwt-decode,1.2.0,238,False,keywords:jwt
+mharj-jwt-util,0.8.1,236,False,keywords:jwt keywords:jsonwebtoken
+@nauth-toolkit/core,0.8.2,235,False,keywords:jwt
+@ackplus/nest-auth-react-native,2.12.0,235,False,keywords:jwt
+oauthlint-rules,0.11.1,235,False,keywords:jwt
+@eleven-labs/nest-profiler-auth,1.0.0,234,False,keywords:jwt
+@authlink/client,1.4.0,234,False,keywords:jwt
+clerk-emulator,1.0.1,233,False,keywords:jwt
+@getstackrun/sdk,2.0.0,232,False,keywords:jwt
+@flit/cdk-auth0,1.24.0,228,False,keywords:jwt
+@microboxlabs/miot-dashboard-server,0.5.0,227,False,keywords:jwt
+@maximemrf/adonisjs-jwt,0.9.0,226,False,keywords:jwt keywords:jwks
+@authup/server-core,1.0.0-beta.68,223,False,keywords:jwt
+@molecule/api-external-auth,1.0.2,223,False,keywords:jwt
+@quilla-be-kit/security,0.2.16,222,False,keywords:jwt
+@elcrm/server,0.6.9,221,False,keywords:jwt
+@engjts/auth,1.2.1,220,False,keywords:jwt keywords:jws
+@dynamicagents/g2a-protocol,0.4.2,219,False,keywords:jwt keywords:jwks
+jwt-passport,0.0.5,218,False,keywords:jwt
+@authup/server-adapter-kit,1.0.0-beta.68,217,False,keywords:jwt
+@superapp_men/token-provider,1.0.20,215,False,keywords:jwt
+@file-viewer/renderer-signature,3.1.2,215,False,keywords:jws
+rewt,3.0.0,214,False,keywords:jwt
+@profullstack/auth-system,0.6.0,213,False,keywords:jwt
+dimrill,5.3.0,211,False,keywords:jwt
+@superdb/auth-js,0.3.0,209,False,keywords:jwt
+@functionland/fula-sec,2.0.0,207,False,keywords:jwt
+@agenticprimitives/connect,1.0.0-alpha.26,206,False,keywords:jwks
+@aria-iam/core,1.0.9,205,False,keywords:jwt
+next-auth-danger-link,4.1.2-714d80,205,False,keywords:jwt
+@mi9-identity/token-client,1.0.0,202,False,keywords:jwt keywords:jwks
+@tracer-kit/key-fingerprint,0.1.0,202,False,keywords:jwk
+@celsian/jwt,0.6.5,201,False,keywords:jwt
+@node-rs/jsonwebtoken-darwin-arm64,0.5.11,201,False,keywords:jwt keywords:jsonwebtoken
+@agenticprimitives/agent-profile,1.0.0-alpha.26,201,False,keywords:jws
+@tracer-kit/keygen,0.1.0,201,False,keywords:jwk
+@wilsoon/auth-core,2.3.0,200,False,keywords:jwt keywords:jose
+glint-js,0.14.0,198,False,keywords:jwt
+forge-auth,0.2.1,197,False,keywords:jwt
+fake-jwt-sign,1.1.1,197,False,keywords:jwt
+@dropinnodex/server,0.13.0,197,False,keywords:jwt
+@gentleduck/auth,5.16.0,196,False,keywords:jwt
+@chubbyts/chubbyts-undici-oidc,1.3.1,196,False,keywords:jwt keywords:jwks
+swagger-ui-firebase-auth,1.0.0,194,False,keywords:jwt
+create-vueplus,3.1.2,191,False,keywords:jwt
+dsh-cloudflare-access,2.0.0,190,False,keywords:jwt
+react-native-nitro-base64,1.1.2,190,False,keywords:jwt
+@mi9-identity/jwt-verifier,1.0.0,188,False,keywords:jwt keywords:jwks
+jwthelper,0.0.4,187,False,keywords:jwt keywords:jsonwebtoken
+byu-wabs,8.1.0,187,False,keywords:jwt
+@mi9-identity/auth-middleware-express,1.0.0,187,False,keywords:jwt keywords:jwks
+@node-rs/jsonwebtoken-darwin-x64,0.5.11,185,False,keywords:jwt keywords:jsonwebtoken
+@williamanjo/ally-6-microsoft,1.6.0,185,False,keywords:jwt
+@samarthchavda/create-auth-backend,1.0.3,185,False,keywords:jwt
+@authorizedretailers/spec,0.2.0,185,False,keywords:jws
+node-red-contrib-jwt,0.1.0,184,False,keywords:jwt
+@wemnyelezxnpm/odit-enim-fugiat,1.0.0,181,False,keywords:jwt
+vue-easy-jwt,2.0.6,181,False,keywords:jwt keywords:jsonwebtoken
+@quilla-fe-kit/auth-react,0.2.3,180,False,keywords:jwt
+@zitadel/next-auth,1.1.6,179,False,keywords:jwt keywords:jwks
+vue-authenticate-2,2.2.0,177,False,keywords:jwt
+jwtwallet-nestjs,1.1.0,176,False,keywords:jwt keywords:jwks
+@urbicon-ui/auth,8.26.0,175,False,keywords:jwt
+@enkaku/client,0.21.3,175,False,keywords:jwt
+@hazeljs/auth,2.0.9,175,False,keywords:jwt
+restify-jwt,0.4.0,174,False,keywords:jwt
+@moon-x/node-sdk,0.10.1,173,False,keywords:jwt keywords:jwks
+@andrewcaires/api,5.7.2,173,False,keywords:jsonwebtoken
+@clerk/clerk-mcp,0.0.13,172,False,keywords:jwt
+axios-auth-refresh-queue,2.0.2,172,False,keywords:jwt
+@foal/jwks-rsa,5.3.0,171,False,keywords:jwt keywords:jwks
+jwt-redis-session,1.0.5,170,False,keywords:jwt
+@push.rocks/webjwt,1.0.10,168,False,keywords:jwt
+ahize,0.2.1,167,False,keywords:jwt
+@mongrov/auth,0.7.2,167,False,keywords:jwt
+@malijs/jwt,0.4.0,166,False,keywords:jwt
+@jacobkim/oauth4webapi,2.17.0,165,False,keywords:jwt
+bearer-jwt-auth,1.0.3,165,False,keywords:jwt keywords:jsonwebtoken
+@pansofica/flag,0.1.0,165,False,keywords:jws
+react-native-axios-jwt,1.8.0,164,False,keywords:jwt
+@adonis-agora/authkit-client,0.18.8,163,False,keywords:jwt
+webcrypto-jwt,0.2.2,163,False,keywords:jwt keywords:jsonwebtoken
+electrode-csrf-jwt,1.8.0,163,False,keywords:jwt
+jwt-express,1.1.0,163,False,keywords:jwt
+ngx-clerk,1.0.0,162,False,keywords:jwt
+@node-rs/jsonwebtoken-linux-arm64-musl,0.5.11,161,False,keywords:jwt keywords:jsonwebtoken
+presend-api,1.11.1,159,False,keywords:jwt
+apcore-a2a,0.8.1,158,False,keywords:jwt
+@theoptimalpartner/jwt-auth-validator,2.1.0,156,False,keywords:jwt keywords:jwks
+tpay-webhook-auth,1.0.1,153,False,keywords:jws
+node-red-contrib-auth,1.0.0,152,False,keywords:jwt
+streetjs,1.2.8,150,False,keywords:jwt
+jwt-rsa,0.0.2,148,False,keywords:jwt keywords:jsonwebtoken
+agilite-utils,7.7.0-rc-3,148,False,keywords:jwt
+@connectedcars/jwtutils,4.0.1,147,False,keywords:jwt
+@node-rs/jsonwebtoken-win32-x64-msvc,0.5.11,147,False,keywords:jwt keywords:jsonwebtoken
+qwebs-auth-jwt,0.2.21,146,False,keywords:jwt
+@factiii/auth,0.21.1,144,False,keywords:jwt
+@node-rs/jsonwebtoken-android-arm64,0.5.11,143,False,keywords:jwt keywords:jsonwebtoken
+@emiplegiaqmnpm/fugit-vero-voluptas,1.0.0,143,False,keywords:jwt
+@node-rs/jsonwebtoken-linux-arm-gnueabihf,0.5.11,142,False,keywords:jwt keywords:jsonwebtoken
+@node-rs/jsonwebtoken-win32-ia32-msvc,0.5.11,140,False,keywords:jwt keywords:jsonwebtoken
+@node-rs/jsonwebtoken-android-arm-eabi,0.5.11,140,False,keywords:jwt keywords:jsonwebtoken
+@rdlabo/workers-hono-kit,0.12.3,139,False,keywords:jose
+@node-rs/jsonwebtoken-freebsd-x64,0.5.11,138,False,keywords:jwt keywords:jsonwebtoken
+cognito-jwt-lite,1.0.2,137,False,keywords:jwt
+djwt,2.0.0,137,False,keywords:jwt keywords:jws
+rkang-next-auth,2.2.0,137,False,keywords:jwt
+next-auth-sanitize,1.0.2,135,False,keywords:jwt
+@tea062024/dolores-magni-laboriosam,1.0.1,135,False,keywords:jwt
+cognito-jwt-token-validator,1.0.0,132,False,keywords:jwt
+jwt-decode-es,3.0.9,130,False,keywords:jwt
+jwt-authshim,1.0.3,129,False,keywords:jwt
+kxco-post-quantum,1.7.7,129,False,keywords:jws keywords:jwk
+@ar-agents/ap2,0.3.1,127,False,keywords:jose
+jwt-service,12.0.2,125,False,keywords:jwt
+@authplane/sdk,0.4.0,124,False,keywords:jwt
+aws-cognito-jwt-verifier,1.3.7,124,False,keywords:jwt
+jwt-token-encrypt,1.0.4,122,False,keywords:jwt
+auth0-lock-passwordless,2.2.3,121,False,keywords:jwt
+simple-jwt-auth,0.11.4,120,False,keywords:jwt keywords:jsonwebtoken keywords:jwks
+@exortek/jwe,1.0.2,119,False,keywords:jwt keywords:jose
+@ryniaubenpm/iste-architecto-ad,1.0.0,118,False,keywords:jwt
+@tsmx/express-jwt-validator,1.1.5,118,False,keywords:jsonwebtoken
+@emiplegiaqmnpm/ad-aliquam-temporibus,1.0.0,117,False,keywords:jwt
+princejs,2.4.2,116,False,keywords:jwt keywords:jose
+@xdanangelxoqenpm/aliquam-eligendi-nulla,1.0.0,116,False,keywords:jwt
+angular-jwt-updated,22.0.2,115,False,keywords:jwt
+@interlucent/admission-sdk,1.0.2,113,False,keywords:jwk
+@realm-id/sdk,0.54.0,112,False,keywords:jwt keywords:jwks
+@it-enterprise/jwtauthentication,3.2.5,112,False,keywords:jwt
+remix-auth-jwt,0.4.0,111,False,keywords:jwt
+@fluxpointstudios/orynq-sdk-tool-receipts,0.2.0,111,False,keywords:jws
+@basaltkit/auth,4.1.0,109,False,keywords:jwt
+@sourceregistry/node-jwt,1.6.0,109,False,keywords:jwt keywords:jose keywords:jwks
+@teamamw/auth,0.2.0,109,False,keywords:jwt
+titbit-toolkit,4.2.0,109,False,keywords:jwt
+@veridot/redis,3.0.0,109,False,keywords:jwt
+@httpx/jwt-verify,0.4.0,109,False,keywords:jwt keywords:jsonwebtoken
+@icewolf/sk-auth,0.4.1-bleeding.8,109,False,keywords:jwt
+@pauldeng/node-red-contrib-jose,0.1.0,108,False,keywords:jose keywords:jws keywords:jwk keywords:jwks
+corbel-js,0.6.6,107,False,keywords:jwt
+@hawcx/oauth-client,5.2.0,107,False,keywords:jwt
+@emiplegiaqmnpm/quaerat-totam-pariatur,1.0.0,106,False,keywords:jwt
+@morphatic/feathers-auth0-strategy,1.0.0,106,False,keywords:jwt
+@tourmalinecore/react-tc-auth,2.4.0,105,False,keywords:jwt
+jwks-utils,1.0.10,105,False,keywords:jwt keywords:jws keywords:jwk keywords:jwks
+@osjwnpm/ipsa-quisquam-dolorum,1.0.0,105,False,keywords:jwt
+@di-framework/auth,6.0.1,104,False,keywords:jwt keywords:jws
+@xdanangelxoqenpm/nostrum-sapiente-minus,1.0.0,104,False,keywords:jwt
+apple-jwt-generator,1.1.1,102,False,keywords:jwt
+@xdanangelxoqenpm/assumenda-quidem-cumque,1.0.0,102,False,keywords:jwt
+@veridot/kafka,3.0.0,101,False,keywords:jwt
+@regent-protocol/receipt-verify,0.1.0,101,False,keywords:jwks
+react-native-http,0.0.3,100,False,keywords:jwt
+defauth,2.3.1,100,False,keywords:jwt
+@23blocks/block-authentication,8.0.1,100,False,keywords:jwt
+@mondokit/gcp-google-auth,2.0.0,100,False,keywords:jwt
+actioncable-jwt,1.1.0,99,False,keywords:jwt
+lucos_aithne_jsclient,1.1.3,98,False,keywords:jwt
+@osjwnpm/incidunt-saepe-dicta,1.0.0,95,False,keywords:jwt
+@bymax-one/nest-auth,1.4.5,94,False,keywords:jwt
+@ngx-auth/core,9.0.0,94,False,keywords:jwt
+@digitalbazaar/minimal-jwt,2.1.0,94,False,keywords:jwt
+@gaia-x/json-web-signature-2020,2.3.0,94,False,keywords:jws
+n8n-nodes-jwt-validate,0.1.4,92,False,keywords:jwt keywords:jwks
+splatch,1.0.18,92,False,keywords:jwt
+dolphin-server-modules,2.14.2,92,False,keywords:jwt
+effect-oidc,0.1.0,92,False,keywords:jwt keywords:jwks
+@easecation/iam-client,1.5.13,91,False,keywords:jwt
+@emiplegiaqmnpm/cupiditate-excepturi-necessitatibus,1.0.0,91,False,keywords:jwt
+@ryniaubenpm2/porro-excepturi-distinctio,1.0.0,91,False,keywords:jwt
+@ryniaubenpm2/magni-ullam-optio,1.0.0,90,False,keywords:jwt
+railiz,0.5.0,90,False,keywords:jwt
+@scoutflo/integration-sdk,1.0.52,89,False,keywords:jwt
+@authing/jose,1.0.2-beta,89,False,keywords:jwt keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+@codeminity/request-core,0.13.1,89,False,keywords:jwt
+@ryniaubenpm2/omnis-placeat-nostrum,1.0.0,89,False,keywords:jwt
+@ryniaubenpm2/labore-velit-cupiditate,1.0.0,88,False,keywords:jwt
+@veridot/core,3.1.0,88,False,keywords:jwt keywords:jwks
+@hutechwebsite/voluptate-illum-voluptatem-molestiae,1.0.0,88,False,keywords:jwt
+@ffras4vnpm/iste-soluta-repellendus,1.0.0,87,False,keywords:jwt
+@merger203/expert-invention,20.51.527,86,False,keywords:jwt
+@rakomi/node,0.7.1,86,False,keywords:jwt keywords:jwks
+@jeap/jeap-jwe-client,1.3.8,86,False,keywords:jose
+angular-auth-lib,2.0.0,85,False,keywords:jwt
+@cleverbrush/auth,4.5.0,85,False,keywords:jwt
+@xdanangelxoqenpm/nobis-laborum-dolorum,1.0.0,85,False,keywords:jwt
+@ryniaubenpm2/quae-consectetur-aut,1.0.0,85,False,keywords:jwt
+@osjwnpm/omnis-reprehenderit-provident,1.0.0,85,False,keywords:jwt
+@hutechwebsite/doloremque-magnam-quos-officiis,1.0.0,85,False,keywords:jwt
+@forjio/sdk,0.12.1,85,False,keywords:jwt
+@bentoforge/umami-iam,0.16.0,84,False,keywords:jwt
+@ryniaubenpm2/ipsam-doloribus-ad,1.0.0,84,False,keywords:jwt
+@odczynflnpm/iste-adipisci-sit,1.0.0,84,False,keywords:jwt
+@ryniaubenpm2/porro-incidunt-fugiat,1.0.0,84,False,keywords:jwt
+@hutechwebsite/debitis-magnam-eos-mollitia,1.0.0,84,False,keywords:jwt
+@faber-js/auth,1.5.0,84,False,keywords:jwt
+service2service,2.3.1,83,False,keywords:jwt keywords:jsonwebtoken
+next-auth-pubkey,1.0.14,82,False,keywords:jwt
+@hutechtechnical/nam-minima-labore-laudantium,1.0.0,82,False,keywords:jwt
+@ts-core/openid-common,1.0.55,82,False,keywords:jwt
+@forwardimpact/libsecret,0.1.21,81,False,keywords:jwt
+@wemnyelezxnpm/provident-quae-accusamus,1.0.0,81,False,keywords:jwt
+@lambrioanpm/nemo-dolorum-sit,1.0.0,81,False,keywords:jwt
+@bafe-pkmdd/central-auth-sdk,0.7.3,81,False,keywords:jwks
+veloce-ts,3.5.1,80,False,keywords:jwt
+azure-ad-verify-token-commonjs,2.0.2,80,False,keywords:jwt
+@hutechtechnical/vel-quia-blanditiis-quidem,1.0.0,80,False,keywords:jwt
+@axios-extensions/plugins-api,1.0.7,79,False,keywords:jwt
+jwk-allowed-algorithms,1.0.0,79,False,keywords:jwt keywords:jsonwebtoken keywords:jwk
+@ahhaohho/auth-middleware,2.3.10,79,False,keywords:jwt
+@ryniaubenpm2/adipisci-accusantium-dicta,1.0.0,79,False,keywords:jwt
+@hutechwebsite/quaerat-consectetur-deleniti-commodi,1.0.0,79,False,keywords:jwt
+jwt-promise,1.0.0,78,False,keywords:jwt keywords:jsonwebtoken
+@hutechtechnical/similique-ratione-libero-id,1.0.0,78,False,keywords:jwt
+permissions-contractx,2.21.0,77,False,keywords:jwt
+@zitadel/angular-auth,3.0.3,77,False,keywords:jwt keywords:jwks
+@xdanangelxoqenpm/vel-ab-inventore,1.0.0,77,False,keywords:jwt
+@hutechtechnical/ratione-ullam-non-labore,1.0.0,77,False,keywords:jwt
+@hutechtechnical/cumque-perspiciatis-expedita-omnis,1.0.0,77,False,keywords:jwt
+@lambrioanpm/natus-adipisci-eius,1.0.0,77,False,keywords:jwt
+@authkitcom/core,1.0.17,77,False,keywords:jwt
+x402-verify,1.9.0,77,False,keywords:jws
+jose-jwe,0.2.2,77,False,keywords:jws
+@codeminity/axios,0.12.1,76,False,keywords:jwt
+@hutechwebsite/soluta-eius-nesciunt-a,1.0.0,76,False,keywords:jwt
+@emiplegiaqmnpm/minima-cumque-dolore,1.0.0,76,False,keywords:jwt
+@lambrioanpm/mollitia-doloremque-laborum,1.0.0,76,False,keywords:jwt
+@hutechtechnical/nobis-ex-dolor-reprehenderit,1.0.0,76,False,keywords:jwt
+@xdanangelxoqenpm/possimus-expedita-corrupti,1.0.0,75,False,keywords:jwt
+@hutechtechnical/ex-minus-iste-id,1.0.0,75,False,keywords:jwt
+@lambrioanpm/fugit-eos-quos,1.0.0,75,False,keywords:jwt
+@hutechtechnical/voluptates-ipsa-in-numquam,1.0.0,75,False,keywords:jwt
+joi-jwt,1.0.1,75,False,keywords:jwt
+node-server-engine,1.14.0,74,False,keywords:jwt
+@ryniaubenpm2/sed-qui-enim,1.0.0,74,False,keywords:jwt
+hono-openapi-middlewares,1.1.7,74,False,keywords:jwt
+@odczynflnpm/repellendus-commodi-sunt,1.0.0,74,False,keywords:jwt
+@rtyughnnpm/possimus-enim-rem,1.0.0,74,False,keywords:jwt
+@xdanangelxoqenpm/harum-voluptates-eos,1.0.0,74,False,keywords:jwt
+egg-easy-jwt,1.0.1,74,False,keywords:jwt keywords:jsonwebtoken
+node-jose-browserify,1.1.14,74,False,keywords:jose keywords:jws keywords:jwk
+fib-jws,0.4.1,74,False,keywords:jws
+@xdanangelxoqenpm/saepe-numquam-ad,1.0.0,73,False,keywords:jwt
+passport-jwt.socketio,0.1.1,73,False,keywords:jwt
+@lambrioanpm/esse-dolorum-placeat,1.0.0,73,False,keywords:jwt
+@hutechwebsite/porro-velit-nam-alias,1.0.0,73,False,keywords:jwt
+@xdanangelxoqenpm/odio-nobis-quae,1.0.0,73,False,keywords:jwt
+@tea062024/veniam-facere-voluptatum,1.0.0,73,False,keywords:jwt
+@peac/crypto,0.16.4,73,False,keywords:jose keywords:jws
+@xlt-token/core,2.4.0,72,False,keywords:jwt
+jsonwebtoken-node,0.1.1,72,False,keywords:jwt
+@hutechtechnical/vitae-officiis-quas-accusamus,1.0.0,72,False,keywords:jwt
+@emiplegiaqmnpm/iure-autem-nobis,1.0.0,72,False,keywords:jwt
+@ryniaubenpm2/incidunt-sunt-provident,1.0.0,72,False,keywords:jwt
+@xdanangelxoqenpm/impedit-distinctio-commodi,1.0.0,72,False,keywords:jwt
+@odczynflnpm/ad-ullam-officia,1.0.0,72,False,keywords:jwt
+@hutechwebsite/fugit-sunt-perspiciatis-assumenda,1.0.0,72,False,keywords:jwt
+@a-2-c-2-anpm/consequatur-cumque-aperiam,1.0.0,71,False,keywords:jwt
+@emiplegiaqmnpm/deserunt-odit-eveniet,1.0.0,71,False,keywords:jwt
+@odczynflnpm/quibusdam-debitis-hic,1.0.0,71,False,keywords:jwt
+@wemnyelezxnpm/velit-tenetur-temporibus,1.0.0,71,False,keywords:jwt
+@usertour/license,0.0.3,71,False,keywords:jwt
+@tea062024/inventore-sequi-officiis,1.0.0,71,False,keywords:jwt
+@thinkgrid/react-starter-auth,1.0.2,71,False,keywords:jose
+eslint-plugin-jwt-security,3.3.0,70,False,keywords:jwt keywords:jsonwebtoken keywords:jose
+@lacspace/jwt,1.4.1,70,False,keywords:jwt keywords:jsonwebtoken keywords:jose keywords:jwk keywords:jwks
+apicult,0.34.0,70,False,keywords:jwt
+@a-2-c-2-anpm/velit-expedita-nemo,1.0.0,70,False,keywords:jwt
+@a-2-c-2-anpm/dolor-perspiciatis-impedit,1.0.0,70,False,keywords:jwt
+@next-nest-auth/nestauth,2.0.0,70,False,keywords:jwt
+@crabas0npm/sunt-quos-alias,1.0.0,70,False,keywords:jwt
+@hutechwebsite/recusandae-ut-velit-impedit,1.0.0,70,False,keywords:jwt
+@emiplegiaqmnpm/inventore-quae-perferendis,1.0.0,70,False,keywords:jwt
+whodis-sdk,0.6.1,70,False,keywords:jsonwebtoken
+@titanium/jwt,1.0.46,70,False,keywords:jsonwebtoken
+@a-2-c-2-anpm/saepe-quae-doloremque,1.0.0,69,False,keywords:jwt
+@xdanangelxoqenpm/labore-officia-similique,1.0.0,69,False,keywords:jwt
+@a-2-c-2-anpm/ut-inventore-illo,1.0.0,69,False,keywords:jwt
+@zibuthe7j11/placeat-minima-aspernatur,1.0.0,69,False,keywords:jwt
+@emiplegiaqmnpm/praesentium-consequuntur-iure,1.0.0,69,False,keywords:jwt
+@umituz/web-cloudflare,1.7.8,69,False,keywords:jwt
+@odczynflnpm/nam-a-doloremque,1.0.0,69,False,keywords:jwt
+@ryniaubenpm/non-autem-harum,1.0.0,69,False,keywords:jwt
+@ryniaubenpm/eaque-eos-reiciendis,1.0.0,69,False,keywords:jwt
+@crabas0npm/sapiente-minima-ab,1.0.0,69,False,keywords:jwt
+@osjwnpm/nihil-recusandae-error,1.0.0,69,False,keywords:jwt
+@mridang/nestjs-auth,1.4.0,69,False,keywords:jwt
+blitzware-node-api-sdk,1.2.0,68,False,keywords:jwt keywords:jwks
+@exortek/jws,1.0.4,68,False,keywords:jwt keywords:jose keywords:jws
+@villedemontreal/jwt-validator,6.0.6,68,False,keywords:jwt
+@bobyzgirlllnpm/fugit-et-reprehenderit,1.0.0,68,False,keywords:jwt
+@lambrioanpm/ipsa-quos-ab,1.0.0,68,False,keywords:jwt
+@hutechtechnical/quisquam-excepturi-laborum-ducimus,1.0.0,68,False,keywords:jwt
+@osjwnpm/itaque-eligendi-omnis,1.0.0,68,False,keywords:jwt
+@osjwnpm/repellendus-voluptatibus-nulla,1.0.0,68,False,keywords:jwt
+@zibuthe7j11/repellat-sapiente-quas,1.0.0,68,False,keywords:jwt
+@a-2-c-2-anpm/non-inventore-maiores,1.0.0,68,False,keywords:jwt
+@lambrioanpm/architecto-rem-necessitatibus,1.0.0,68,False,keywords:jwt
+@odczynflnpm/quo-provident-delectus,1.0.0,68,False,keywords:jwt
+@osjwnpm/error-fugiat-nobis,1.0.0,68,False,keywords:jwt
+@wemnyelezxnpm/impedit-ad-quibusdam,1.0.0,68,False,keywords:jwt
+@zibuthe7j11/voluptatum-magnam-tempore,1.0.0,68,False,keywords:jwt
+@ffras4vnpm/deleniti-praesentium-magnam,1.0.0,68,False,keywords:jwt
+@wemnyelezxnpm/asperiores-eveniet-perferendis,1.0.0,68,False,keywords:jwt
+@nauth-toolkit/nestjs,0.8.2,67,False,keywords:jwt
+@agdsoftware/sso-sdk,2.7.2,67,False,keywords:jwt
+@shpaw415/webtoken,2.0.0,67,False,keywords:jwt
+@bobyzgirlllnpm/commodi-asperiores-voluptas,1.0.0,67,False,keywords:jwt
+@bobyzgirlllnpm/alias-quod-voluptates,1.0.0,67,False,keywords:jwt
+@tea062024/numquam-quo-quibusdam,1.0.0,67,False,keywords:jwt
+@omegion1npm/blanditiis-quo-amet,1.0.0,67,False,keywords:jwt
+@osjwnpm/delectus-sequi-eveniet,1.0.0,67,False,keywords:jwt
+@ajhgwdjnpm/perspiciatis-rem-necessitatibus,1.0.0,67,False,keywords:jwt
+@xdanangelxoqenpm/sint-at-doloribus,1.0.0,67,False,keywords:jwt
+@ajhgwdjnpm/vel-optio-earum,1.0.0,67,False,keywords:jwt
+@wemnyelezxnpm/alias-vero-debitis,1.0.0,67,False,keywords:jwt
+@rtyughnnpm/deserunt-eos-quaerat,1.0.0,67,False,keywords:jwt
+@crabas0npm/quis-nemo-pariatur,1.0.0,67,False,keywords:jwt
+@xdanangelxoqenpm/itaque-blanditiis-laboriosam,1.0.0,67,False,keywords:jwt
+@a-2-c-2-anpm/aspernatur-beatae-magni,1.0.0,67,False,keywords:jwt
+redcrypto,0.0.5,67,False,keywords:jsonwebtoken
+@ixo/udid-verify,0.1.1,67,False,keywords:jws
+parsip,1.0.7,66,False,keywords:jwt
+@exortek/jwt,1.3.0,66,False,keywords:jwt keywords:jsonwebtoken keywords:jose
+@a-2-c-2-anpm/accusantium-sunt-ipsa,1.0.0,66,False,keywords:jwt
+@a-2-c-2-anpm/officiis-provident-perspiciatis,1.0.0,66,False,keywords:jwt
+mdauth,1.0.8,66,False,keywords:jwt
+@odczynflnpm/modi-fuga-possimus,1.0.0,66,False,keywords:jwt
+@ryniaubenpm2/alias-voluptatum-natus,1.0.0,66,False,keywords:jwt
+@hutechtechnical/sint-dolor-voluptatibus-quod,1.0.0,66,False,keywords:jwt
+@tea062024/a-soluta-accusantium,1.0.0,66,False,keywords:jwt
+@a-2-c-2-anpm/molestiae-saepe-neque,1.0.0,66,False,keywords:jwt
+@crabas0npm/nostrum-tenetur-error,1.0.0,66,False,keywords:jwt
+@dfgyhujk7npm/corporis-nostrum-ullam,1.0.0,66,False,keywords:jwt
+@odczynflnpm/ab-repellat-dolorum,1.0.0,66,False,keywords:jwt
+@ryniaubenpm/inventore-consectetur-ullam,1.0.0,66,False,keywords:jwt
+@crabas0npm/numquam-aspernatur-incidunt,1.0.0,66,False,keywords:jwt
+@crabas0npm/vitae-atque-placeat,1.0.0,66,False,keywords:jwt
+@tea062024/soluta-accusantium-a,1.0.0,66,False,keywords:jwt
+@omegion1npm/eos-officiis-non,1.0.0,66,False,keywords:jwt
+dotvet,0.1.8,65,False,keywords:jwt
+@kube-js/kube-ts-server,1.5.25,65,False,keywords:jwt
+@a-2-c-2-anpm/fuga-omnis-provident,1.0.0,65,False,keywords:jwt
+@bobyzgirlllnpm/reiciendis-officiis-aperiam,1.0.0,65,False,keywords:jwt
+@osjwnpm/culpa-vitae-totam,1.0.0,65,False,keywords:jwt
+noir-jwt,0.4.5,65,False,keywords:jwt
+@odczynflnpm/et-tempore-deleniti,1.0.0,65,False,keywords:jwt
+@rtyughnnpm/eligendi-enim-voluptate,1.0.0,65,False,keywords:jwt
+@a-2-c-2-anpm/quod-laboriosam-aspernatur,1.0.0,65,False,keywords:jwt
+@odczynflnpm/quas-deserunt-optio,1.0.0,65,False,keywords:jwt
+@emiplegiaqmnpm/expedita-alias-suscipit,1.0.0,65,False,keywords:jwt
+@xdanangelxoqenpm/reiciendis-quis-perferendis,1.0.0,65,False,keywords:jwt
+@bobyzgirlllnpm/architecto-tempora-possimus,1.0.0,65,False,keywords:jwt
+@wemnyelezxnpm/ab-facilis-vero,1.0.0,65,False,keywords:jwt
+@crabas0npm/quo-neque-delectus,1.0.0,65,False,keywords:jwt
+@authvital/core,1.0.1-dev.4.6db6142.0,65,False,keywords:jwt
+@crabas0npm/cumque-aliquid-nemo,1.0.0,65,False,keywords:jwt
+@ryniaubenpm/dolorum-mollitia-vero,1.0.0,65,False,keywords:jwt
+ephy-rsa,0.1.8,65,False,keywords:jose
+@pyncz/trpc-refresh-token-link,1.0.2,64,False,keywords:jwt
+@asdfgertyjhnpm/a-atque-molestias,1.0.0,64,False,keywords:jwt
+@a-2-c-2-anpm/modi-facilis-ab,1.0.0,64,False,keywords:jwt
+@hoangcung1804npm/expedita-reprehenderit-vero,1.0.0,64,False,keywords:jwt
+@crabas0npm/nihil-alias-sint,1.0.0,64,False,keywords:jwt
+authenticare,0.4.9,64,False,keywords:jwt
+@osjwnpm/quidem-recusandae-doloremque,1.0.0,64,False,keywords:jwt
+@emiplegiaqmnpm/perferendis-iusto-itaque,1.0.0,64,False,keywords:jwt
+@emiplegiaqmnpm/pariatur-officia-cupiditate,1.0.0,64,False,keywords:jwt
+@wemnyelezxnpm/quas-vero-distinctio,1.0.0,64,False,keywords:jwt
+@asdfgertyjhnpm/ipsam-illum-quidem,1.0.0,64,False,keywords:jwt
+@ryniaubenpm2/necessitatibus-odio-nemo,1.0.0,64,False,keywords:jwt
+@zibuthe7j11/minima-eaque-praesentium,1.0.0,64,False,keywords:jwt
+@hoangcung1804npm/optio-nobis-assumenda,1.0.0,64,False,keywords:jwt
+furlanluka-jose,4.14.4,64,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+@shgysk8zer0/jwk-utils,1.2.1,63,False,keywords:jwt keywords:jwk
+@ajhgwdjnpm/ipsum-temporibus-totam,1.0.0,63,False,keywords:jwt
+@crabas0npm/ab-nostrum-molestias,1.0.0,63,False,keywords:jwt
+@ffras4vnpm/quis-expedita-reiciendis,1.0.0,63,False,keywords:jwt
+@a-2-c-2-anpm/deleniti-blanditiis-error,1.0.0,63,False,keywords:jwt
+@dfgyhujk7npm/pariatur-dicta-amet,1.0.0,63,False,keywords:jwt
+@wemnyelezxnpm/libero-a-cupiditate,1.0.0,63,False,keywords:jwt
+@odczynflnpm/omnis-blanditiis-repellendus,1.0.0,63,False,keywords:jwt
+@a-2-c-2-anpm/eum-iste-perspiciatis,1.0.0,63,False,keywords:jwt
+@ryniaubenpm2/dolorum-aut-temporibus,1.0.0,63,False,keywords:jwt
+@zibuthe7j11/minus-voluptates-earum,1.0.0,63,False,keywords:jwt
+@ffras4vnpm/totam-cum-distinctio,1.0.0,63,False,keywords:jwt
+@dfgyhujk7npm/aliquid-suscipit-voluptates,1.0.0,63,False,keywords:jwt
+@zibuthe7j11/veritatis-magnam-libero,1.0.0,63,False,keywords:jwt
+@thinkingcat/auth-utils,2.0.15,63,False,keywords:jwt
+@hoangcung1804npm/veniam-atque-quas,1.0.0,63,False,keywords:jwt
+@tea062024/eveniet-modi-ab,1.0.0,63,False,keywords:jwt
+@ryniaubenpm/placeat-eaque-ad,1.0.0,63,False,keywords:jwt
+@wemnyelezxnpm/consectetur-aspernatur-quos,1.0.0,63,False,keywords:jwt
+@exortek/jwk,1.0.4,63,False,keywords:jose keywords:jwk
+@xlt-token/nestjs,2.4.0,62,False,keywords:jwt
+@crabas0npm/rem-perspiciatis-blanditiis,1.0.0,62,False,keywords:jwt
+@drftgyhuji7npm/assumenda-nisi-veniam,1.0.0,62,False,keywords:jwt
+@bobyzgirlllnpm/nisi-praesentium-cumque,1.0.0,62,False,keywords:jwt
+@crabas0npm/nemo-voluptatem-quo,1.0.0,62,False,keywords:jwt
+@ffras4vnpm/laboriosam-reiciendis-porro,1.0.0,62,False,keywords:jwt
+@hutechwebsite/iusto-impedit-quidem-voluptate,1.0.0,62,False,keywords:jwt
+@ryniaubenpm/sed-recusandae-ut,1.0.0,62,False,keywords:jwt
+@bren2010/cf-access-jwt,1.0.0,62,False,keywords:jwt
+@ryniaubenpm/natus-at-earum,1.0.0,62,False,keywords:jwt
+@crabas0npm/porro-adipisci-quis,1.0.0,62,False,keywords:jwt
+jwk-rsa-compute-primes,1.0.1,62,False,keywords:jwk
+@zitadel/astro-auth,1.5.8,61,False,keywords:jwt keywords:jwks
+@ajhgwdjnpm/nobis-non-nesciunt,1.0.0,61,False,keywords:jwt
+@crabas0npm/corporis-blanditiis-in,1.0.0,61,False,keywords:jwt
+@crabas0npm/cum-quis-eos,1.0.0,61,False,keywords:jwt
+@ryniaubenpm2/molestiae-ab-quae,1.0.0,61,False,keywords:jwt
+@saoviettest/repudiandae-commodi-rerum-quasi,1.0.0,61,False,keywords:jwt
+@ffras4vnpm/error-dicta-est,1.0.0,61,False,keywords:jwt
+@zibuthe7j11/corporis-commodi-possimus,1.0.0,61,False,keywords:jwt
+@ffras4vnpm/laudantium-quae-mollitia,1.0.0,61,False,keywords:jwt
+@zibuthe7j11/labore-culpa-iste,1.0.0,61,False,keywords:jwt
+@wemnyelezxnpm/tenetur-expedita-vel,1.0.0,61,False,keywords:jwt
+@hoangcung1804npm/perferendis-commodi-beatae,1.0.0,61,False,keywords:jwt
+@ryniaubenpm2/eum-a-velit,1.0.0,61,False,keywords:jwt
+@ryniaubenpm/mollitia-harum-rem,1.0.0,61,False,keywords:jwt
+@saoviettest/eum-illum-laudantium-quam,1.0.0,61,False,keywords:jwt
+@crabas0npm/sapiente-asperiores-voluptatibus,1.0.0,61,False,keywords:jwt
+@osjwnpm/delectus-at-et,1.0.0,61,False,keywords:jwt
+@crabas0npm/totam-quia-tenetur,1.0.0,61,False,keywords:jwt
+@bobyzgirlllnpm/nulla-ipsam-dolor,1.0.0,61,False,keywords:jwt
+@crabas0npm/dolore-veniam-officia,1.0.0,61,False,keywords:jwt
+@rtyughnnpm/id-aliquam-ab,1.0.0,61,False,keywords:jwt
+@hoangcung1804npm/sequi-quibusdam-perspiciatis,1.0.0,61,False,keywords:jwt
+@crabas0npm/facilis-iure-itaque,1.0.0,61,False,keywords:jwt
+auth0-event-exporter,0.0.10,60,False,keywords:jwt
+authpal,1.5.14,60,False,keywords:jwt
+@bobyzgirlllnpm/repellendus-nam-provident,1.0.0,60,False,keywords:jwt
+authentic-client,3.0.1,60,False,keywords:jwt
+@bobyzgirlllnpm/mollitia-possimus-nostrum,1.0.0,60,False,keywords:jwt
+@asdfgertyjhnpm/eligendi-dignissimos-nam,1.0.0,60,False,keywords:jwt
+@bobyzgirlllnpm/expedita-necessitatibus-alias,1.0.0,60,False,keywords:jwt
+@bobyzgirlllnpm/libero-enim-sunt,1.0.0,60,False,keywords:jwt
+@drtyhu8npm/quis-corrupti-ullam,1.0.0,60,False,keywords:jwt
+@crabas0npm/dolore-sunt-at,1.0.0,60,False,keywords:jwt
+@ryniaubenpm/iusto-sed-quam,1.0.0,60,False,keywords:jwt
+@ryniaubenpm/minus-labore-cum,1.0.0,60,False,keywords:jwt
+@ffras4vnpm/quasi-iure-esse,1.0.0,60,False,keywords:jwt
+@rtyughnnpm/repellendus-atque-laborum,1.0.0,60,False,keywords:jwt
+@dfgyhujk7npm/ratione-magnam-unde,1.0.0,60,False,keywords:jwt
+@ryniaubenpm2/optio-quas-repellendus,1.0.0,60,False,keywords:jwt
+@ryniaubenpm/ipsum-consequatur-iusto,1.0.0,60,False,keywords:jwt
+@hoangcung1804npm/quasi-fuga-aut,1.0.0,60,False,keywords:jwt
+@omegion1npm/corrupti-repellendus-adipisci,1.0.0,60,False,keywords:jwt
+@ryniaubenpm/sunt-cupiditate-natus,1.0.0,60,False,keywords:jwt
+@omegion1npm/ipsa-odio-illo,1.0.0,60,False,keywords:jwt
+@lambrioanpm/molestiae-esse-nemo,1.0.0,60,False,keywords:jwt
+@bobyzgirlllnpm/iusto-placeat-libero,1.0.0,60,False,keywords:jwt
+@bobyzgirlllnpm/provident-perspiciatis-laboriosam,1.0.0,60,False,keywords:jwt
+@omegion1npm/earum-culpa-iure,1.0.0,60,False,keywords:jwt
+@bobyzgirlllnpm/ullam-quod-sed,1.0.0,60,False,keywords:jwt
+passport-http-jwt-bearer,0.1.3,59,False,keywords:jwt keywords:jsonwebtoken
+@bobyzgirlllnpm/molestias-sunt-culpa,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/a-illum-itaque,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/placeat-dignissimos-quae,1.0.0,59,False,keywords:jwt
+@crabas0npm/sed-velit-aliquid,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/veniam-dolorum-deserunt,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/fugiat-amet-minus,1.0.0,59,False,keywords:jwt
+@omegion1npm/vel-dolor-dolorum,1.0.0,59,False,keywords:jwt
+@ryniaubenpm/numquam-velit-porro,1.0.0,59,False,keywords:jwt
+@lambrioanpm/accusamus-animi-quae,1.0.0,59,False,keywords:jwt
+@ryniaubenpm2/iusto-corporis-vero,1.0.0,59,False,keywords:jwt
+@omegion1npm/provident-illo-adipisci,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/incidunt-expedita-reprehenderit,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/occaecati-vero-quaerat,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/facilis-dolores-reprehenderit,1.0.0,59,False,keywords:jwt
+@bobyzgirlllnpm/adipisci-earum-explicabo,1.0.0,59,False,keywords:jwt
+@crabas0npm/facere-omnis-architecto,1.0.0,59,False,keywords:jwt
+simple-pem2jwk,0.2.4,59,False,keywords:jwk
+client-sf-oauth,0.7.1,58,False,keywords:jwt
+@lambrioanpm/officiis-velit-voluptatum,1.0.0,58,False,keywords:jwt
+@xdanangelxoqenpm/quo-tempora-praesentium,1.0.0,58,False,keywords:jwt
+@os.io/nest-kit,0.0.3,58,False,keywords:jwt
+@wemnyelezxnpm/deleniti-porro-enim,1.0.0,58,False,keywords:jwt
+@osjwnpm/sequi-earum-amet,1.0.0,58,False,keywords:jwt
+@xlt-token/jwt,2.4.0,57,False,keywords:jwt
+create-authenik8-app,2.4.18,57,False,keywords:jwt
+redux-sessions,2.0.2,57,False,keywords:jwt
+@hutechwebsite/voluptates-illum-cupiditate-quos,1.0.0,57,False,keywords:jwt
+azirid-node,0.7.1,57,False,keywords:jwks
+@nauth-toolkit/client,0.8.2,56,False,keywords:jwt
+h3-clerk,1.0.2,56,False,keywords:jwt
+browser-user-session,1.0.5,56,False,keywords:jwt
+bezzie,1.4.1,56,False,keywords:jwt
+create-express-modular,3.3.10,56,False,keywords:jwt
+web-identity-schemas,0.3.0,56,False,keywords:jwt keywords:jose keywords:jws keywords:jwk keywords:jwks
+@magic-link-sso/nextjs,1.4.3,56,False,keywords:jwt
+@magic-link-sso/angular,1.4.3,56,False,keywords:jwt
+sails-hook-simple-auth,0.2.2,56,False,keywords:jsonwebtoken
+@bernierllc/crypto-utils,1.4.0,55,False,keywords:jwt
+buildutilities-mcp,0.1.2,55,False,keywords:jwt
+@ryniaubenpm2/saepe-corporis-ullam,1.0.0,55,False,keywords:jwt
+@ffras4vnpm/ullam-odio-aspernatur,1.0.0,55,False,keywords:jwt
+@fastnloud/nest-iam,3.0.0-rc.9,55,False,keywords:jwt
+@bumasoft/shopify-api,1.2.1,54,False,keywords:jwt
+@odczynflnpm/architecto-voluptate-tempore,1.0.0,54,False,keywords:jwt
+@ryniaubenpm2/veniam-occaecati-impedit,1.0.0,53,False,keywords:jwt
+@authu/node,1.0.65,53,False,keywords:jwt keywords:jwks
+@hutechtechnical/tempora-sit-aliquam-vero,1.0.0,53,False,keywords:jwt
+@odczynflnpm/totam-illum-necessitatibus,1.0.0,53,False,keywords:jwt
+uzdev,1.6.6,53,False,keywords:jsonwebtoken
+@lacspace/redact,1.1.1,52,False,keywords:jwt
+@ryniaubenpm2/nesciunt-molestiae-quasi,1.0.0,52,False,keywords:jwt
+@ryniaubenpm2/recusandae-architecto-tempora,1.0.0,52,False,keywords:jwt
+@hoangcung1804npm/culpa-corporis-laboriosam,1.0.0,52,False,keywords:jwt
+@osjwnpm/repellat-saepe-perspiciatis,1.0.0,52,False,keywords:jwt
+@master4n/master-cli,3.0.7,52,False,keywords:jwt
+@oidfed/core,1.0.0,52,False,keywords:jose keywords:jwk
+@stone-js/auth,0.8.19,51,False,keywords:jwt keywords:jose keywords:jwks
+@cleanor/mcp,0.6.1,51,False,keywords:jwt
+mcp-server-devutils,1.0.2,51,False,keywords:jwt
+jwt-auth,2.0.1,51,False,keywords:jwt
+ember-simple-auth-auth0,5.0.0-beta.0,51,False,keywords:jwt
+@atoapayments/agent-pay,0.0.4,51,False,keywords:jws
+@wristband/typescript-jwt,0.3.0,50,False,keywords:jwt keywords:jwks
+node-jws-file-provider,0.1.4,50,False,keywords:jwt keywords:jsonwebtoken keywords:jws
+@osjwnpm/nesciunt-voluptatem-quo,1.0.0,50,False,keywords:jwt
+@autron/core,0.6.2,50,False,keywords:jws
+@lacspace/auth,2.2.0,49,False,keywords:jwt
+@cocreate/authenticate,1.17.0,49,False,keywords:jwt
+tanmayo7lock,1.0.18,49,False,keywords:jwt
+@lambrioanpm/ab-qui-doloremque,1.0.0,49,False,keywords:jwt
+expresso-hooks,0.13.0,49,False,keywords:jsonwebtoken
+mcp-sso,0.5.0,49,False,keywords:jose
+fayda-decoder,0.1.0,49,False,keywords:jws
+jwt-on-kms,2.0.1,48,False,keywords:jwt
+@hutechtechnical/numquam-temporibus-consectetur-rem,1.0.0,48,False,keywords:jwt
+@odczynflnpm/officiis-laboriosam-quam,1.0.0,48,False,keywords:jwt
+@emiplegiaqmnpm/adipisci-optio-nemo,1.0.0,48,False,keywords:jwt
+whodis-client,0.12.0,48,False,keywords:jsonwebtoken
+@codeminity/fetch,0.5.1,47,False,keywords:jwt
+@ryniaubenpm2/aut-explicabo-velit,1.0.0,47,False,keywords:jwt
+@ryniaubenpm2/ea-commodi-voluptatibus,1.0.0,47,False,keywords:jwt
+@wemnyelezxnpm/nisi-sunt-vero,1.0.0,47,False,keywords:jwt
+@itsmaazmalick/jwecrypt,0.2.0,47,False,keywords:jsonwebtoken keywords:jose
+@nextid/nextid-jose,1.0.1,47,False,keywords:jose keywords:jws
+@authplane/mcp,0.4.0,46,False,keywords:jwt
+jwt-kms,1.1.1,46,False,keywords:jwt
+@hellocoop/web-identity,1.1.5,46,False,keywords:jwt
+@hutechtechnical/perferendis-magnam-expedita-eaque,1.0.0,46,False,keywords:jwt
+@odczynflnpm/rerum-at-dignissimos,1.0.0,46,False,keywords:jwt
+@digicroz/jwt,1.0.6,46,False,keywords:jsonwebtoken
+@archie/node-sdk,0.4.1,45,False,keywords:jwt
+@authplane/fastmcp,0.4.0,45,False,keywords:jwt
+@celestia-island/kirino,0.7.5,45,False,keywords:jwt
+dsh-jwt,0.1.0,45,False,keywords:jwt
+@ryniaubenpm2/voluptates-velit-minima,1.0.0,45,False,keywords:jwt
+node-red-contrib-jsonwebtoken,1.0.7,45,False,keywords:jwt keywords:jsonwebtoken
+har-forensics-mcp,0.3.2,44,False,keywords:jwt
+hemmabo-mcp-server,4.0.9,44,False,keywords:jwks
+gent-cli,32.0.0,43,False,keywords:jwt
+nestjs-keycloak-auth,1.1.2,43,False,keywords:jwt
+@onivoro/server-mcp-auth,24.39.0,43,False,keywords:jwt keywords:jwks
+52-admin-jwt,1.0.31,43,False,keywords:jwt
+acme-love,2.6.0,43,False,keywords:jose keywords:jws keywords:jwk
+@pinooxhq/auth,0.1.4,42,False,keywords:jwt
+@ryniaubenpm2/iste-nostrum-quos,1.0.0,42,False,keywords:jwt
+xhelpers-api,5.0.0,40,False,keywords:jwt
+jwt-knex,0.0.15,40,False,keywords:jwt
+@ryniaubenpm2/laudantium-quo-amet,1.0.0,40,False,keywords:jwt
+@clarketm/jwt-cli,1.2.0,40,False,keywords:jsonwebtoken
+bc-api-client,2.2.1,39,False,keywords:jwt
+express-web-tools,1.0.20,39,False,keywords:jwt
+@aymenkits/auth-core,1.2.0,39,False,keywords:jwt
+township-reset-password-token,1.0.0,39,False,keywords:jsonwebtoken
+jwt-blacklist,0.1.2,39,False,keywords:jsonwebtoken
+lbx-jwt,7.0.2,38,False,keywords:jsonwebtoken
+tr-jwk,2.2.1,38,False,keywords:jwk
+@gately/nodejs,2.3.5,37,False,keywords:jwt
+@managani/node,0.1.2,37,False,keywords:jwt
+@emmvee/shared-middleware-authorization,1.1.45,37,False,keywords:jwt
+jwt-middleware,0.3.0,37,False,keywords:jsonwebtoken keywords:jws
+whodis-react,0.9.2,37,False,keywords:jsonwebtoken
+jose-cli,2.0.3,37,False,keywords:jose
+sveltekit-oidc,0.0.8,36,False,keywords:jwt
+keycloak-lambda-authorizer,1.0.10,36,False,keywords:jwt
+sha1-hash-and-verify,1.0.4,36,False,keywords:jsonwebtoken
+@auth-core/jwt,0.0.8,36,False,keywords:jose keywords:jws
+@i3m/non-repudiation-library,2.6.4,36,False,keywords:jws
+@baliola/auth-sdk,0.9.0,35,False,keywords:jwt
+@wristband/nextjs-auth,4.2.0,35,False,keywords:jwt
+@immersa/auth0-jwt-validator,1.0.2,35,False,keywords:jwt
+@zitadel/vue-auth,1.2.4,34,False,keywords:jwt keywords:jwks
+@antzsoft/auth-web,1.0.5,34,False,keywords:jwt
+austack-node,2.0.3,34,False,keywords:jsonwebtoken
+@xmlking/jwks-rsa,1.4.3,34,False,keywords:jwks
+jwks-slim,1.0.2,34,False,keywords:jwks
+mikser-io-auth,11.1.1,33,False,keywords:jwt
+mitigator,1.0.5,33,False,keywords:jwt
+@vibemonetize/server,0.0.9,33,False,keywords:jwt keywords:jwks
+jwt-redis-sessions,3.0.1,33,False,keywords:jsonwebtoken
+jwt-lab,0.0.9,33,False,keywords:jose keywords:jws keywords:jwk keywords:jwks
+@lovable.dev/custom-view-server,0.2.0,33,False,keywords:jwks
+node-accesstoken-validation,1.0.5,33,False,keywords:jwks
+@zola_do/authorization,0.3.7,32,False,keywords:jwt
+cripta,0.260915.0,32,False,keywords:jwt
+@adamclayd/firebase-admin,2.11.5,32,False,keywords:jwt
+@jc-lab/jose,1.10.1,32,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+typepki-jwt,0.4.0,32,False,keywords:jose keywords:jws
+tr-jwt,2.0.0,32,False,keywords:jws
+@nanolink/signing-client,0.1.7,32,False,keywords:jwks
+@botparty/sdk,0.0.83,31,False,keywords:jwt
+@cisco-open/jose,2.1.0,31,False,keywords:jose keywords:jws keywords:jwk
+@kagal/ed25519-secret,0.3.2,31,False,keywords:jwk keywords:jwks
+@cryptr/cryptr-jwt-verifier,1.0.1,31,False,keywords:jwks
+@truxie/jwt,0.1.1,31,False,keywords:jwks
+@guarani/jose,1.1.2,30,False,keywords:jwt keywords:jose keywords:jws keywords:jwk keywords:jwks
+nodejsamazingenerator,1.70.60-stable,30,False,keywords:jwt
+jwk-utils,0.1.0,30,False,keywords:jwk
+koa-jsonwebtoken,1.3.1,29,False,keywords:jsonwebtoken
+unsea,1.1.2,29,False,keywords:jwk
+jwks-did-resolver,1.1.0,29,False,keywords:jwks
+did-jwks,1.1.0,29,False,keywords:jwks
+@authrobo/sdk,0.1.3,29,False,keywords:jwks
+@zevauth/js,0.2.6,28,False,keywords:jwt
+@seamless-auth/core,0.16.1,28,False,keywords:jwt
+@0-auth/zero-auth,1.6.0,28,False,keywords:jwt
+@depup/jose,6.2.12-depup.0,28,False,keywords:jwt keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+openac-sdk,5.0.0,28,False,keywords:jwt
+@purecore-br/one-jwt-4-all,6.6.6,28,False,keywords:jwt keywords:jose
+simple-oidc-auth,1.2.1,28,False,keywords:jsonwebtoken keywords:jwks
+@maaz4/nightswatch,2.0.10,28,False,keywords:jwks
+@forrestjs/service-jwt,5.2.2,27,False,keywords:jwt
+typescript-express-mongoose-starter,2.0.0,27,False,keywords:jwt
+pusudb-use-auth-jwt,1.1.0,27,False,keywords:jsonwebtoken
+@am92/api-crypto,3.0.2,27,False,keywords:jose
+jwks-rsa-passport-edition,1.2.2,27,False,keywords:jwks
+fhirstarterjs,1.0.9,27,False,keywords:jwks
+@udhuong/admin-core,0.6.0,26,False,keywords:jwt
+@exortek/crypto,1.1.1,26,False,keywords:jwt keywords:jwk
+@putkoff/abstract-utilities,1.0.158,26,False,keywords:jwt
+@fluxfiles/node,0.1.31,26,False,keywords:jwt
+speedrun-cli,2.10.2,26,False,keywords:jwt
+@simvector/maplibre-protocol,0.2.0,26,False,keywords:jwt
+jwt-mock-server,0.0.10,26,False,keywords:jwt keywords:jwk
+svelte-kit-jwt-session,0.0.22,26,False,keywords:jsonwebtoken
+@swalest/ws-auth,2.4.4,26,False,keywords:jsonwebtoken
+whodis-react-storage-browser,0.1.4,26,False,keywords:jsonwebtoken
+@the-node-forge/jwt-utils,1.1.1,26,False,keywords:jsonwebtoken
+@saurbit/oauth2-jwt,0.1.11,26,False,keywords:jose keywords:jwks
+@agently-org/sdk,1.2.0,26,False,keywords:jws
+glee-jwks-rsa,1.1.0,26,False,keywords:jwks
+@acontplus/ng-auth,3.0.4,25,False,keywords:jwt
+@node-rs/jsonwebtoken-win32-arm64-msvc,0.5.11,25,False,keywords:jwt keywords:jsonwebtoken
+jwt-authn,2.1.0,25,False,keywords:jws
+@userkit/js,0.9.0,24,False,keywords:jwt
+@zitadel/tanstack-auth,1.1.6,24,False,keywords:jwt keywords:jwks
+@zitadel/hono-auth,1.0.6,24,False,keywords:jwt
+jwt-kms-v3,1.0.1,24,False,keywords:jwt
+@node-rs/jsonwebtoken-wasm32-wasi,0.5.11,24,False,keywords:jwt keywords:jsonwebtoken
+@drmhse/authos-node,0.8.12,24,False,keywords:jwt keywords:jwks
+@xzawed/keycloak-sdk,1.0.2,24,False,keywords:jwt
+aurelia-plugins-jwt-decode,2.6.0,24,False,keywords:jsonwebtoken
+data-security-utility,1.0.5,24,False,keywords:jose
+@gcoredev/as-jwt,1.1.0,24,False,keywords:jws
+@takeshape/next-auth-all-access,2.0.0,24,False,keywords:jwks
+@vymalo/opencode-devtools-mcp,0.17.0,23,False,keywords:jwt
+@antzsoft/auth-react-native,1.0.5,23,False,keywords:jwt
+oauthlint,0.15.0,23,False,keywords:jwt
+auth-kit-react,1.2.24,23,False,keywords:jsonwebtoken
+@exortek/jwks,1.1.1,23,False,keywords:jose keywords:jwks
+@bc-studio/oauth-core,0.1.2,23,False,keywords:jws
+koa-boot-runtime,2.0.1,22,False,keywords:jwt
+@usegraft/auth,1.0.0-beta.1,22,False,keywords:jwt
+@gablura/auth-core,1.2.4,22,False,keywords:jwt
+@vymalo/opencode-devtools,0.17.0,22,False,keywords:jwt
+crack-js,1.2.0,22,False,keywords:jwt
+@kaname-png/plugin-api-jwt,5.0.1,22,False,keywords:jwt
+jwks-client-browser,0.0.8,22,False,keywords:jsonwebtoken keywords:jwks
+jwti,1.3.0,22,False,keywords:jsonwebtoken
+402coffee-verify-credential,0.1.0,22,False,keywords:jws
+jwks-rsa-v2,2.0.0,22,False,keywords:jwks
+@caracalai/identity,1.0.0,22,False,keywords:jwks
+@vurb/jwt,3.19.6,21,False,keywords:jwt
+@loopback/example-todo-jwt,7.0.17,21,False,keywords:jwt
+xlt-token,2.4.0,21,False,keywords:jwt
+@fhirstarter/backend,2.1.0,21,False,keywords:jwt keywords:jwks
+@ghayma/sdk,1.2.0,21,False,keywords:jwt
+@dazejs/jwt-provider,2.0.0,21,False,keywords:jsonwebtoken
+@writhq/sdk,0.2.1,21,False,keywords:jws
+micro509,0.14.0,21,False,keywords:jwk
+@tdacorp/identity-client,0.3.0,20,False,keywords:jwt
+@zitadel/elysia-auth,1.0.6,20,False,keywords:jwt
+@kaapi/oauth2-auth-design,0.0.51,20,False,keywords:jwt
+@travetto/jwt,5.1.0,20,False,keywords:jwt
+@authowl/convex,0.1.7,20,False,keywords:jwt
+node-red-contrib-ui-metabase,1.0.6,20,False,keywords:jsonwebtoken
+@mission_sciences/provider-sdk,0.6.0,20,False,keywords:jwks
+@hellocoop/email-verification,3.1.0,19,False,keywords:jwt
+@baladesh/next-auth,4.24.12,19,False,keywords:jwt
+sails-hook-jsonwebtoken,1.0.1,19,False,keywords:jsonwebtoken
+@karinjs/jsonwebtoken,1.1.1,19,False,keywords:jsonwebtoken
+@am92/jose-crypto,3.0.0,19,False,keywords:jose
+@anorebel/licensing,1.0.0,19,False,keywords:jws
+express-ramses-auth,1.2.1,19,False,keywords:jws
+@smdv/localization,1.12.0,18,False,keywords:jwt
+@wazobiatech/auth-middleware,1.4.0,18,False,keywords:jwt
+@5data/api-engine,1.3.9,18,False,keywords:jwt
+jsonwebtoken-redis,1.0.6,18,False,keywords:jsonwebtoken
+@ji-constructs/ecs-jwt-keypair,0.1.10,18,False,keywords:jsonwebtoken
+@geek/jwt,1.0.1,18,False,keywords:jsonwebtoken
+@admac-hub/create-roleauth-core-cli,1.0.8,18,False,keywords:jsonwebtoken
+express-tokenware,0.4.2,18,False,keywords:jsonwebtoken
+@yanez.ai/agent-authorization,0.1.0-beta.6,18,False,keywords:jws
+x402-sign,1.0.3,18,False,keywords:jws
+@dooor-ai/auth-node,0.3.0,18,False,keywords:jwks
+gw-auth,0.10.1,17,False,keywords:jwt
+fusion-framework,2.0.1,17,False,keywords:jwt
+feathers-authentication-refresh,0.4.0,17,False,keywords:jwt
+@zitadel/sveltekit-auth,1.1.6,17,False,keywords:jwt keywords:jwks
+@xivdyetools/auth,2.0.2,17,False,keywords:jwt
+@toolsmcp/core,0.2.2,17,False,keywords:jwt
+node-jose-crypto-browserify,2.2.3,17,False,keywords:jose keywords:jws keywords:jwk
+@japikey/authenticate,0.4.0,17,False,keywords:jwks
+@pawells/nestjs-auth,4.2.1,17,False,keywords:jwks
+@adonis-agora/authkit-vault-gcp,0.3.1,17,False,keywords:jwks
+qc-jwks-rsa,1.3.8,17,False,keywords:jwks
+@lopatnov/conduit,1.5.0,16,False,keywords:jwt
+@breadai/auth-jwt,0.1.2,16,False,keywords:jwt
+autobackend,0.1.2,16,False,keywords:jsonwebtoken
+@reelspace/jose,0.0.1,16,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+defuss-jwt,1.0.2,16,False,keywords:jose
+@softwarity/nestjs-granted,5.1.0,15,False,keywords:jwt
+thecore-auth,0.0.218,15,False,keywords:jwt
+@bernierllc/auth-suite,1.4.5,15,False,keywords:jwt
+arjuna,1.0.17,15,False,keywords:jsonwebtoken
+cf-jwt,1.0.4,15,False,keywords:jsonwebtoken
+jwt-cookie,1.0.1,15,False,keywords:jsonwebtoken
+uzbek,1.2.6,15,False,keywords:jsonwebtoken
+trek-jwt,0.4.0,15,False,keywords:jsonwebtoken
+@am92/jose-crypto-subtle,2.0.11,15,False,keywords:jose
+pusher-beams-fetch,0.1.2,15,False,keywords:jose
+@askledger/receipts-sdk,0.13.0,15,False,keywords:jws
+ecc-crypto-helper,1.6.1,15,False,keywords:jws
+@sprintnex/sso-sdk,0.2.1,15,False,keywords:jwks
+jwks-ecdsa,1.0.3,15,False,keywords:jwks
+@uzum-tech/node-keycloak,1.1.0,15,False,keywords:jwks
+@bison-lab/auth,0.2.0,15,False,keywords:jwks
+@ist-group/jwks-rsa,1.7.0,15,False,keywords:jwks
+velociradix,8.3.1,14,False,keywords:jwt
+@mindalike/platform-contracts,1.0.3,14,False,keywords:jwt
+node-express-scaff-temps,1.1.1,14,False,keywords:jwt
+@nice2dev/auth,1.1.7,14,False,keywords:jwt
+@hemia/jwt-manager,0.0.6,14,False,keywords:jsonwebtoken
+structure-creator,1.0.19,14,False,keywords:jsonwebtoken
+@zero.sc/auth-client,0.0.7,14,False,keywords:jose
+node-posh,0.1.1,14,False,keywords:jose
+@gramota/jose,0.3.0,14,False,keywords:jose keywords:jws keywords:jwk
+@sovereignbase/cryptosuite,3.2.0,14,False,keywords:jwk
+@peac/jwks-cache,0.16.4,14,False,keywords:jwks
+jwks-provider,0.1.0,14,False,keywords:jwks
+express-oauth2-dpop,1.0.9,14,False,keywords:jwks
+imansi-auth-node,0.1.3,13,False,keywords:jwt
+@chez14org/n8n-nodes-oidc-auth-webhook,0.1.4,13,False,keywords:jwt
+auth-silo,1.0.1,13,False,keywords:jwt
+@keicreations/sapphire-vue,3.8.1,13,False,keywords:jwt
+@carbonteq/jwt-linux-x64-gnu,0.5.2,13,False,keywords:jsonwebtoken
+objection-auth,4.1.0,13,False,keywords:jsonwebtoken
+@sbs-def/auth-processor,1.0.0,13,False,keywords:jsonwebtoken
+react-native-silicon,0.0.1,13,False,keywords:jose
+jwe-handler,3.0.2,13,False,keywords:jose
+@miiajs/jwt,0.7.0,13,False,keywords:jose
+oem-inapppurchases,2.0.0,13,False,keywords:jws
+@mohit2404/payglocal-js-client,1.0.2,13,False,keywords:jws
+storekit-cloudflare-workers,0.2.0,13,False,keywords:jws
+jwt-authorized,2.0.5,13,False,keywords:jws
+gapitoken-generic,0.0.5,13,False,keywords:jws
+ramses-auth,1.2.3,13,False,keywords:jws
+llmo,0.1.15,13,False,keywords:jws
+@okeav/idp-core,0.2.1,13,False,keywords:jwks
+@adonis-agora/authkit-testing,0.5.3,13,False,keywords:jwks
+jwt-quick,1.3.0,13,False,keywords:jwks
+solumjs,0.3.10,12,False,keywords:jwt
+octowatch-api,1.0.2,12,False,keywords:jwt
+@tdacorp/identity-authz,0.2.1,12,False,keywords:jwt
+imansi-auth-react,0.1.3,12,False,keywords:jwt
+auth-capsule,2.0.1,12,False,keywords:jwt
+create-types-backend,1.1.19,12,False,keywords:jwt
+@zitadel/nuxt-auth,2.0.2,12,False,keywords:jwt keywords:jwks
+generator-grail,0.3.6,12,False,keywords:jsonwebtoken
+@carbonteq/jwt,0.5.2,12,False,keywords:jsonwebtoken
+jssign,0.3.14,12,False,keywords:jsonwebtoken
+@borderless/web-jwt,2.1.2,12,False,keywords:jsonwebtoken
+jwtr,0.5.0,12,False,keywords:jsonwebtoken
+jose-simple,1.3.1,12,False,keywords:jose
+@firstprinciples/auth-utils,0.1.1,12,False,keywords:jose
+@choirhq/cap-partner,0.7.2,12,False,keywords:jws
+@spfn/signing,0.1.0-alpha.2,12,False,keywords:jws
+@axiru/x402-receipt-verifier,0.1.1,12,False,keywords:jws
+@panmdaa/jwt,0.1.1,12,False,keywords:jws
+@tegis/server,0.1.3,12,False,keywords:jws
+@vanioinformatika/simple-keystore,2.1.2,12,False,keywords:jwk
+@padosoft/laravel-iam-node,1.4.0,12,False,keywords:jwks
+@japikey/japikey,0.4.0,12,False,keywords:jwks
+rsa-keygen-jwks,1.0.5,12,False,keywords:jwks
+re-jwt-express,1.0.5,11,False,keywords:jwt
+@pascal-0/autobahn,0.2.1,11,False,keywords:jwt
+qwykz,1.4.7,11,False,keywords:jwt
+nestjs-jwks,0.2.5,11,False,keywords:jwt keywords:jose keywords:jwk keywords:jwks
+vouchsafe,2.1.1,11,False,keywords:jwt keywords:jsonwebtoken
+otp-generator-ts,1.0.0,11,False,keywords:jsonwebtoken
+@gaonengwww/jose,6.1.0,11,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+vhook-js,1.0.4,11,False,keywords:jsonwebtoken
+@i3m/non-repudiation-protocol-smart-contract,1.0.1,11,False,keywords:jws
+@agentwares/web-bot-auth,0.1.1,11,False,keywords:jwks
+@adonis-agora/authkit-vault-azure,0.3.1,11,False,keywords:jwks
+@vitibase/server,0.1.1,11,False,keywords:jwks
+@agentlair/a2a-trust-audit,0.1.3,11,False,keywords:jwks
+@neuctra/authix,2.0.0,10,False,keywords:jwt
+@ethan-devlab/secretgen,0.2.0,10,False,keywords:jwt
+@flowaws/node-sdk,0.1.1,10,False,keywords:jwt
+@arex95/phalanx,6.1.0,10,False,keywords:jwt
+@alsanium/jwt,1.0.0-alpha.6,10,False,keywords:jsonwebtoken keywords:jws
+@luolapeikko/oidc-jwt-verify,0.1.4,10,False,keywords:jsonwebtoken
+express-jsonwebtoken,0.1.2,10,False,keywords:jsonwebtoken
+express-jwt-validator,1.0.0,10,False,keywords:jsonwebtoken
+@magentlemen/jose,1.0.0,10,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+@andreeewill/node-jose,3.0.0,10,False,keywords:jose keywords:jws keywords:jwk
+@strangecyan/ai-token,0.1.0,10,False,keywords:jose
+@atproto-labs/jwk-jose,0.0.1,10,False,keywords:jose keywords:jwk
+@daily-nerd/vitni,0.5.3,10,False,keywords:jws
+@omegaengine/verify,0.6.0,10,False,keywords:jws keywords:jwks
+@atlasprotocol/mpp,0.3.0,10,False,keywords:jws
+tr-data-escrow,5.0.0,10,False,keywords:jwk
+@epicortek/agis-sdk-ts,0.3.0-alpha.3,10,False,keywords:jwk
+@adonis-agora/authkit-vault-aws,0.3.1,10,False,keywords:jwks
+ab-ecosystem-node,0.1.5,10,False,keywords:jwks
+@agentlair/defenseclaw,0.3.0,10,False,keywords:jwks
+terra-lumina,1.2.0,10,False,keywords:jwks
+@uoj-lk/auth-node,1.10.0,9,False,keywords:jwt
+@icecat-studio/nuxt-auth,0.3.0,9,False,keywords:jwt
+jupiter-auth-manager,1.8.51,9,False,keywords:jwt
+@veloxts/auth,0.9.1,9,False,keywords:jwt
+jwebt,0.0.4,9,False,keywords:jsonwebtoken
+jwt-csrf,4.1.1,9,False,keywords:jsonwebtoken
+jwt-kit,1.0.11,9,False,keywords:jsonwebtoken
+generateotp-ts,1.0.5,9,False,keywords:jsonwebtoken
+token-interceptor,1.1.4,9,False,keywords:jsonwebtoken
+jwt-fp,1.0.4,9,False,keywords:jsonwebtoken
+jwebt-gcp,0.0.3,9,False,keywords:jsonwebtoken
+express-api-jwt-auth,0.0.5,9,False,keywords:jsonwebtoken
+connect-jwks,0.0.1,9,False,keywords:jose keywords:jws keywords:jwk keywords:jwks
+@realhandles/verify,0.12.0,9,False,keywords:jws
+@kitiumai/auth,4.0.1,9,False,keywords:jws
+@suibari/nagi-passport,0.1.0,9,False,keywords:jws
+jwa-wc,2.0.0,9,False,keywords:jws
+@moltrust/x402,2.0.0,9,False,keywords:jws
+rsa-light,1.0.0,9,False,keywords:jwk
+@jobprep/client-sdk,1.1.0,9,False,keywords:jwks
+@aneeshgusain/next-gen-auth-server,0.1.13,9,False,keywords:jwks
+@authaction/node-sdk,0.2.0,9,False,keywords:jwks
+@antzsoft/wso2-auth-backend,1.0.0,9,False,keywords:jwks
+@conversokit/auth,0.1.2,9,False,keywords:jwks
+@zitadel/solidstart-auth,1.1.6,8,False,keywords:jwt keywords:jwks
+@mspkapps/auth-client,0.2.2,8,False,keywords:jwt
+partsoftware-jose,5.9.8,8,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+node-skeleton,2.0.4,8,False,keywords:jsonwebtoken
+node-red-contrib-metabase-embed,1.0.5,8,False,keywords:jsonwebtoken
+jwt-token-blacklist,0.0.1,8,False,keywords:jsonwebtoken
+jwt-linker,2.0.3,8,False,keywords:jsonwebtoken
+mocrypt,1.1.0,8,False,keywords:jsonwebtoken
+jsonwebtoken-helper,0.1.2,8,False,keywords:jsonwebtoken
+remote-auth,1.0.2,8,False,keywords:jsonwebtoken
+jwt-json-server,1.0.0,8,False,keywords:jsonwebtoken
+@thischirag/auth,1.0.3,8,False,keywords:jsonwebtoken
+@qnx/crypto,0.8.8,8,False,keywords:jose
+json-web-algorithms,0.2.0,8,False,keywords:jose
+node-jose-client,1.0.0,8,False,keywords:jose keywords:jws keywords:jwk
+tokx-cli,0.1.2,8,False,keywords:jose
+@agentoracle/receipt-verify-browser,0.0.1,8,False,keywords:jws
+incache-jws-session,0.1.4,8,False,keywords:jws
+agentavow-trust,0.2.1,8,False,keywords:jws
+@agentlair/spa-verifier,0.2.0,8,False,keywords:jws
+@atproto-labs/jwk,0.0.1,8,False,keywords:jwk keywords:jwks
+@zod-vault/crypto,0.2.1,8,False,keywords:jwk
+@prokodo/n8n-nodes-secure-webhook,0.0.1,8,False,keywords:jwks
+@koduhai/mcp-kit,0.3.0,8,False,keywords:jwks
+@agentlair/flue,0.1.0,8,False,keywords:jwks
+react-telegram-oidc-login,0.2.0,8,False,keywords:jwks
+@zitadel/remix-auth,1.1.6,7,False,keywords:jwt keywords:jwks
+@zitadel/qwik-auth,1.1.8,7,False,keywords:jwt keywords:jwks
+@ai-partner-x/aiko-boot-starter-security,0.1.5,7,False,keywords:jwt
+lelu-agent-auth,0.0.36,7,False,keywords:jwt
+jwter,1.1.0,7,False,keywords:jsonwebtoken
+@bipdev/common,1.0.19,7,False,keywords:jsonwebtoken
+jwtcpp-addon,1.1.0,7,False,keywords:jsonwebtoken keywords:jose
+@biker/hapi-auth-keycloak,5.2.1,7,False,keywords:jsonwebtoken
+@db-node/jwt,0.1.1,7,False,keywords:jsonwebtoken
+@kavist/arjuna,1.1.2-ps.1,7,False,keywords:jsonwebtoken
+jose-1024,4.11.2,7,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+jwt-express-roles,1.0.8,7,False,keywords:jsonwebtoken
+kms-jwt,1.0.2,7,False,keywords:jsonwebtoken
+token-h,1.0.2,7,False,keywords:jsonwebtoken
+@magentlebots/jose,1.0.0,7,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+rei-jwt,2.0.1,7,False,keywords:jsonwebtoken
+jwt-auth-component,0.0.3,7,False,keywords:jsonwebtoken
+exercitationemexercitationem,1.1.2,7,False,keywords:jsonwebtoken
+node-jws-gcp-provider,0.1.5,7,False,keywords:jsonwebtoken keywords:jws
+jwt-smith,1.0.1,7,False,keywords:jsonwebtoken
+@carbonteq/jwt-win32-x64-msvc,0.5.2,7,False,keywords:jsonwebtoken
+adjuro,2.0.0,7,False,keywords:jose keywords:jws
+native-jwe,2.0.0,7,False,keywords:jose keywords:jws
+@roastery-capsules/jwt,0.0.2,7,False,keywords:jose
+jmartinez-custom-components,0.7.0,7,False,keywords:jose
+@holeauth/core,1.0.0-alpha.3,7,False,keywords:jose
+@tokx/core,0.1.2,7,False,keywords:jose
+@zipwire/proofpack,1.3.0,7,False,keywords:jws
+@agentoracle/receipt-verify,0.0.1,7,False,keywords:jws
+@agentoracle/cli,0.0.1,7,False,keywords:jws
+@fxjs/jws,0.1.1,7,False,keywords:jws
+tr-data-encrypt,1.1.0,7,False,keywords:jwk
+rsa-compat-ssl,1.0.0,7,False,keywords:jwk
+ipsumaccusamus,1.6.0,7,False,keywords:jwk
+@ursalock/crypto,0.4.2,7,False,keywords:jwk
+@cemiltan/isuwa-oauth-client,2.0.0,7,False,keywords:jwks
+jwks-rsa-browser,1.4.2,7,False,keywords:jwks
+@eve-horizon/auth,0.1.5,7,False,keywords:jwks
+@hansenw/jwt-auth,0.11.1,7,False,keywords:jwks
+express-jwt-jwks,1.0.0,7,False,keywords:jwks
+@fictiv/jwks-rsa,1.2.0,7,False,keywords:jwks
+@tychot/jwks-rsa,1.1.2,7,False,keywords:jwks
+@5arz/sdk,0.1.0,7,False,keywords:jwks
+@sitedex/web-bot-auth-lint,0.2.0,7,False,keywords:jwks
+@openbotauth/registry-signer,0.2.0,7,False,keywords:jwks
+@zitadel/express-auth,1.0.4,6,False,keywords:jwt
+@cognitiveproof/didsmith-key-request-jwt,0.2.0,6,False,keywords:jwt
+tinytoolstack,0.1.2,6,False,keywords:jwt
+express-jwt-authorizer,0.4.1,6,False,keywords:jsonwebtoken
+@mornya/auth-libs,3.1.0,6,False,keywords:jsonwebtoken
+nem-rest,0.0.6,6,False,keywords:jsonwebtoken
+jose-browser-runtime-ie11,3.12.3,6,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+@ellexpress/authy,0.0.5,6,False,keywords:jsonwebtoken
+jwt-gen-key,1.0.0,6,False,keywords:jsonwebtoken
+loopback-authentication-jwt,0.12.2,6,False,keywords:jsonwebtoken
+@astro-my/sign-request,0.1.1,6,False,keywords:jose
+@smertins27/jwt-auth-manager,2.0.0,6,False,keywords:jose
+jose-resume,1.0.0,6,False,keywords:jose
+josedbolivarmafrontend-product-card,1.0.0-rc,6,False,keywords:jose
+jwtwallet-jose,1.0.0,6,False,keywords:jose keywords:jwks
+jwt-inspector,1.0.0,6,False,keywords:jws keywords:jwks
+@crelis/verify,0.1.0,6,False,keywords:jws
+@securestamp/action-proof,0.2.0-beta.1,6,False,keywords:jws
+@vacationrentalprotocol/vrp-verify,0.1.0,6,False,keywords:jws keywords:jwks
+jsonpasswordtoken,1.9.1,6,False,keywords:jws
+jws-wc,4.0.0,6,False,keywords:jws
+@oosawy/jws,4.0.0,6,False,keywords:jws
+@loopfortress/jingle-cli,0.0.5,6,False,keywords:jws keywords:jwk
+@vextlabs/stoa-verifier,0.1.1,6,False,keywords:jws
+@loopfortress/jingle-lib,0.0.3,6,False,keywords:jws keywords:jwk
+pem2jwk-parser,2.2.2,6,False,keywords:jwk
+@instun/sm2-multikey,2.2.0,6,False,keywords:jwk
+@al-hamoud/authx,1.4.5,6,False,keywords:jwks
+jwks-terminal,0.0.8,6,False,keywords:jwks
+bb-jwks-rsa,2.0.1,6,False,keywords:jwks
+@json-express/middleware-auth,2.0.0,6,False,keywords:jwks
+jwt-check,0.1.2,6,False,keywords:jwks
+elysia-oauth2-resource-server,0.1.1,6,False,keywords:jwks
+@dudousxd/adonis-authkit-vault-gcp,0.2.0,6,False,keywords:jwks
+@mmoriarity/jwks-rsa,1.5.0,6,False,keywords:jwks
+jwks-manager,0.9.1,6,False,keywords:jwks
+@seungkyu/guardian,0.0.6,5,False,keywords:jwt
+@febin52/jwt-decode-lite,1.0.2,5,False,keywords:jwt
+jwt-pulse,1.0.5,5,False,keywords:jwt
+jupiter-menu-manager,1.5.0,5,False,keywords:jwt
+zero-dep-devtools,1.0.1,5,False,keywords:jwt
+@abstraks-dev/jwt-auth,1.0.0,5,False,keywords:jsonwebtoken
+couchdb-jwt,3.4.1,5,False,keywords:jsonwebtoken
+verify-jwt,1.0.9,5,False,keywords:jsonwebtoken
+gatos,0.4.3,5,False,keywords:jsonwebtoken
+jose-skip-key-validation,3.19.0,5,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+glassx.auth,1.1.12,5,False,keywords:jsonwebtoken
+nest-sockedis,1.2.0,5,False,keywords:jsonwebtoken
+jwt-koa,1.1.3,5,False,keywords:jsonwebtoken
+jwt-gcp-kms,2.1.0,5,False,keywords:jsonwebtoken
+claudia-api-jwt-authenticator,1.0.0,5,False,keywords:jsonwebtoken
+@foxstack/wx-jose,0.0.3,5,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+@newbiz/auth-libs,2.1.0,5,False,keywords:jsonwebtoken
+jwt-baba,2.0.3,5,False,keywords:jsonwebtoken
+cookie-string-parser,1.2.2,5,False,keywords:jsonwebtoken
+@ezauth/core,0.2.1,5,False,keywords:jsonwebtoken
+bjwt,0.0.1,5,False,keywords:jsonwebtoken
+fastify-jwt-with-verify-token,1.2.4,5,False,keywords:jsonwebtoken
+tooljwt,0.0.1,5,False,keywords:jsonwebtoken
+jwtcli,1.0.0-beta.1,5,False,keywords:jsonwebtoken
+hapi-aws-jwt-plugin,0.0.2,5,False,keywords:jsonwebtoken keywords:jwk
+@rxstack/jwt-token-manager,0.0.3,5,False,keywords:jsonwebtoken
+@xenterprises/fastify-xauth-jwks,1.3.0,5,False,keywords:jose keywords:jwks
+payloadcms-ext-jwt-validation,1.0.0,5,False,keywords:jose
+@ai-universe/receipt-utils,1.0.0,5,False,keywords:jose keywords:jws keywords:jwks
+cloudless-cart,0.3.3,5,False,keywords:jose
+@aegisq/auth,2.1.0,5,False,keywords:jose
+secure-auth-kit,2.0.0,5,False,keywords:jose
+tr-key-vault-client,1.0.0,5,False,keywords:jose keywords:jwk
+iana-registry-data-lib,3.0.1,5,False,keywords:jose
+nodejose,1.0.1,5,False,keywords:jose keywords:jws keywords:jwk
+jrlt-product-card,0.0.1,5,False,keywords:jose
+@digigo/verify,0.1.4,5,False,keywords:jose
+@anyenk/shinkansen-signature,1.0.1,5,False,keywords:jws
+@lookworld4/edge-jwt-lite,1.0.0,5,False,keywords:jws
+express-oidc-jwks-verify,0.2.1,5,False,keywords:jws keywords:jwk keywords:jwks
+asb-jwk,1.4.0,5,False,keywords:jwk
+pem-jwk-norecompute,2.0.0,5,False,keywords:jwk
+@dashersw/node-webcrypto-ossl,1.0.3,5,False,keywords:jwk
+better-auth-etoro,0.1.0,5,False,keywords:jwks
+@apptentive/jwks-rsa,1.3.2,5,False,keywords:jwks
+@chrislyons-dev/flarelette-jwt,1.13.0,5,False,keywords:jwks
+@actpass/sdk,1.1.3,5,False,keywords:jwks
+halide,0.0.12,5,False,keywords:jwks
+jwks-db,0.0.3,5,False,keywords:jwks
+jwks-rsa-multiple-jwksuri,1.1.2,5,False,keywords:jwks
+jwt-jwks-client,0.2.1,5,False,keywords:jwks
+traceipt-verify,0.1.0,5,False,keywords:jwks
+convex-gate,0.1.3,5,False,keywords:jwks
+sso-node-sdk,0.1.0,5,False,keywords:jwks
+@dudousxd/adonis-authkit-vault-azure,0.2.0,5,False,keywords:jwks
+@decionis/dossier-verify,0.1.0,5,False,keywords:jwks
+@plus99/secure-jwt,1.0.1,5,False,keywords:jwks
+restify-jwks,0.0.2,5,False,keywords:jwks
+@guardhouse/node,1.0.0-beta.1,5,False,keywords:jwks
+@agentlair/verify,0.1.0,5,False,keywords:jwks
+@phila/sso-node,0.0.3,5,False,keywords:jwks
+@prmichaelsen/firebase-admin-sdk-v8,2.9.0,4,False,keywords:jwt
+@prthv-rwt/auth-framework,1.0.3,4,False,keywords:jwt
+@mohdsuhel/atlas,0.2.0,4,False,keywords:jwt
+@apinecka/jwt,1.0.1,4,False,keywords:jsonwebtoken
+node-jwt-redis,2.1.2,4,False,keywords:jsonwebtoken
+express-gateway-plugin-auth2-jwt,3.0.0,4,False,keywords:jsonwebtoken
+@carbonteq/jwt-linux-x64-musl,0.5.2,4,False,keywords:jsonwebtoken
+@restyjs/jwt,3.0.0,4,False,keywords:jsonwebtoken
+jxpress,1.0.12,4,False,keywords:jsonwebtoken
+shorproof,0.2.0,4,False,keywords:jsonwebtoken keywords:jose keywords:jwks
+whodis-react-storage-native,1.0.0,4,False,keywords:jsonwebtoken
+@astralsoft/svelte-kit-jwt-session,0.0.3,4,False,keywords:jsonwebtoken
+@vanioinformatika/jwt-wrapper,2.0.5,4,False,keywords:jsonwebtoken
+nest-jwt-module,2.0.0,4,False,keywords:jsonwebtoken
+blademonkey-authentication-service,1.0.4,4,False,keywords:jsonwebtoken
+express-jwt-session,1.0.1,4,False,keywords:jsonwebtoken
+validate-azure-ad-token-no-scope,2.2.0,4,False,keywords:jsonwebtoken
+jwt-16bit,1.0.3,4,False,keywords:jsonwebtoken
+zuper-jwt,0.1.1,4,False,keywords:jsonwebtoken
+node-red-contrib-fips-jwt-sign,1.1.0,4,False,keywords:jsonwebtoken
+jwt-token-utility,1.0.0,4,False,keywords:jsonwebtoken
+express-jwt-authentication,1.1.0,4,False,keywords:jsonwebtoken
+jwtq,1.0.0,4,False,keywords:jsonwebtoken keywords:jose
+@comity/auth-jose,0.9.0,4,False,keywords:jose
+@ooneex/jwt,1.1.29,4,False,keywords:jose
+@jmlq/auth-plugin-jose,0.0.1-beta.1,4,False,keywords:jose
+crypto-jose,1.2.0,4,False,keywords:jose keywords:jws keywords:jwk
+jelo-product-card,0.0.5,4,False,keywords:jose
+@iopa-edge/jsonwebtoken,3.0.1,4,False,keywords:jose keywords:jws keywords:jwk
+@dltech/jwt-auth,1.0.0,4,False,keywords:jose
+djc-custom-components,0.1.0,4,False,keywords:jose
+node-jose-dpikalov,2.0.0,4,False,keywords:jose keywords:jws keywords:jwk
+nestjs-jwt-shield,0.1.2,4,False,keywords:jose
+totem-otp-validation-receipt-jose,0.0.4,4,False,keywords:jose
+@wgroovy/sf-jwt,1.3.0,4,False,keywords:jws
+@certnode/sdk-web,0.1.11,4,False,keywords:jws
+@tecsafe/jwt-sdk,0.6.4,4,False,keywords:jwks
+@hemia/auth,1.0.8,4,False,keywords:jwks
+@mantris/bearer,6.2.6,4,False,keywords:jwks
+@beamarco/auth-verify,0.1.4,4,False,keywords:jwks
+@diegoauyon/angular-oauth2-oidc-jwks,10.2.1,4,False,keywords:jwks
+@identsphere/verify,0.2.0,4,False,keywords:jwks
+@dirxai/core,0.3.3,4,False,keywords:jwks
+@getparafe/verify,0.3.1,4,False,keywords:jwks
+oauth2-config-cli,1.0.0,4,False,keywords:jwks
+@progalaxyelabs/stonescriptphp-chat,0.1.1,4,False,keywords:jwks
+nicelogin-nextjs,0.1.1,4,False,keywords:jwks
+@mks2508/auth-oidc-elysia,0.2.0,3,False,keywords:jwt
+botparty,0.0.83,3,False,keywords:jwt
+@luolapeikko/oidc-jwt-verify-tachyon,0.1.1,3,False,keywords:jsonwebtoken
+express-jwt-middleware,1.0.3,3,False,keywords:jsonwebtoken
+vue-jwt-mongo,1.7.3,3,False,keywords:jsonwebtoken
+@devflow-modules/jwt-auth,1.1.0,3,False,keywords:jsonwebtoken
+@chantouchsek/jwt-redis,0.0.1,3,False,keywords:jsonwebtoken
+@dax-side/jwt-abstraction,0.2.6,3,False,keywords:jsonwebtoken
+@codewithac/microservice-next-gke-common,1.0.19,3,False,keywords:jsonwebtoken
+@vas-ilotusland/loopback.authentication-jwt,0.0.12,3,False,keywords:jsonwebtoken
+jsonwebtoken-utils,1.0.8,3,False,keywords:jsonwebtoken
+auth-helper-jwt,1.1.4,3,False,keywords:jsonwebtoken
+complete-auth-system,1.0.1,3,False,keywords:jsonwebtoken
+@lv00/auth,1.0.8,3,False,keywords:jsonwebtoken
+@northfoxgroup/node-utils,2.0.3,3,False,keywords:jsonwebtoken
+@apikee/authenticator,0.0.4,3,False,keywords:jsonwebtoken
+jwks-cli-tool,1.4.0,3,False,keywords:jsonwebtoken keywords:jwk keywords:jwks
+with-refresh-token,0.2.5,3,False,keywords:jsonwebtoken
+validate-azure-ad-b2c-token,2.1.2,3,False,keywords:jsonwebtoken
+koa-jwtauth,1.0.5,3,False,keywords:jsonwebtoken
+jwtrust,1.0.2,3,False,keywords:jsonwebtoken
+@depup/jsonwebtoken,9.0.3-depup.24,3,False,keywords:jsonwebtoken
+hapi-auth-jsonwebtoken,0.2.1,3,False,keywords:jsonwebtoken
+ah-auth-plugin,0.0.1,3,False,keywords:jsonwebtoken
+@feelinglovelynow/jwt,1.0.7,3,False,keywords:jsonwebtoken keywords:jwk
+monster-jwt-decode-verify,1.0.2,3,False,keywords:jsonwebtoken
+common-usage.js,1.0.6,3,False,keywords:jsonwebtoken
+delu-auth,1.3.3,3,False,keywords:jsonwebtoken
+jsonwebtoken-plus,0.0.7,3,False,keywords:jsonwebtoken
+jsonwebtoken-esm-fix,9.0.0,3,False,keywords:jsonwebtoken
+@reslear/jwti,1.0.4,3,False,keywords:jsonwebtoken
+jwt-auths,1.0.4,3,False,keywords:jsonwebtoken
+icy-jwt,0.1.0,3,False,keywords:jsonwebtoken
+jwt-express-helper,1.0.0,3,False,keywords:jsonwebtoken
+jwt-wrapper,1.0.0,3,False,keywords:jsonwebtoken
+jwt-token-parse,1.0.0,3,False,keywords:jsonwebtoken
+jwt-flex,0.1.1,3,False,keywords:jsonwebtoken
+trpc-refresh-token-link,0.1.0,3,False,keywords:jsonwebtoken
+jwt-auth-class,0.0.3,3,False,keywords:jsonwebtoken
+express-middleware-jwt,1.0.0,3,False,keywords:jsonwebtoken
+@overlens/idp-token-core,0.1.0,3,False,keywords:jose keywords:jwks
+@jwtwallet/jose,2.1.1,3,False,keywords:jose keywords:jwks
+jim-product-card,1.0.0-rc,3,False,keywords:jose
+c-jose,1.0.8,3,False,keywords:jose keywords:jws keywords:jwk
+bixby-jose,0.1.2,3,False,keywords:jose
+@jwtwallet/core,0.1.0,3,False,keywords:jose keywords:jwks
+@mehmetkartal/jwtwallet,0.1.0,3,False,keywords:jose keywords:jwks
+jwc-components,1.1.3,3,False,keywords:jws
+node-selftoken,0.1.3,3,False,keywords:jws
+@bepalo/jwt,2.0.12,3,False,keywords:jws keywords:jwk
+lite-lifting,1.1.5,3,False,keywords:jws
+human-attestation,0.4.4,3,False,keywords:jws
+@geoclear/verify-receipt,1.2.1,3,False,keywords:jws
+@eottabom/jwt,0.1.1,3,False,keywords:jws
+@rwandatrust/attestation-verifier,1.0.2,3,False,keywords:jws
+marveck-verify,0.2.0,3,False,keywords:jws
+@atproto-labs/jwk-node,0.0.1,3,False,keywords:jwk
+jwk-schema,1.0.0,3,False,keywords:jwk
+jwk-cli-tool,1.0.2,3,False,keywords:jwk
+@atproto-labs/jwk-webcrypto,0.0.1,3,False,keywords:jwk
+a-jwk-generator,0.0.0-development,3,False,keywords:jwk
+@glassly/auth,0.1.0-dev.0,3,False,keywords:jwks
+jwks-rsa-koa,1.1.3,3,False,keywords:jwks
+@dudousxd/adonis-authkit-testing,0.2.5,3,False,keywords:jwks
+jwks-verify,1.0.2,3,False,keywords:jwks
+@ottimis/ermes-node-sdk,0.1.1,3,False,keywords:jwks
+qb-jwks-rsa,1.3.0,3,False,keywords:jwks
+@keychains/server-sdk,0.0.2,3,False,keywords:jwks
+cf-access-mock,0.1.0,3,False,keywords:jwks
+mock-jwks-endpoint,0.0.0,3,False,keywords:jwks
+@nagyv/jwks-rsa,1.2.1-hapi17.2,3,False,keywords:jwks
+@kiwa-lab/auth,2.2.0,3,False,keywords:jwks
+@dudousxd/adonis-authkit-vault-aws,0.2.0,3,False,keywords:jwks
+@notoofly/auth-server,1.0.1,3,False,keywords:jwks
+login-apple-token-validator,1.0.3,3,False,keywords:jwks
+ingenium-auth,0.0.5,3,False,keywords:jwks
+@pass-hub/node,0.0.1,3,False,keywords:jwks
+@forrestjs/service-jwks,5.2.2,2,False,keywords:jwt keywords:jwks
+@rfjs/jwt,0.2.1,2,False,keywords:jsonwebtoken
+create-backend-setup,1.0.14,2,False,keywords:jsonwebtoken
+@bepalo/time,1.2.11,2,False,keywords:jsonwebtoken
+create-e.x.p.r.re.s.s-app,1.2.27,2,False,keywords:jsonwebtoken
+dotweb,0.5.132,2,False,keywords:jsonwebtoken
+@akshith_pottigari/backendgenerator,1.0.1,2,False,keywords:jsonwebtoken
+auth-processor,2.2.1,2,False,keywords:jsonwebtoken
+@m-fa/error-handler,0.0.1,2,False,keywords:jsonwebtoken
+@darkwolf/jwt,100.0.5,2,False,keywords:jsonwebtoken
+neon-jsonwebtoken,0.1.1,2,False,keywords:jsonwebtoken
+keystone-enhancers,0.0.2,2,False,keywords:jsonwebtoken
+beatific,1.2.2,2,False,keywords:jsonwebtoken
+crzy-jsonwebtoken-nodejs,8.5.3,2,False,keywords:jsonwebtoken
+node-react-auth,1.0.3,2,False,keywords:jsonwebtoken
+@ohos-ports/jsonwebtoken-esm,2.0.1-beta.0,2,False,keywords:jsonwebtoken
+@nicolasparada/jwt-middleware,0.3.1,2,False,keywords:jsonwebtoken
+@vas-ilotusland/loopback.authentication-service-remote,0.0.12,2,False,keywords:jsonwebtoken
+jwt-playground,1.0.4,2,False,keywords:jsonwebtoken
+restify-auth,1.0.9,2,False,keywords:jsonwebtoken
+node-jws-aws-provider,0.1.1,2,False,keywords:jsonwebtoken keywords:jws
+@merlin4/express-auth,0.0.5,2,False,keywords:jsonwebtoken
+connect-authentication,0.1.0,2,False,keywords:jsonwebtoken
+@nichoth/jose,6.1.1,2,False,keywords:jsonwebtoken keywords:jose keywords:jws keywords:jwk keywords:jwks
+generator-simple-node,0.5.0,2,False,keywords:jsonwebtoken
+@hoajs/jwt,0.1.2,2,False,keywords:jsonwebtoken keywords:jws keywords:jwk keywords:jwks
+koa-accounts,0.0.1,2,False,keywords:jsonwebtoken
+js-node-express-jwt-validator,1.0.0,2,False,keywords:jsonwebtoken
+@weave-protocol/jsonwebtoken,0.0.1,2,False,keywords:jsonwebtoken
+@nodebug/restapi,1.0.0,2,False,keywords:jsonwebtoken
+token-register,1.0.5,2,False,keywords:jsonwebtoken
+nano-jwt,1.0.0,2,False,keywords:jsonwebtoken
+curli-jwt-authentication-module,0.0.1-beta.0,2,False,keywords:jsonwebtoken
+@hardyscc/jwk-to-pem,2.0.3,2,False,keywords:jsonwebtoken keywords:jwk
+jwtvalidation,1.0.1,2,False,keywords:jsonwebtoken
+jwt-jwe,0.1.0,2,False,keywords:jsonwebtoken
+cli-jwk-to-pem,2.0.7,2,False,keywords:jsonwebtoken keywords:jwk
+jose-token-service,1.0.0,2,False,keywords:jsonwebtoken
+express-jwt-ip,1.0.1,2,False,keywords:jsonwebtoken
+@cyberhub/trust-jsonwebtoken,1.0.0,2,False,keywords:jsonwebtoken
+vault-jwt,1.0.0,2,False,keywords:jsonwebtoken
+@carbonteq/jwt-darwin-arm64,0.5.2,2,False,keywords:jsonwebtoken
+@carbonteq/jwt-darwin-x64,0.5.2,2,False,keywords:jsonwebtoken
+jamr-custom-components,0.0.3,2,False,keywords:jose
+body-parser-jose,0.0.2,2,False,keywords:jose
+@triadjs/jwt,0.2.2,2,False,keywords:jose
+@micros-ya/jwt,0.1.0,2,False,keywords:jose keywords:jwks
+jbc-product-card,1.0.0-rc1,2,False,keywords:jose
+jwt-util,0.0.1,2,False,keywords:jose keywords:jws
+@pq-jose/jose,0.0.1,2,False,keywords:jose keywords:jws keywords:jwk keywords:jwks
+edge-auth,0.1.3,2,False,keywords:jose
+jws-tool-rsa,0.1.2,2,False,keywords:jws
+@financica/gst-einvoice-qr,0.1.0,2,False,keywords:jws
+@usetoki/toki-jwt,0.1.2,2,False,keywords:jws keywords:jwks
+samsung-wallet-cdata,1.0.0,2,False,keywords:jws
+jwtlens,0.1.1,2,False,keywords:jws
+jts-core,1.0.2,2,False,keywords:jws
+veto-spend-capsule-protocol,0.1.0,2,False,keywords:jws
+webtoken-client,1.0.0,2,False,keywords:jwk
+jwks-ec,1.0.3,2,False,keywords:jwks
+jwks-rsa-509x,1.2.1,2,False,keywords:jwks
+@overlens/idp-testing,0.1.0,2,False,keywords:jwks
+express-jwks,2.0.0,2,False,keywords:jwks
+@hono-middlewares/jwks,1.1.0,2,False,keywords:jwks
+node-red-contrib-vc-azureauth,1.0.7,2,False,keywords:jwks
+@tiertwo/sdk,0.2.0,2,False,keywords:jwks
+@nestjs-stitcher/auth,0.1.0,2,False,keywords:jwks
+fastifyjs-supabase-auth,0.1.1,2,False,keywords:jwks
+@cdktf-providers/iwarapter-jwks,0.1.0,2,False,keywords:jwks
+@easy-sso/node,0.0.0,2,False,keywords:jwks
+@ajitem/jwks-rsa,3.2.0,2,False,keywords:jwks
+theikkila-jwks-rsa,1.2.0,2,False,keywords:jwks
+@progalaxyelabs/stonescriptphp-sse,0.1.0,2,False,keywords:jwks
+foalts2-jwks-rsa,2.12.0,2,False,keywords:jwks
+@p2dev/express-jwt-jwks,1.0.0,2,False,keywords:jwks
+@sharosoo/auth-client,0.3.0,2,False,keywords:jwks
+@fundaciobit/express-middleware,1.7.8,1,False,keywords:jsonwebtoken
+@bestcodetools/jwt-cli,0.1.2,1,False,keywords:jsonwebtoken
+create-manish-express-app,1.0.15,1,False,keywords:jsonwebtoken
+jsonauthtoken,3.0.4,1,False,keywords:jsonwebtoken
+cra-template-gastack,1.1.8,1,False,keywords:jsonwebtoken
+json-server-jwt-auth,1.0.1,1,False,keywords:jsonwebtoken
+mharj-jwt-middleware,0.2.0,1,False,keywords:jsonwebtoken
+@rtorcato/api-auth,1.0.0,1,False,keywords:jsonwebtoken
+credifyauth,1.0.4,1,False,keywords:jsonwebtoken
+cotter-node,0.1.3,1,False,keywords:jsonwebtoken
+jwt-policy,0.7.0,1,False,keywords:jsonwebtoken
+jwt-decode-cli,1.1.0,1,False,keywords:jsonwebtoken
+@zipzy/auth,1.0.8,1,False,keywords:jsonwebtoken
+@mokuteki/jwt,1.0.2,1,False,keywords:jsonwebtoken
+gate-guard,2.0.5,1,False,keywords:jsonwebtoken
+winext-authorization,1.0.1,1,False,keywords:jsonwebtoken
+@brockmeyer-tyler/ezjwt,1.0.1,1,False,keywords:jsonwebtoken
+@maccman/web-auth-library,1.0.5,1,False,keywords:jsonwebtoken keywords:jwk
+yup-jwt,2.0.1,1,False,keywords:jsonwebtoken
+russitto-fastify-jwt,0.7.1,1,False,keywords:jsonwebtoken
+jwt-refresh-token,0.0.4,1,False,keywords:jsonwebtoken
+@lindeneg/funkallero-auth-service,0.0.5,1,False,keywords:jsonwebtoken
+jwt-simple-async,1.2.0,1,False,keywords:jsonwebtoken
+hapi-jwt-token,1.0.2,1,False,keywords:jsonwebtoken
+simple-auth-modules,1.0.0,1,False,keywords:jsonwebtoken
+jamr-product-card,0.0.2,1,False,keywords:jose
+secure_oauth_state_manager,1.0.2,1,False,keywords:jose
+josemod,1.0.0,1,False,keywords:jose
+jlme-product-card,1.0.0-rc,1,False,keywords:jose
+jtu-product-card,1.0.0-rc,1,False,keywords:jose
+a2a-did,0.1.2,1,False,keywords:jws
+hymmalm,0.1.5,1,False,keywords:jws
+jose-lite,2019.10.25,1,False,keywords:jws
+@matanetwork/sign-verify,0.1.1,1,False,keywords:jws
+insomnia-plugin-jws-sign-decode,0.1.0,1,False,keywords:jws
+@nellcorp/hip-sdk,0.4.0,1,False,keywords:jws
+@rwandatrust/trust-verifier,2.0.0,1,False,keywords:jws
+pq-jws,0.0.1,1,False,keywords:jws
+jws2001abcdrandomnumber,5.2.0,1,False,keywords:jws
+@panjoh/jwks,0.1.2,1,False,keywords:jwk keywords:jwks
+@hathbanger/tap-core,1.0.0,1,False,keywords:jwk keywords:jwks
+@bsatproto/jwk-webcrypto,0.1.9,1,False,keywords:jwk
+@entespotify/express-token-verifier,0.0.1,1,False,keywords:jwk keywords:jwks
+@cloudy-with-a-chance-of-meatballs/cdk-lambda-token-authorizer-jwt,0.1.24,1,False,keywords:jwks
+@dismissible/nestjs-jwt-auth-hook,3.1.1,1,False,keywords:jwks
+haechi-auth-jwt,0.3.0,1,False,keywords:jwks
+g402-seller-sdk,0.2.1,1,False,keywords:jwks
+@oneidp/express,1.1.0,1,False,keywords:jwks
+@smb-tech/service-framework-js,0.3.0,1,False,keywords:jwks
+x402-seller-sdk,0.2.0,1,False,keywords:jwks
+@x402-hpke/node,0.2.0-alpha.0,1,False,keywords:jwks
+@vert1s/jwks-rsa,1.6.0,1,False,keywords:jwks
+deliverect-jwks-rsa,1.12.4,1,False,keywords:jwks
+@smartsenseeudi/server,0.1.0,1,False,keywords:jwks
+@trippin/jwt,1.0.2,1,False,keywords:jwks
+xat-agent,1.0.0,1,False,keywords:jwks
+@nora-soderlund/jwks-rsa,3.1.0,1,False,keywords:jwks
+jwks-js,1.0.1,1,False,keywords:jwks
+node-multiple-jwks-rsa,3.0.0,1,False,keywords:jwks
+jwtwalletcli,0.0.1,1,False,keywords:jwks
+@wamenjs/server,0.1.0,1,False,keywords:jwks
+wayhigh,0.0.9,0,False,keywords:jsonwebtoken
+jwt4browser,1.0.9,0,False,keywords:jsonwebtoken
+ciphersins,1.3.2,0,False,keywords:jsonwebtoken
+@nutility/jwt,1.0.7,0,False,keywords:jsonwebtoken
+@diaazzawi/react-auth,1.0.5,0,False,keywords:jsonwebtoken
+expressjs_auth,1.1.0,0,False,keywords:jsonwebtoken
+jsonjwt,0.1.1,0,False,keywords:jsonwebtoken
+@seepine/hono-jwt,0.1.1,0,False,keywords:jsonwebtoken
+wayone,0.0.0,0,False,keywords:jsonwebtoken
+express-jwt-guard,1.0.0,0,False,keywords:jsonwebtoken
+@pyra-org/pyrawebtoken,1.0.0,0,False,keywords:jsonwebtoken
+gz-auth-jwt,1.0.0,0,False,keywords:jsonwebtoken
+jwt-lib-shanoo,1.0.0,0,False,keywords:jsonwebtoken
+jwt-simple-utils,1.0.0,0,False,keywords:jsonwebtoken
+setup-node-c,1.0.0,0,False,keywords:jsonwebtoken
+@oneunit/auth,2.0.1,0,False,keywords:jsonwebtoken
+@blissy-auth/jose,0.1.4,0,False,keywords:jose keywords:jws keywords:jwk keywords:jwks
+jz-validation-form,2.4.0,0,False,keywords:jose
+josemod2,1.0.0,0,False,keywords:jose
+@joseantcordeiro/smart-client,0.1.1,0,False,keywords:jose
+jz-modal,0.0.1,0,False,keywords:jose
+jrsh-my-patterns,0.0.1,0,False,keywords:jose
+dte-signer-sv,1.0.0,0,False,keywords:jws
+tascan-verify,0.1.0,0,False,keywords:jws
+@hos-ai/sdk,0.1.0-alpha.1,0,False,keywords:jws
+cdk-jwks-secret,0.1.0,0,False,keywords:jwk keywords:jwks
+user-auth-jsonrpc,0.7.1,0,False,keywords:jwks
+@japikey/express,0.4.0,0,False,keywords:jwks
+@splitroute/checkout-server,0.1.2,0,False,keywords:jwks
+@sso-platform/node,1.1.0,0,False,keywords:jwks
+@daveyplate/neon-drizzle-tanstack,0.0.3,0,False,keywords:jwks
+node-red-contrib-vc-authorizer,1.0.1,0,False,keywords:jwks
+@smartsenseeudi/core,0.1.0,0,False,keywords:jwks
+@wataruoguchi/auth0-simulator,1.0.2,0,False,keywords:jwks
+azirid-auth,0.1.4,0,False,keywords:jwks
+@db4/auth,0.1.2,0,False,keywords:jwks
+x402sgl,0.2.0,0,False,keywords:jwks
+@customyai/server,0.2.0,0,False,keywords:jwks
+@ysolve/ocity-auth-client,0.2.0,0,False,keywords:jwks
+@volter/world-access,2.0.2,0,False,keywords:jwks
+@txpass/verify,0.1.2,0,False,keywords:jwks
+@lacspace/oauth,1.0.0,0,False,keywords:jwks

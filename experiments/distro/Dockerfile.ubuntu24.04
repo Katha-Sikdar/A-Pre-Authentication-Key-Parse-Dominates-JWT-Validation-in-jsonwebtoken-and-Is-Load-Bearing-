@@ -1,0 +1,5 @@
+# Node.js as packaged by Ubuntu 24.04 LTS: built against the system OpenSSL
+# (libssl3), not a bundled copy. Used for reviewer comment M2.
+FROM ubuntu:24.04
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends nodejs \
+ && rm -rf /var/lib/apt/lists/*

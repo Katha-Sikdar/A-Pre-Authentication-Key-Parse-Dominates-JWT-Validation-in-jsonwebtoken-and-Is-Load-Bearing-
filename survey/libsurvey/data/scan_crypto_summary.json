@@ -1,0 +1,1326 @@
+{
+  "frame": "crypto",
+  "scanned_at_utc": "2026-09-30T08:45:53.718Z",
+  "node": "v22.22.2",
+  "packages_in_frame": 164,
+  "packages_scanned": 164,
+  "packages_failed": 0,
+  "js_files": 9989,
+  "js_files_unparsed": 0,
+  "packages_with_shape_A": 0,
+  "packages_with_any_hit": 0,
+  "per_package": [
+    {
+      "package": "jose",
+      "version": "6.2.12",
+      "weekly_downloads": 154869632,
+      "js_files": 46,
+      "hits": 0,
+      "tarball_sha256": "32d9da2aaa0e110cacef2ae21e8dae866201f1428424f839001085fe7351ebfe"
+    },
+    {
+      "package": "@noble/hashes",
+      "version": "2.4.0",
+      "weekly_downloads": 102913611,
+      "js_files": 19,
+      "hits": 0,
+      "tarball_sha256": "e1946149b780017b2564fcc092cb01c04e1d7f20627d0296c17da8868f4436dc"
+    },
+    {
+      "package": "buffer-equal-constant-time",
+      "version": "1.0.1",
+      "weekly_downloads": 88325004,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "8f455159e342103e7854ed6a4cc73edbab144d857917c88edefea862f09fe75a"
+    },
+    {
+      "package": "node-forge",
+      "version": "1.4.0",
+      "weekly_downloads": 44573650,
+      "js_files": 49,
+      "hits": 0,
+      "tarball_sha256": "bf9d7ca0d774235354697bd4b5e642af6505e7ce2066762c3b855138cf870820"
+    },
+    {
+      "package": "tweetnacl",
+      "version": "1.0.3",
+      "weekly_downloads": 43311478,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "5f8dc49cb4483e206ba3ebb22abbccfc0218c59b60fc78cce24197ced5b9e102"
+    },
+    {
+      "package": "@octokit/auth-token",
+      "version": "6.0.0",
+      "weekly_downloads": 40490697,
+      "js_files": 6,
+      "hits": 0,
+      "tarball_sha256": "ec8290d3e7194d9f04605da928ba2c868a1c5499fefe7fbef0748fa1ad1fc8da"
+    },
+    {
+      "package": "@noble/ciphers",
+      "version": "2.4.0",
+      "weekly_downloads": 38509544,
+      "js_files": 10,
+      "hits": 0,
+      "tarball_sha256": "4a398bcc280c8742d474f9162f6d3c153e52ab1078e8ab592b4720410fb3c3e9"
+    },
+    {
+      "package": "randombytes",
+      "version": "2.1.0",
+      "weekly_downloads": 36984931,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "b8a6d3e6532817912ad3dacbb0e64be75026941a5167549aa1d7fecbafd1bcaa"
+    },
+    {
+      "package": "@noble/curves",
+      "version": "2.4.0",
+      "weekly_downloads": 36304961,
+      "js_files": 23,
+      "hits": 0,
+      "tarball_sha256": "55279c71b0201d6c0e58d0206d15825359e02a3932f326ba7b7909ac2d334aa9"
+    },
+    {
+      "package": "fast-sha256",
+      "version": "1.3.0",
+      "weekly_downloads": 35092776,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "4f897ea2594dc9cfb1250e7d4d0f65b4f105952a802fff2d06990bf1dc2c84f6"
+    },
+    {
+      "package": "crypto-random-string",
+      "version": "6.0.0",
+      "weekly_downloads": 34802316,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "4c3a9f562d1cc43e77b6a3089ba3eefa1a6b15317948025f98964dd711f65c8a"
+    },
+    {
+      "package": "@supabase/auth-js",
+      "version": "2.117.2",
+      "weekly_downloads": 32026279,
+      "js_files": 42,
+      "hits": 0,
+      "tarball_sha256": "3b644a8a4c01971033b3ac9c513e2917395ad42ab204c8b06defb608f57d7ed7"
+    },
+    {
+      "package": "@azure/msal-common",
+      "version": "16.14.1",
+      "weekly_downloads": 31746313,
+      "js_files": 148,
+      "hits": 0,
+      "tarball_sha256": "c673430033af2d9a75366af53157fae5f58a5194eeb711b2cf9fb4dc3591dcef"
+    },
+    {
+      "package": "@azure/core-auth",
+      "version": "1.11.0",
+      "weekly_downloads": 23844536,
+      "js_files": 28,
+      "hits": 0,
+      "tarball_sha256": "bf85fa99c2ee437ddeb8170239831ad3ed0a5e3ce4373cecbb75d0968ea94b46"
+    },
+    {
+      "package": "@azure/msal-node",
+      "version": "7.0.0",
+      "weekly_downloads": 23425321,
+      "js_files": 52,
+      "hits": 0,
+      "tarball_sha256": "586f548428d16d281314514c55288936acd256daf2ca01ec24a4e60f07b22b2f"
+    },
+    {
+      "package": "@lukeed/csprng",
+      "version": "1.1.0",
+      "weekly_downloads": 22063504,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "6ee3bffb2840d06f6717607142c6c3156139c6e9254390ac9ad91f69ab601b42"
+    },
+    {
+      "package": "@azure/msal-browser",
+      "version": "5.23.0",
+      "weekly_downloads": 21377546,
+      "js_files": 242,
+      "hits": 0,
+      "tarball_sha256": "4e4d84a9a8e4258cf11226a8e072209c86c1dfcd4140e562d6d2bfbd0aee450c"
+    },
+    {
+      "package": "selfsigned",
+      "version": "5.5.0",
+      "weekly_downloads": 21314354,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "057cd5f32094fcf609783d5da10587b29b4f6c3885b6fcfb6353b486a89c30ed"
+    },
+    {
+      "package": "@azure/identity",
+      "version": "4.13.3",
+      "weekly_downloads": 18148529,
+      "js_files": 284,
+      "hits": 0,
+      "tarball_sha256": "73f1a66e60fabc6902d05ef283b26e41a6f3f675cff4977cb5af28a82edd548c"
+    },
+    {
+      "package": "ripemd160",
+      "version": "2.0.3",
+      "weekly_downloads": 17120119,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "2f5abb3220b688d2614da886d6d9f65f956c1aa103f5e21f0d329e0c61601f24"
+    },
+    {
+      "package": "oauth4webapi",
+      "version": "3.8.8",
+      "weekly_downloads": 16717294,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "bac088aecc7cc80e2469b08592c8eb01b9ae6d4a749d89a6016aa54bb1533690"
+    },
+    {
+      "package": "brorand",
+      "version": "1.1.0",
+      "weekly_downloads": 16510403,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "6add0656db12f5694a96d922916edf764f1a52ee332e2773271733a38fa51225"
+    },
+    {
+      "package": "uid",
+      "version": "2.0.2",
+      "weekly_downloads": 16497302,
+      "js_files": 6,
+      "hits": 0,
+      "tarball_sha256": "af376a8f7aa7312d547e2aa5e25dd750bec957a3a71e5f29333dc622f5984a26"
+    },
+    {
+      "package": "openid-client",
+      "version": "6.8.8",
+      "weekly_downloads": 16335988,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "b8281ac3133168bc6ae5e1c0f5b8d1f4b5c13c9daf954fc68ff853dba9d13c80"
+    },
+    {
+      "package": "@peculiar/asn1-x509",
+      "version": "2.10.0",
+      "weekly_downloads": 16106013,
+      "js_files": 86,
+      "hits": 0,
+      "tarball_sha256": "17b31b1c3edd3bcd452b3d1399bb87ea9dff980311ba7d7e1d36f70417114d14"
+    },
+    {
+      "package": "create-hash",
+      "version": "1.2.0",
+      "weekly_downloads": 16016482,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "fe4079490bd932ccf1f1530f49a88aaca57dbdb6f337c9144749a225e2014bad"
+    },
+    {
+      "package": "minimalistic-crypto-utils",
+      "version": "1.0.1",
+      "weekly_downloads": 15979421,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "f35f6e02efe1b2d6e8764fea48ef6d1211693c838f54d6ef50f0bc9fe6fa9db3"
+    },
+    {
+      "package": "@peculiar/utils",
+      "version": "2.0.3",
+      "weekly_downloads": 15504649,
+      "js_files": 52,
+      "hits": 0,
+      "tarball_sha256": "f13ac28dbe9956f37328df40815cabdc4f9dd9791af7b54646825673bfcfbcc2"
+    },
+    {
+      "package": "bcryptjs",
+      "version": "3.0.3",
+      "weekly_downloads": 15497791,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "419a1c3122155f61c46eda54e851ba238272f8bd3859005a91b891020b0efc2c"
+    },
+    {
+      "package": "@peculiar/asn1-cms",
+      "version": "2.10.0",
+      "weekly_downloads": 14882990,
+      "js_files": 52,
+      "hits": 0,
+      "tarball_sha256": "c83f2c9d2cbd47b844f97862ac3e56efb42875968b8f5233c8f0eda037ad6d01"
+    },
+    {
+      "package": "@peculiar/x509",
+      "version": "2.1.0",
+      "weekly_downloads": 14643309,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "c1fac16b9a2010db147df44c9c4c6d3b772f9ef89c56d7cd724323c369fd4aca"
+    },
+    {
+      "package": "iron-webcrypto",
+      "version": "2.0.0",
+      "weekly_downloads": 14597217,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "68f39328b5790a5a0dfecbac1a7cd82766308b262e38517e293b07628369f838"
+    },
+    {
+      "package": "browserify-aes",
+      "version": "1.2.0",
+      "weekly_downloads": 14573998,
+      "js_files": 17,
+      "hits": 0,
+      "tarball_sha256": "9b64ba05c9ad861e2f61933cda370d031d0adcb0582428a212b6746c9ca2e168"
+    },
+    {
+      "package": "create-hmac",
+      "version": "1.1.7",
+      "weekly_downloads": 14545193,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "fd77daf860b84566d8ccc30561eaba00a9efc4fbba94d4a5f417f4f636337aa7"
+    },
+    {
+      "package": "md5.js",
+      "version": "1.3.5",
+      "weekly_downloads": 14471580,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "06777b61b01229c755ab4c6f4208d8f692222db4201abc9263877e4415693d03"
+    },
+    {
+      "package": "@peculiar/asn1-x509-attr",
+      "version": "2.10.0",
+      "weekly_downloads": 14443314,
+      "js_files": 42,
+      "hits": 0,
+      "tarball_sha256": "932e1dd43bb7df1ec14ff91c8cfaea26d121dcd2ee9bd3a8eab4adfe780d055e"
+    },
+    {
+      "package": "buffer-xor",
+      "version": "2.0.2",
+      "weekly_downloads": 14257771,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "e216954085d89e28122cf163010fc50d9f55473349693d9b8583fd0dca08c8b3"
+    },
+    {
+      "package": "evp_bytestokey",
+      "version": "1.0.3",
+      "weekly_downloads": 13924448,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "c10a145896ed84fb886f273bd583d3895390561d6b513b17f5cf70312f7c40e1"
+    },
+    {
+      "package": "base-x",
+      "version": "5.0.1",
+      "weekly_downloads": 13564254,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "f048e22e388099a0fc4dc4c3b20454f01dba234b8219c2cbdba6661324fc4fb1"
+    },
+    {
+      "package": "randomfill",
+      "version": "1.0.4",
+      "weekly_downloads": 13046868,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "3b0c2fec576a572e139563606102e0ffd9dc8a2853525eb7aa1a30e0de754fa6"
+    },
+    {
+      "package": "hasha",
+      "version": "7.0.0",
+      "weekly_downloads": 12990623,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "2bd4fefa604a8db0516ad1b92fd4a0bbf6b5dd86d7b1a6c6741a2be56a444491"
+    },
+    {
+      "package": "eciesjs",
+      "version": "0.5.0",
+      "weekly_downloads": 12350584,
+      "js_files": 11,
+      "hits": 0,
+      "tarball_sha256": "30d61d0a04c8b7316a4c51b89495f94c76a8e458b7e1d648740e7cb106ff0457"
+    },
+    {
+      "package": "@tufjs/canonical-json",
+      "version": "2.0.0",
+      "weekly_downloads": 12218260,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "6697839da72a4f8fde54cf037d984ce3b52962466af283548e245555256b66cd"
+    },
+    {
+      "package": "@ecies/ciphers",
+      "version": "0.2.6",
+      "weekly_downloads": 12108283,
+      "js_files": 7,
+      "hits": 0,
+      "tarball_sha256": "7c5ba9cb86673573fb8040060153699b31e4926e268da48a884abfa12a380209"
+    },
+    {
+      "package": "bs58",
+      "version": "6.0.0",
+      "weekly_downloads": 11532341,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "01e00b90255c6d71698983441a4a04a10bd3cace0aa9d2398745ec9c4efcdbb4"
+    },
+    {
+      "package": "better-auth",
+      "version": "1.7.6",
+      "weekly_downloads": 11096517,
+      "js_files": 252,
+      "hits": 0,
+      "tarball_sha256": "df94b955c3e6f64dfc095d52ba0f6f344814d55385de0f50669111586a603e99"
+    },
+    {
+      "package": "firebase",
+      "version": "12.19.0",
+      "weekly_downloads": 11065268,
+      "js_files": 133,
+      "hits": 0,
+      "tarball_sha256": "e48742de0b655887eca893b1292932563b80aaf1ebf184b6fdb2b4c5290da3ce"
+    },
+    {
+      "package": "seedrandom",
+      "version": "3.0.5",
+      "weekly_downloads": 10679161,
+      "js_files": 13,
+      "hits": 0,
+      "tarball_sha256": "f217e14961edb2a61f23b3eaee7477578021f0db15f69941a866e9f55e518544"
+    },
+    {
+      "package": "js-md4",
+      "version": "0.3.2",
+      "weekly_downloads": 10260255,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "b63df5f533d15e3d871bca42d587f40d96405fd0a5f6750d01c422297711db54"
+    },
+    {
+      "package": "firebase-admin",
+      "version": "14.5.0",
+      "weekly_downloads": 10107028,
+      "js_files": 129,
+      "hits": 0,
+      "tarball_sha256": "0a106f5731ec017887cbd6df71e56e59a535cf025fa35a99c2b4181afc42c9e5"
+    },
+    {
+      "package": "proxy-agent-negotiate",
+      "version": "1.1.0",
+      "weekly_downloads": 9576047,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "6eec23d5d381a8b0ffafe91c19876d3a052e463618695981a7529f3a8bca1997"
+    },
+    {
+      "package": "passport",
+      "version": "0.7.0",
+      "weekly_downloads": 9537853,
+      "js_files": 9,
+      "hits": 0,
+      "tarball_sha256": "f69294d05ec9e1ccad27dde98ef81e7240f321d61a4916d804e76750855267b5"
+    },
+    {
+      "package": "@octokit/oauth-methods",
+      "version": "6.0.5",
+      "weekly_downloads": 9360883,
+      "js_files": 14,
+      "hits": 0,
+      "tarball_sha256": "8eff15a7729eff54737ae52e459829c0a5e7f7efb4a8de95038ad4dfc9356ade"
+    },
+    {
+      "package": "@octokit/oauth-authorization-url",
+      "version": "8.0.0",
+      "weekly_downloads": 9241939,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "2cd316b7d929bfa92bb2849e857151c108ae14059dc2e26c4c13d5f125c1e089"
+    },
+    {
+      "package": "@octokit/auth-app",
+      "version": "8.3.1",
+      "weekly_downloads": 8990322,
+      "js_files": 10,
+      "hits": 0,
+      "tarball_sha256": "665bdf9af3de0ebc84e13910d9b372b5755cb66d01f0bf10d74b7cf151e8beb0"
+    },
+    {
+      "package": "@peculiar/webcrypto",
+      "version": "1.7.1",
+      "weekly_downloads": 8490662,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "ff0c400c7d689f60931f3da0d53f90956a0952e99a0727b2a63cb89205996b74"
+    },
+    {
+      "package": "webcrypto-core",
+      "version": "1.9.2",
+      "weekly_downloads": 8469140,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "1b86c63a7d9d0a37c5f50814af7f2da6f213b73f30aae9a997ffa4d648fa8b02"
+    },
+    {
+      "package": "@octokit/auth-oauth-app",
+      "version": "9.0.5",
+      "weekly_downloads": 8328973,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "b36b5d4bc6e09b260b99c207872b7cb94527aada19588f6f593a4c2efd1933d6"
+    },
+    {
+      "package": "universal-github-app-jwt",
+      "version": "2.2.2",
+      "weekly_downloads": 7968484,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "5b5cf270c4e700763b95dcc3eebcc9b94804c8d19f30085a89b9ed6f09698d8c"
+    },
+    {
+      "package": "js-md5",
+      "version": "0.9.2",
+      "weekly_downloads": 7367030,
+      "js_files": 15,
+      "hits": 0,
+      "tarball_sha256": "839b41ced81b320e633d66724701f6e0886d64e2a925124869aadb1621a26544"
+    },
+    {
+      "package": "bcrypt",
+      "version": "6.0.0",
+      "weekly_downloads": 7151540,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "3b2478cda06f066c744e06cd0b68f55e14cc546c19ee2b80be600dfc65b5ae20"
+    },
+    {
+      "package": "@lukeed/uuid",
+      "version": "2.0.1",
+      "weekly_downloads": 6929411,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "54beeedbb0087987c04591bc3adb18ba6099c8ddb0dcdc271fc564f1376bb7ee"
+    },
+    {
+      "package": "next-auth",
+      "version": "4.24.15",
+      "weekly_downloads": 6851369,
+      "js_files": 130,
+      "hits": 0,
+      "tarball_sha256": "262b7d72129fc013ea34939b0e766de614cc97270892dc6afad193eec8301d5c"
+    },
+    {
+      "package": "js-sha256",
+      "version": "1.0.0",
+      "weekly_downloads": 5908621,
+      "js_files": 13,
+      "hits": 0,
+      "tarball_sha256": "3a66e57c670fbb6a56861add7db278c13e0b7278f7d345de3566399e070d70c2"
+    },
+    {
+      "package": "node-rsa",
+      "version": "2.0.0",
+      "weekly_downloads": 5286003,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "be0d4650a38b51dbde6bd065e5bfdf5aa9ab8dbee4d0209a47e8610c8d9f7e57"
+    },
+    {
+      "package": "libsodium-wrappers",
+      "version": "0.8.4",
+      "weekly_downloads": 5233635,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "858ad2910255d9b6c3527d6b7e8bcfcd98917a495ad2c97775bf2bfede13dfaf"
+    },
+    {
+      "package": "@auth/core",
+      "version": "0.41.3",
+      "weekly_downloads": 5200900,
+      "js_files": 150,
+      "hits": 0,
+      "tarball_sha256": "e2d37f710957a83811c88d65a22cbbcfda89cf811970786c5e33c1d13d2171b2"
+    },
+    {
+      "package": "libsodium",
+      "version": "0.8.4",
+      "weekly_downloads": 5088365,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "ff817a39d4664e2aef5b15fcbe729e9a4060d931929b03af624cc8a5588625eb"
+    },
+    {
+      "package": "expo-crypto",
+      "version": "57.0.3",
+      "weekly_downloads": 4908692,
+      "js_files": 10,
+      "hits": 0,
+      "tarball_sha256": "c80b5c2fde4f760f558fdc616ecad125b4853813a576c1e0c39ff165979d38cb"
+    },
+    {
+      "package": "canonicalize",
+      "version": "5.1.0",
+      "weekly_downloads": 4664585,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "c6fad63ee98f4c497875a1d3ca66052d276477893e0f32deba1b512088bbc1e2"
+    },
+    {
+      "package": "js-sha3",
+      "version": "0.13.0",
+      "weekly_downloads": 4469057,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "2e2fdabcb9ee35ec097094111d5955760beb12f7ab4225d0e98ed59ebceea5a5"
+    },
+    {
+      "package": "@octokit/auth-unauthenticated",
+      "version": "7.0.5",
+      "weekly_downloads": 4445616,
+      "js_files": 7,
+      "hits": 0,
+      "tarball_sha256": "50ef99a23525a93522f24a802b6e70677838cb0ffd74106b97509a8afd2c8202"
+    },
+    {
+      "package": "ethereum-cryptography",
+      "version": "3.2.0",
+      "weekly_downloads": 4411640,
+      "js_files": 54,
+      "hits": 0,
+      "tarball_sha256": "8a6c8d6b3a4c0260fb4ae64547ce385790315fd8605ea6c12ccdf1d63f132152"
+    },
+    {
+      "package": "@slack/oauth",
+      "version": "4.0.0",
+      "weekly_downloads": 4400320,
+      "js_files": 20,
+      "hits": 0,
+      "tarball_sha256": "4cfc0b04698885a41a50e902cc57e0fa3cb08fa96b8a13d7d9e5f1d7c024abc4"
+    },
+    {
+      "package": "@noble/ed25519",
+      "version": "3.2.0",
+      "weekly_downloads": 3858525,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "aaae5d6bc1aa92b798dc2017f2ff1f834f6d8a1e339fdc3e08915ec336006bd8"
+    },
+    {
+      "package": "@pnpm/crypto.base32-hash",
+      "version": "900.0.0",
+      "weekly_downloads": 3143374,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "f46d7cbff6ac2920f5c8a195dcbac96ba7708bfa7c079e80d10e6df0acd006b3"
+    },
+    {
+      "package": "react-native-get-random-values",
+      "version": "2.0.0",
+      "weekly_downloads": 3071749,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "bf081669fb4563af6b5db186f44db4c6e02fd4253b3ff9a0d32575725691b36a"
+    },
+    {
+      "package": "perfect-freehand",
+      "version": "1.2.3",
+      "weekly_downloads": 3034818,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "060048047071b6ffb2170c8b867ba995f365ec811dc32435574d3d5f7625981f"
+    },
+    {
+      "package": "@clerk/react",
+      "version": "6.17.3",
+      "weekly_downloads": 2927628,
+      "js_files": 18,
+      "hits": 0,
+      "tarball_sha256": "bb308f8d4360c7b89261f792eb009a11ca4ce7a3e50add955cdb6db582a48aba"
+    },
+    {
+      "package": "@phc/format",
+      "version": "1.0.0",
+      "weekly_downloads": 2912158,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "65827c4358f78068ed3fd2b27acde1cb0fe818e84cc2ab9f0e8da63e1502bcc1"
+    },
+    {
+      "package": "@clerk/nextjs",
+      "version": "7.9.8",
+      "weekly_downloads": 2849995,
+      "js_files": 163,
+      "hits": 0,
+      "tarball_sha256": "20c1b06de8dbb7b48b4ddb6c9496322f9042e4ba0f7ad7e18df91ce7b2c35cc0"
+    },
+    {
+      "package": "passport-oauth2",
+      "version": "1.8.0",
+      "weekly_downloads": 2797787,
+      "js_files": 10,
+      "hits": 0,
+      "tarball_sha256": "9dd1b4a7f8afe174b89e2050a12a0d316d0d63c487dcb27631aff29730535fd7"
+    },
+    {
+      "package": "bech32",
+      "version": "2.0.0",
+      "weekly_downloads": 2641988,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "c73c08dd24fd6e59ab38353a9130623220ad428cad88283a23c7d5f3761fd5ef"
+    },
+    {
+      "package": "argon2",
+      "version": "0.45.1",
+      "weekly_downloads": 2640123,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "4acffbd5e5a87fe8fad926afc9a9ac450d69b7082686dd2836be0d8309dbd8aa"
+    },
+    {
+      "package": "sigmund",
+      "version": "1.0.1",
+      "weekly_downloads": 2592449,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "321438d319f77cde19451f7dd53999bbcdfa9760e840be888f1c978bfba68d3d"
+    },
+    {
+      "package": "jssha",
+      "version": "3.3.2",
+      "weekly_downloads": 2467769,
+      "js_files": 10,
+      "hits": 0,
+      "tarball_sha256": "c372d61fc6843661abbdb868e9d28e8d3c7ce1c19fd7ce559d77fca90d02bd08"
+    },
+    {
+      "package": "oidc-client-ts",
+      "version": "3.5.0",
+      "weekly_downloads": 2431749,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "bf193a86a99528ab36b032ea6bb5a0a372edec086fbd869e7cfad2db8a74d566"
+    },
+    {
+      "package": "passport-local",
+      "version": "1.0.0",
+      "weekly_downloads": 2419500,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "75bc8a1bbd5361f9e946eba72e3a88805ddfbd2fe6975988e8e10bb94988d1f0"
+    },
+    {
+      "package": "auth0",
+      "version": "7.2.0",
+      "weekly_downloads": 2367333,
+      "js_files": 1512,
+      "hits": 0,
+      "tarball_sha256": "4989579aafc4c7957ecf98380705c072861655402131bd580d79f955a7ad8350"
+    },
+    {
+      "package": "csprng",
+      "version": "0.1.2",
+      "weekly_downloads": 2111333,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "632c76fed633680a5e27b3f40bea88cae86bfc7b0c5d74ac23546268248bcfe9"
+    },
+    {
+      "package": "@better-auth/oauth-provider",
+      "version": "1.7.6",
+      "weekly_downloads": 2047725,
+      "js_files": 11,
+      "hits": 0,
+      "tarball_sha256": "ac4e6c420b785673fa069d83bf778acce56971571946139332c1553daab0ce3f"
+    },
+    {
+      "package": "hawk",
+      "version": "9.0.2",
+      "weekly_downloads": 2021658,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "923ca270d28676a12149f0c93f5a9e73df55a6d50916d8cc394b83de63908c74"
+    },
+    {
+      "package": "@hapi/cryptiles",
+      "version": "6.0.3",
+      "weekly_downloads": 1982248,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "3ea5d22fbbafca9d7058a66993605d5c648930bdb50b155337d19316708fb8e2"
+    },
+    {
+      "package": "expo-auth-session",
+      "version": "57.0.13",
+      "weekly_downloads": 1950330,
+      "js_files": 22,
+      "hits": 0,
+      "tarball_sha256": "b443117eb2970c574a50421f380dfd39082402bbeb4688ea30dd306222be6ce2"
+    },
+    {
+      "package": "@hapi/iron",
+      "version": "7.0.1",
+      "weekly_downloads": 1872340,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "1b8b5247f339661a52e3705d8f4bb830c23d1d105d2c6e2c03389a7c1e4a5218"
+    },
+    {
+      "package": "zxcvbn",
+      "version": "4.4.2",
+      "weekly_downloads": 1793580,
+      "js_files": 8,
+      "hits": 0,
+      "tarball_sha256": "0b3ebb60ec2df2340e1b8b70e4cb2657a3ceb192781d299310e7aceaa606cd22"
+    },
+    {
+      "package": "crypto-randomuuid",
+      "version": "1.0.0",
+      "weekly_downloads": 1784573,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "a19d21b96173015477dcd4b1de87ba2634d505528ffac4660c0469ce2ed701f5"
+    },
+    {
+      "package": "@otplib/plugin-crypto-noble",
+      "version": "13.5.0",
+      "weekly_downloads": 1777260,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "395cbabfb533b0ea44f62af387611ddcfb60abe98652fa5bd7f5924f99e4f54f"
+    },
+    {
+      "package": "passport-google-oauth20",
+      "version": "2.0.0",
+      "weekly_downloads": 1717347,
+      "js_files": 6,
+      "hits": 0,
+      "tarball_sha256": "e8506c16a816f5921bc389bf05d2c6afc707b442071e22250d0eeebdda285191"
+    },
+    {
+      "package": "@zxcvbn-ts/core",
+      "version": "4.2.0",
+      "weekly_downloads": 1651342,
+      "js_files": 103,
+      "hits": 0,
+      "tarball_sha256": "5d107fea9eabfb3ce7dc7f29d13f3677aedac47a197e7c148783c0ae9703f3dc"
+    },
+    {
+      "package": "@node-rs/argon2",
+      "version": "2.2.1",
+      "weekly_downloads": 1607079,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "02c4605ff3faebdecb8757649978b07f6ac1714ac94abab1f5e5040921652f53"
+    },
+    {
+      "package": "expo-local-authentication",
+      "version": "57.0.3",
+      "weekly_downloads": 1560310,
+      "js_files": 9,
+      "hits": 0,
+      "tarball_sha256": "ed29ee1061d884e4b2da4930507537f1ced5f925332066c3d4984b46cb397b9b"
+    },
+    {
+      "package": "node-jose",
+      "version": "2.2.0",
+      "weekly_downloads": 1506087,
+      "js_files": 55,
+      "hits": 0,
+      "tarball_sha256": "a3ca29dba5e5a13d96370137a584678eb01e35eefab2b0884fc7008b19bf2b5a"
+    },
+    {
+      "package": "@pnpm/crypto.polyfill",
+      "version": "1000.1.0",
+      "weekly_downloads": 1491444,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "48d3694c87cf83799559c2956ecf40f1a13c64acd696df2ed5a9569d3038759a"
+    },
+    {
+      "package": "digest-fetch",
+      "version": "3.1.1",
+      "weekly_downloads": 1468678,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "bd29faa638c974440fb02050f48865cd3d3b8384729420ef80961fde9c9b3a98"
+    },
+    {
+      "package": "openpgp",
+      "version": "6.3.2",
+      "weekly_downloads": 1468210,
+      "js_files": 23,
+      "hits": 0,
+      "tarball_sha256": "3eeea348b6e02e81387af584a189eab5446f3df223382127bc17ac06b6ea77b7"
+    },
+    {
+      "package": "node-object-hash",
+      "version": "3.1.1",
+      "weekly_downloads": 1463513,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "af8cc10a28bbb27f58ed4177c60b4d1cc57398671c0c642d9ff84197a182ddf3"
+    },
+    {
+      "package": "@noble/secp256k1",
+      "version": "3.2.0",
+      "weekly_downloads": 1443974,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "2722e0b18b696cf6d3463ab10365f97f617fb651e85a7eeed8f12121a1077018"
+    },
+    {
+      "package": "@pnpm/crypto.hash",
+      "version": "1100.0.7",
+      "weekly_downloads": 1422773,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "6d49e1db84cede000ce09fdf48e9ba078b572f46cf467fdd663fbeb7a71a3f0c"
+    },
+    {
+      "package": "react-signature-canvas",
+      "version": "1.1.0-alpha.2",
+      "weekly_downloads": 1375741,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "190f533f89401668f55a4d573d3ea8a16352d3aa131651822e7a32eaf1602654"
+    },
+    {
+      "package": "sha256-uint8array",
+      "version": "0.12.1",
+      "weekly_downloads": 1369290,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "d223a3057dab621ff4041c719a9d7e832b277d6f48668d112ef47799f7e01975"
+    },
+    {
+      "package": "axios-ntlm",
+      "version": "1.4.6",
+      "weekly_downloads": 1358932,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "525838cea9163bcc0cc34d3819d9884ca02aba8f26cdcbec97549d948e861da1"
+    },
+    {
+      "package": "oauth-1.0a",
+      "version": "2.2.6",
+      "weekly_downloads": 1344984,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "fd7f0bbaf16148d473f22f77f51dd229e4b134ebf94dd7fea82f489af269ada9"
+    },
+    {
+      "package": "@aws/bedrock-token-generator",
+      "version": "1.1.0",
+      "weekly_downloads": 1337933,
+      "js_files": 14,
+      "hits": 0,
+      "tarball_sha256": "8ef93e4e9df00ba82cb2fba0305b946c0c76ca129f1f70f9b1d7910f806d54fc"
+    },
+    {
+      "package": "@clerk/testing",
+      "version": "2.2.40",
+      "weekly_downloads": 1283246,
+      "js_files": 11,
+      "hits": 0,
+      "tarball_sha256": "68adee4d7ea17063ad3c4a5803c7dc3b88d7e8928a1f640cfec1c498ec35b64f"
+    },
+    {
+      "package": "@node-rs/argon2-linux-x64-gnu",
+      "version": "2.2.1",
+      "weekly_downloads": 1277908,
+      "js_files": 0,
+      "hits": 0,
+      "tarball_sha256": "630e0718a3d87379f21a6a5a9b934083344ddb5c5acae6ccef461437b173f6f6"
+    },
+    {
+      "package": "express-basic-auth",
+      "version": "1.2.1",
+      "weekly_downloads": 1258529,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "01579855ecb263e79aed9081573e671875416fab8f660e740ed3c9e7e3cce332"
+    },
+    {
+      "package": "js-sha512",
+      "version": "0.9.0",
+      "weekly_downloads": 1258075,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "794e07472a58038d800000b918f1f4dea5ee4333329e722fea120f8f859bd08d"
+    },
+    {
+      "package": "keycloak-js",
+      "version": "26.2.4",
+      "weekly_downloads": 1225541,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "1e52998fd8f44dc15293df6af88f0bae57248e503617930067cb802ebe9665c9"
+    },
+    {
+      "package": "mcp-remote",
+      "version": "0.14.3",
+      "weekly_downloads": 1170325,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "f4ab0e33b38b24fff6a8b3234f9d683e47995ca44f3186481716d444836f7254"
+    },
+    {
+      "package": "@clerk/localizations",
+      "version": "4.21.0",
+      "weekly_downloads": 1142817,
+      "js_files": 102,
+      "hits": 0,
+      "tarball_sha256": "1b3911fbe379d77740066fa314a2ff7a1fdf2f970df892c941e2a24c2cd488d0"
+    },
+    {
+      "package": "@react-native-google-signin/google-signin",
+      "version": "16.1.5",
+      "weekly_downloads": 1132526,
+      "js_files": 24,
+      "hits": 0,
+      "tarball_sha256": "c92873a4bfc4322e34162f98c4b7c33bec88b4ac963f8a9af3bc8d98cb598aad"
+    },
+    {
+      "package": "libsignal",
+      "version": "6.0.0",
+      "weekly_downloads": 1083869,
+      "js_files": 15,
+      "hits": 0,
+      "tarball_sha256": "121278ea39d5bceb6efeb5e5daab1a790b044840be6e117ae74ec74e82d72ba7"
+    },
+    {
+      "package": "md5-hex",
+      "version": "5.0.0",
+      "weekly_downloads": 1083289,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "ec53a9339b92a1c19fbead0d25517c23597137fd962a441e0509e345fde0a45d"
+    },
+    {
+      "package": "@better-auth/sso",
+      "version": "1.7.6",
+      "weekly_downloads": 1074716,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "95931e1a5730c846f81cf912371eaef1873975d114e3ec95be12a9b012628a4a"
+    },
+    {
+      "package": "@fidm/asn1",
+      "version": "1.0.4",
+      "weekly_downloads": 1074047,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "0a8c4a98c27b0fb583af2f96bc010e268e2c42ad7f052d30173857bca611a156"
+    },
+    {
+      "package": "@fidm/x509",
+      "version": "1.2.1",
+      "weekly_downloads": 1073947,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "550c4e43e51ea2999d841d850e1a1e109ef883467c38f085675eb3beb70f540f"
+    },
+    {
+      "package": "rsa-pem-from-mod-exp",
+      "version": "0.8.6",
+      "weekly_downloads": 1045945,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "ccf8cb1857d3ac494f5c3c2a8cd826afd17c561c096fe9c3ebcc21601d62cd61"
+    },
+    {
+      "package": "@okta/okta-auth-js",
+      "version": "8.0.1",
+      "weekly_downloads": 1028167,
+      "js_files": 4371,
+      "hits": 0,
+      "tarball_sha256": "affde475bc6bdf67708c00c871ea36af8a2b1961a111f7a89253fea4a6b8ffdf"
+    },
+    {
+      "package": "secure-keys",
+      "version": "1.0.0",
+      "weekly_downloads": 1017961,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "11ac23e9d00c6648ad8ce98d195054fb6114c557db5fdff7e9e4a3de03542031"
+    },
+    {
+      "package": "speakeasy",
+      "version": "2.0.0",
+      "weekly_downloads": 1017877,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "3083f58e6b736a65fcc681cc2a88c7d07141d93371436da5e096d38934db07fb"
+    },
+    {
+      "package": "@panva/asn1.js",
+      "version": "1.0.0",
+      "weekly_downloads": 1014722,
+      "js_files": 14,
+      "hits": 0,
+      "tarball_sha256": "8da01f255471e496a76284c2eaa9b065ec7bc324cd364faec07d804ecab775f2"
+    },
+    {
+      "package": "oidc-provider",
+      "version": "9.12.2",
+      "weekly_downloads": 960904,
+      "js_files": 183,
+      "hits": 0,
+      "tarball_sha256": "f0b60ccd007da2559f267a8430d0c4047f2c977466e8a51e4975d4da1eb81274"
+    },
+    {
+      "package": "express-jwt",
+      "version": "8.5.1",
+      "weekly_downloads": 949393,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "c69bd611bc1fdb22d1b2e543d0ab386b5d1feedfa7275c8af72c16683cafc944"
+    },
+    {
+      "package": "@peculiar/asn1-x509-post-quantum",
+      "version": "2.10.0",
+      "weekly_downloads": 942761,
+      "js_files": 8,
+      "hits": 0,
+      "tarball_sha256": "f07397096fa471db7ec09b04321221cde14a85e0d0ceee7a33f1cfe1769b3e71"
+    },
+    {
+      "package": "webcrypto-shim",
+      "version": "0.1.7",
+      "weekly_downloads": 929121,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "0897a69fc443cb63c50e9667399a8db7c89b45bf931db24bf1f3232d053616f6"
+    },
+    {
+      "package": "@aws-crypto/client-node",
+      "version": "5.0.2",
+      "weekly_downloads": 889377,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "06c7995c031cd8f62d1a4cc0e9bcfd808466eb7ee263449dd14291fad9bad5ec"
+    },
+    {
+      "package": "@auth/prisma-adapter",
+      "version": "2.11.3",
+      "weekly_downloads": 883713,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "b6bc8a10fd7aede35404811b4a14f8041b7c6acf1997a8ec218ed3b350d33524"
+    },
+    {
+      "package": "@auth0/nextjs-auth0",
+      "version": "4.30.0",
+      "weekly_downloads": 881415,
+      "js_files": 78,
+      "hits": 0,
+      "tarball_sha256": "49674ea7cdc42736c446a266eeeebb21a6b120898cae8b636b90be96b128843e"
+    },
+    {
+      "package": "react-oidc-context",
+      "version": "3.3.1",
+      "weekly_downloads": 874329,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "b1f57b8212893ee01129b7b8b250118fd4cbf05fa5dee88976b245a79d2b1f6d"
+    },
+    {
+      "package": "@node-rs/argon2-linux-x64-musl",
+      "version": "2.2.1",
+      "weekly_downloads": 841228,
+      "js_files": 0,
+      "hits": 0,
+      "tarball_sha256": "48b1187ebc61b503bc6d6a7cc199439a2d8bc89d4803e78e566cde5a9ea13091"
+    },
+    {
+      "package": "@twurple/auth",
+      "version": "8.2.0",
+      "weekly_downloads": 839876,
+      "js_files": 19,
+      "hits": 0,
+      "tarball_sha256": "d236289e49b51523804f32e4fa82f61d658c378645928ead4788d758af9aa01b"
+    },
+    {
+      "package": "@clerk/clerk-js",
+      "version": "6.35.0",
+      "weekly_downloads": 811592,
+      "js_files": 40,
+      "hits": 0,
+      "tarball_sha256": "af1ac9a35dc50e7150dd772b31369a686ecde0e8a0d38d379b58e10b0be1f042"
+    },
+    {
+      "package": "@peculiar/asn1-x509-logotype",
+      "version": "2.10.0",
+      "weekly_downloads": 781652,
+      "js_files": 28,
+      "hits": 0,
+      "tarball_sha256": "5cfdefcdca0cc51e2944fd872654766d19b905361eba15c116889aac66915499"
+    },
+    {
+      "package": "@gemini-wallet/core",
+      "version": "0.3.2",
+      "weekly_downloads": 764929,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "de6fb30f36bef75a4cd2f73eb6ff9ec8053b52bd2ddc9d18de3dbf0f5ba63506"
+    },
+    {
+      "package": "@lovable.dev/cloud-auth-js",
+      "version": "1.2.1",
+      "weekly_downloads": 723579,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "40e3e5361d13f0ebd2e99af5930b6533dd26a8f0f69143424a2fa46dd148b6fc"
+    },
+    {
+      "package": "http-auth",
+      "version": "4.2.1",
+      "weekly_downloads": 710008,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "52ac34854d3031a80e74092c98c4dbf3c6ff5d45d33e770b3ee855457dc36015"
+    },
+    {
+      "package": "starkbank-ecdsa",
+      "version": "1.2.0",
+      "weekly_downloads": 695280,
+      "js_files": 14,
+      "hits": 0,
+      "tarball_sha256": "3502af575547f25794607896701a1b9b06a9c581a86c9f4b86927ccc6aad36d8"
+    },
+    {
+      "package": "passport-custom",
+      "version": "1.2.1",
+      "weekly_downloads": 690893,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "7d026424124d7173b4f987ce259aa38f9c5feb24021278bd8e2398574f2480a7"
+    },
+    {
+      "package": "@tracetail/react",
+      "version": "2.3.15",
+      "weekly_downloads": 607520,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "0e3e1f7692aa8851daf50d89ad125a4fed2f4ee11a5055a07daf9c79da48507e"
+    },
+    {
+      "package": "cryptr",
+      "version": "6.4.0",
+      "weekly_downloads": 600542,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "6dc4ad4c9c8b70853f131d4eb772bf61602d3ff94a65beaad6b478172da46497"
+    },
+    {
+      "package": "fnv-plus",
+      "version": "1.3.1",
+      "weekly_downloads": 599470,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "a821a2b811c9cfdbceebf62454fc162894caef08fad99a65b94dace2130defc3"
+    },
+    {
+      "package": "@clerk/themes",
+      "version": "2.4.57",
+      "weekly_downloads": 595317,
+      "js_files": 16,
+      "hits": 0,
+      "tarball_sha256": "df5136bc38f78ab12c10f4bf89c6210bf3a8abad7075e7a429b3c568bc4c3e70"
+    },
+    {
+      "package": "@descope/core-js-sdk",
+      "version": "2.74.0",
+      "weekly_downloads": 580607,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "a3cb84c38c235547d863d39824a9f02d48604363948041e5ba0cd97ae5781b08"
+    },
+    {
+      "package": "@bacons/apple-targets",
+      "version": "5.0.0",
+      "weekly_downloads": 579522,
+      "js_files": 19,
+      "hits": 0,
+      "tarball_sha256": "88b4960b25273ceb263a78320bdba5951a82a810fa836f3979967b051aae5a14"
+    },
+    {
+      "package": "passport-http-bearer",
+      "version": "1.0.1",
+      "weekly_downloads": 574238,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "62b04bd6bef59ef0ba4f1cfedbd725e6b6fe3f1c241c3afda0e409696598e1d6"
+    },
+    {
+      "package": "passport-oauth1",
+      "version": "1.3.0",
+      "weekly_downloads": 574052,
+      "js_files": 6,
+      "hits": 0,
+      "tarball_sha256": "c8614c95262fc0fb293f9a8cc2efe172f29e071ee0389a4cfb5a76dae1f47080"
+    },
+    {
+      "package": "@loaders.gl/crypto",
+      "version": "4.5.2",
+      "weekly_downloads": 558595,
+      "js_files": 20,
+      "hits": 0,
+      "tarball_sha256": "ae228211b51f80e782e12da89608ba448fba6023780ddc4b86df1df549ccb4c7"
+    },
+    {
+      "package": "@privy-io/js-sdk-core",
+      "version": "0.77.0",
+      "weekly_downloads": 539655,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "0affc0b0e53f65688b5ed99c0478c6df3110f1f4154aaa21d2968ac5208e9afb"
+    },
+    {
+      "package": "http-auth-connect",
+      "version": "1.0.6",
+      "weekly_downloads": 531898,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "07780af47c5ff93a801cd024038b03cd8e6ad5dcb6ea339de620e420fdb53f3a"
+    },
+    {
+      "package": "crypto-hash",
+      "version": "4.0.1",
+      "weekly_downloads": 523944,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "4035f8ecce494dbecc84d39222b85e30181bb261870f60df1dd69ba0a81b9559"
+    },
+    {
+      "package": "docusign-esign",
+      "version": "10.0.0",
+      "weekly_downloads": 520552,
+      "js_files": 647,
+      "hits": 0,
+      "tarball_sha256": "0f5ac13e591e75813187a4e101d6f28fc8f8fc21d24480327595bf6635f23101"
+    },
+    {
+      "package": "@noble/post-quantum",
+      "version": "0.7.1",
+      "weekly_downloads": 514771,
+      "js_files": 9,
+      "hits": 0,
+      "tarball_sha256": "e98947485ff33c322ce75f8ae32cf7041a510dca9b8135f10475c8c10c956bab"
+    },
+    {
+      "package": "rasha",
+      "version": "1.2.5",
+      "weekly_downloads": 512402,
+      "js_files": 8,
+      "hits": 0,
+      "tarball_sha256": "849b9cf14a655ca25f91da3f1bb21f9eb9b5e35a733660060f713a7a9cb3afb4"
+    }
+  ]
+}

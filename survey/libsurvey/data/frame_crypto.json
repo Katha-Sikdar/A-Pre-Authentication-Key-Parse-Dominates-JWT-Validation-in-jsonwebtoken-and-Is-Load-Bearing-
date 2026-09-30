@@ -1,0 +1,19 @@
+{
+  "frame": "crypto",
+  "queries": [
+    "keywords:crypto",
+    "keywords:cryptography",
+    "keywords:signature",
+    "keywords:oauth",
+    "keywords:oidc",
+    "keywords:openid",
+    "keywords:authentication",
+    "keywords:x509",
+    "keywords:pem"
+  ],
+  "api": "https://registry.npmjs.org/-/v1/search",
+  "min_weekly_downloads": 500000,
+  "captured_at_utc": "2026-09-30T08:26:53+00:00",
+  "packages_returned": 6222,
+  "packages_in_frame": 164
+}

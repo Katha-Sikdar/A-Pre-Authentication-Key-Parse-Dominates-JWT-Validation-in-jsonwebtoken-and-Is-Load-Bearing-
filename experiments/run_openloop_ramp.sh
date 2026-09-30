@@ -57,6 +57,7 @@ while [ $# -gt 0 ]; do
     --namespace) NAMESPACE="$2"; shift 2 ;;
     --selector) SELECTOR="$2"; shift 2 ;;
     --metrics-url) METRICS_URL="$2"; shift 2 ;;
+    --run-dir) RUN_DIR_ARG="$2"; shift 2 ;;
     -h|--help) sed -n '2,30p' "$0"; exit 0 ;;
     *) psao::die "unknown argument: $1" ;;
   esac
@@ -90,7 +91,8 @@ fi
 psao::verify_ingress "$BASE_URL" "${PSAO_PATH:-/products}" \
   "${PSAO_EXPECT_STATUS:-200}" "$PREFLIGHT_TOKEN"
 
-RUN_DIR="$(psao::new_run_dir "ramp-$SCENARIO")"
+if [ -n "${RUN_DIR_ARG:-}" ]; then RUN_DIR="$RUN_DIR_ARG"; mkdir -p "$RUN_DIR"
+else RUN_DIR="$(psao::new_run_dir "ramp-$SCENARIO")"; fi
 psao::log "run directory: $RUN_DIR"
 
 PSAO_NAMESPACE="$NAMESPACE" psao::write_metadata "$RUN_DIR" \

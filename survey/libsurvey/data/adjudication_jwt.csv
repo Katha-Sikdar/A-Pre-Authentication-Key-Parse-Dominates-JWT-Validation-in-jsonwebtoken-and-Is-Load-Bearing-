@@ -1,0 +1,3 @@
+package,version,file,line,verdict,per_call,note,adjudicator
+jsonwebtoken,9.0.3,verify.js,121,failing_parse_type_test,yes,"createPublicKey on the configured secret, createSecretKey in the handler; runs on every verify() with a non-KeyObject secret (the path studied)",revision pass; to be confirmed by an author
+jsonwebtoken,9.0.3,sign.js,115,failing_parse_type_test,yes,"createPrivateKey on the configured secret, createSecretKey in the handler; runs on every sign() with a non-KeyObject secret; not timed in this study",revision pass; to be confirmed by an author

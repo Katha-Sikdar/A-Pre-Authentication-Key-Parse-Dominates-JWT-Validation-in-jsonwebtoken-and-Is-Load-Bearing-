@@ -1,0 +1,526 @@
+{
+  "frame": "jwt",
+  "scanned_at_utc": "2026-09-30T08:45:08.242Z",
+  "node": "v22.22.2",
+  "packages_in_frame": 64,
+  "packages_scanned": 64,
+  "packages_failed": 0,
+  "js_files": 11767,
+  "js_files_unparsed": 0,
+  "packages_with_shape_A": 1,
+  "packages_with_any_hit": 1,
+  "per_package": [
+    {
+      "package": "jose",
+      "version": "6.2.12",
+      "weekly_downloads": 154869632,
+      "js_files": 46,
+      "hits": 0,
+      "tarball_sha256": "32d9da2aaa0e110cacef2ae21e8dae866201f1428424f839001085fe7351ebfe"
+    },
+    {
+      "package": "jws",
+      "version": "4.0.1",
+      "weekly_downloads": 100529539,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "ed3a5fb027f8ce1006c8e30a37e88e7cd49824d4873efca8765304b20fe92e12"
+    },
+    {
+      "package": "jwa",
+      "version": "2.0.1",
+      "weekly_downloads": 99982808,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "c8bc0cf9fbbdc9d2f1b6f3f97ab9c1f70130eec6b153f29fd69baa5a6aa8341d"
+    },
+    {
+      "package": "ecdsa-sig-formatter",
+      "version": "1.0.11",
+      "weekly_downloads": 88768947,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "487cb94dff2414772c3bb648a5e4e41c03cbbcc64263d08a56e36d735fc848fe"
+    },
+    {
+      "package": "jsonwebtoken",
+      "version": "9.0.3",
+      "weekly_downloads": 66990263,
+      "js_files": 12,
+      "hits": 2,
+      "tarball_sha256": "d9af2628a7a4dda25acf1e19c7ecc2468e1e9e8d4619fe2cae829e89d96f6b82"
+    },
+    {
+      "package": "jwt-decode",
+      "version": "4.0.0",
+      "weekly_downloads": 21593046,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "d16dfbf80fa1f084be989d790e89c496cb71ec3f96c278fbbe4801a5ccb4e6eb"
+    },
+    {
+      "package": "jwks-rsa",
+      "version": "4.1.0",
+      "weekly_downloads": 17518374,
+      "js_files": 19,
+      "hits": 0,
+      "tarball_sha256": "72f3695eac973047243262c94a7fbca2dfee92630c95d3e2b5c0e237e39f596b"
+    },
+    {
+      "package": "oauth4webapi",
+      "version": "3.8.8",
+      "weekly_downloads": 16717294,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "bac088aecc7cc80e2469b08592c8eb01b9ae6d4a749d89a6016aa54bb1533690"
+    },
+    {
+      "package": "openid-client",
+      "version": "6.8.8",
+      "weekly_downloads": 16335988,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "b8281ac3133168bc6ae5e1c0f5b8d1f4b5c13c9daf954fc68ff853dba9d13c80"
+    },
+    {
+      "package": "universal-github-app-jwt",
+      "version": "2.2.2",
+      "weekly_downloads": 7968484,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "5b5cf270c4e700763b95dcc3eebcc9b94804c8d19f30085a89b9ed6f09698d8c"
+    },
+    {
+      "package": "next-auth",
+      "version": "4.24.15",
+      "weekly_downloads": 6851369,
+      "js_files": 130,
+      "hits": 0,
+      "tarball_sha256": "262b7d72129fc013ea34939b0e766de614cc97270892dc6afad193eec8301d5c"
+    },
+    {
+      "package": "@auth/core",
+      "version": "0.41.3",
+      "weekly_downloads": 5200900,
+      "js_files": 150,
+      "hits": 0,
+      "tarball_sha256": "e2d37f710957a83811c88d65a22cbbcfda89cf811970786c5e33c1d13d2171b2"
+    },
+    {
+      "package": "@clerk/react",
+      "version": "6.17.3",
+      "weekly_downloads": 2927628,
+      "js_files": 18,
+      "hits": 0,
+      "tarball_sha256": "bb308f8d4360c7b89261f792eb009a11ca4ce7a3e50add955cdb6db582a48aba"
+    },
+    {
+      "package": "@clerk/nextjs",
+      "version": "7.9.8",
+      "weekly_downloads": 2849995,
+      "js_files": 163,
+      "hits": 0,
+      "tarball_sha256": "20c1b06de8dbb7b48b4ddb6c9496322f9042e4ba0f7ad7e18df91ce7b2c35cc0"
+    },
+    {
+      "package": "auth0",
+      "version": "7.2.0",
+      "weekly_downloads": 2367333,
+      "js_files": 1512,
+      "hits": 0,
+      "tarball_sha256": "4989579aafc4c7957ecf98380705c072861655402131bd580d79f955a7ad8350"
+    },
+    {
+      "package": "@walletconnect/relay-auth",
+      "version": "1.1.0",
+      "weekly_downloads": 1510849,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "67493b2cfb7a36393f6c77b2ebfa5f47f38899f08ca3fc3e80c6d36dd1a2a342"
+    },
+    {
+      "package": "node-jose",
+      "version": "2.2.0",
+      "weekly_downloads": 1506087,
+      "js_files": 55,
+      "hits": 0,
+      "tarball_sha256": "a3ca29dba5e5a13d96370137a584678eb01e35eefab2b0884fc7008b19bf2b5a"
+    },
+    {
+      "package": "jwk-to-pem",
+      "version": "2.0.7",
+      "weekly_downloads": 1505180,
+      "js_files": 8,
+      "hits": 0,
+      "tarball_sha256": "40262a9fc7de1079e32148a705ea41bd0f2e6900c4ec1625e44432f1b1040f33"
+    },
+    {
+      "package": "fast-jwt",
+      "version": "6.3.3",
+      "weekly_downloads": 1415492,
+      "js_files": 7,
+      "hits": 0,
+      "tarball_sha256": "be7bf99312ddd6d06529da6f68a5208b779bfbf007bfded76b96748d251fdde9"
+    },
+    {
+      "package": "@clerk/testing",
+      "version": "2.2.40",
+      "weekly_downloads": 1283246,
+      "js_files": 11,
+      "hits": 0,
+      "tarball_sha256": "68adee4d7ea17063ad3c4a5803c7dc3b88d7e8928a1f640cfec1c498ec35b64f"
+    },
+    {
+      "package": "@clerk/localizations",
+      "version": "4.21.0",
+      "weekly_downloads": 1142817,
+      "js_files": 102,
+      "hits": 0,
+      "tarball_sha256": "1b3911fbe379d77740066fa314a2ff7a1fdf2f970df892c941e2a24c2cd488d0"
+    },
+    {
+      "package": "@fastify/jwt",
+      "version": "10.2.2",
+      "weekly_downloads": 974254,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "9c01eff382bf2b9d7daf057e972071e11e8f1cc57c1db1d371cc5647c769cbf5"
+    },
+    {
+      "package": "express-jwt",
+      "version": "8.5.1",
+      "weekly_downloads": 949393,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "c69bd611bc1fdb22d1b2e543d0ab386b5d1feedfa7275c8af72c16683cafc944"
+    },
+    {
+      "package": "njwt",
+      "version": "2.0.1",
+      "weekly_downloads": 937812,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "61141bd41ae5b13da4044febba46a149b0abaa32daf2c6d5d61e5ec161862610"
+    },
+    {
+      "package": "@clerk/clerk-js",
+      "version": "6.35.0",
+      "weekly_downloads": 811592,
+      "js_files": 40,
+      "hits": 0,
+      "tarball_sha256": "af1ac9a35dc50e7150dd772b31369a686ecde0e8a0d38d379b58e10b0be1f042"
+    },
+    {
+      "package": "@shopify/shopify-api",
+      "version": "15.0.0",
+      "weekly_downloads": 636492,
+      "js_files": 1352,
+      "hits": 0,
+      "tarball_sha256": "74c2b8d555b704a7163cb11072a88733d80339519ea80fe9ed6b877bb4193168"
+    },
+    {
+      "package": "@clerk/themes",
+      "version": "2.4.57",
+      "weekly_downloads": 595317,
+      "js_files": 16,
+      "hits": 0,
+      "tarball_sha256": "df5136bc38f78ab12c10f4bf89c6210bf3a8abad7075e7a429b3c568bc4c3e70"
+    },
+    {
+      "package": "@okta/jwt-verifier",
+      "version": "4.0.2",
+      "weekly_downloads": 436169,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "15b5087cc3e95831ee82a52dcdee58bf58c49fccb75b80da3e7c4df52ae0227d"
+    },
+    {
+      "package": "jwt-simple",
+      "version": "0.5.6",
+      "weekly_downloads": 396499,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "5930f47f6129c1e77db825aebb9d490fd524b0903a3c08e17c1c15d2e255e6c3"
+    },
+    {
+      "package": "@auth0/angular-jwt",
+      "version": "5.2.0",
+      "weekly_downloads": 303413,
+      "js_files": 8,
+      "hits": 0,
+      "tarball_sha256": "d8f8bdfbb418b64ec96b2e23945e7e288082869e5af90319800580a9833be2a8"
+    },
+    {
+      "package": "@clerk/tanstack-react-start",
+      "version": "1.6.2",
+      "weekly_downloads": 284264,
+      "js_files": 24,
+      "hits": 0,
+      "tarball_sha256": "f885e858a904e3ca4e7c87adcf3127a0268135cb12f9ee3fed33a2ad2cfdcaaa"
+    },
+    {
+      "package": "apple-signin-auth",
+      "version": "2.1.0",
+      "weekly_downloads": 274621,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "f829b4fa455f96a275e084975857e6d63b55212245d286f92d4738d66ebb4854"
+    },
+    {
+      "package": "idtoken-verifier",
+      "version": "2.2.4",
+      "weekly_downloads": 272029,
+      "js_files": 11,
+      "hits": 0,
+      "tarball_sha256": "27db0629f9d1350fdc8fb5cfd413184ef7f422e54ae5ba6f0d7d46f7d86e4931"
+    },
+    {
+      "package": "google-auto-auth",
+      "version": "0.10.1",
+      "weekly_downloads": 270408,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "c8ad6d98e2ac9c8a518fb0a8763c56d9d011ebecfe47ed92f71f7d754055797f"
+    },
+    {
+      "package": "auth0-js",
+      "version": "10.2.1",
+      "weekly_downloads": 263575,
+      "js_files": 46,
+      "hits": 0,
+      "tarball_sha256": "4333bdddf9b07737e98437d3032ad545761ab1444d09e9519f4a449949fa99f4"
+    },
+    {
+      "package": "@tsndr/cloudflare-worker-jwt",
+      "version": "3.2.3",
+      "weekly_downloads": 251751,
+      "js_files": 1,
+      "hits": 0,
+      "tarball_sha256": "046044a2560116727b155268195f626b6dbad1bc88a94677237c93e5442300dc"
+    },
+    {
+      "package": "@clerk/expo",
+      "version": "4.7.2",
+      "weekly_downloads": 246194,
+      "js_files": 106,
+      "hits": 0,
+      "tarball_sha256": "d53ea5cb485b6b8a3962def6aacb3057db182e5386eecde9a7212432d1f0f71a"
+    },
+    {
+      "package": "oauth2-mock-server",
+      "version": "9.2.0",
+      "weekly_downloads": 239880,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "823d4ef43e7e74719a14d717bd65822af1f69e404c39e1df38d2fef09b44bd40"
+    },
+    {
+      "package": "react-jwt",
+      "version": "2.1.1",
+      "weekly_downloads": 225184,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "56d5260c9ad9936ef4ccb27a10ffdc60f813b4ac5132b0c001715cb21cec17ed"
+    },
+    {
+      "package": "jsontokens",
+      "version": "4.0.1",
+      "weekly_downloads": 196966,
+      "js_files": 11,
+      "hits": 0,
+      "tarball_sha256": "3f366470aad2ceb4a1d29811771c2fbf225183f1f613000c522107c60e66db01"
+    },
+    {
+      "package": "jsonwebkey-thumbprint",
+      "version": "0.1.0",
+      "weekly_downloads": 174351,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "09af471273ac946eeefe86d3812ce1c42feae192d4c6439e875699a834ad4c74"
+    },
+    {
+      "package": "@clerk/fastify",
+      "version": "3.1.83",
+      "weekly_downloads": 167446,
+      "js_files": 8,
+      "hits": 0,
+      "tarball_sha256": "40863e01fa994f98ab6d60a32a06be61167c799f45913eff5284907d3be7432e"
+    },
+    {
+      "package": "@stytch/vanilla-js",
+      "version": "6.3.0",
+      "weekly_downloads": 157117,
+      "js_files": 2393,
+      "hits": 0,
+      "tarball_sha256": "c4876d107f27d92a0807c6c4cd5ca97432e3c5a7fe8ecbe91da50e86d8dfaa0d"
+    },
+    {
+      "package": "mock-jwks",
+      "version": "3.3.5",
+      "weekly_downloads": 108139,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "78f87d32839a970c8addab3a5f0f6e2bba04a392866fbd14a5d19b9911816b3f"
+    },
+    {
+      "package": "@stytch/react",
+      "version": "20.3.0",
+      "weekly_downloads": 102979,
+      "js_files": 2384,
+      "hits": 0,
+      "tarball_sha256": "512aafcfcc4878d4de678e6fc84ff3d539da3dc47b4a7f55d025780866661280"
+    },
+    {
+      "package": "@clerk/react-router",
+      "version": "3.6.28",
+      "weekly_downloads": 102210,
+      "js_files": 30,
+      "hits": 0,
+      "tarball_sha256": "69963601616a71dcbadb9761ae0e7fbbe9bccc530d492ffefdaea6a47e18397a"
+    },
+    {
+      "package": "@clerk/electron",
+      "version": "0.0.48",
+      "weekly_downloads": 97527,
+      "js_files": 12,
+      "hits": 0,
+      "tarball_sha256": "d4c330870d59d2e44ee5c8efc650ac18885dcc92b6ee01622fc69df7af850688"
+    },
+    {
+      "package": "apns2",
+      "version": "12.2.0",
+      "weekly_downloads": 93887,
+      "js_files": 16,
+      "hits": 0,
+      "tarball_sha256": "91152fd6fe8dab1a19d76811a772f4b4b9ae70b85e938a1d74a86d7276af0d80"
+    },
+    {
+      "package": "@elysiajs/jwt",
+      "version": "1.4.2",
+      "weekly_downloads": 89046,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "df55c03999ec1e774d7740d23c9e0b4e749407e9b084cc71c5a8f59748d85e69"
+    },
+    {
+      "package": "@clerk/chrome-extension",
+      "version": "3.1.88",
+      "weekly_downloads": 80314,
+      "js_files": 17,
+      "hits": 0,
+      "tarball_sha256": "9ac7b6c03b7bc2685b195cd4ecf665f1cac1a5812c101367143b06b7d950ab95"
+    },
+    {
+      "package": "@atproto/jwk",
+      "version": "0.7.4",
+      "weekly_downloads": 75619,
+      "js_files": 11,
+      "hits": 0,
+      "tarball_sha256": "7090c6c7785678cc557c5e44ade314b06ed0dcfe1107715ef03d66df329cf27b"
+    },
+    {
+      "package": "koa-jwt",
+      "version": "4.0.4",
+      "weekly_downloads": 75550,
+      "js_files": 5,
+      "hits": 0,
+      "tarball_sha256": "11a30c607e8386e03519afa3f502243c0bdb28e54a74f4dd1e0dfbe3a674df49"
+    },
+    {
+      "package": "react-relay-network-modern",
+      "version": "6.2.2",
+      "weekly_downloads": 75275,
+      "js_files": 48,
+      "hits": 0,
+      "tarball_sha256": "3817cd59e23307a430eec32179aa399765d4289f29922b6417f91ce6c01facce"
+    },
+    {
+      "package": "react-apple-signin-auth",
+      "version": "1.2.1",
+      "weekly_downloads": 72172,
+      "js_files": 12,
+      "hits": 0,
+      "tarball_sha256": "3b77bfce3aab4360a6fd2e5a79c917f9e492501c0e4dc6a7caeb6a3f99f6b58c"
+    },
+    {
+      "package": "@stytch/nextjs",
+      "version": "22.3.0",
+      "weekly_downloads": 71298,
+      "js_files": 2386,
+      "hits": 0,
+      "tarball_sha256": "2bf2f8bf50feb0f7fcded6e4d6672b4b4966bc2d2e16cf0d2625af22d4fe648c"
+    },
+    {
+      "package": "@atproto/jwk-jose",
+      "version": "0.2.4",
+      "weekly_downloads": 68306,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "0f90653bbc06f7fd51b68a5073c39c41b226b2821484d4d6019c3a387b0cc85f"
+    },
+    {
+      "package": "supertokens-node",
+      "version": "24.0.3",
+      "weekly_downloads": 67733,
+      "js_files": 397,
+      "hits": 0,
+      "tarball_sha256": "fcf2a48f43513b016feb23ad58b85ab79c5cc33e7fc9144cd123fbd9a9212774"
+    },
+    {
+      "package": "@atproto/jwk-webcrypto",
+      "version": "0.3.4",
+      "weekly_downloads": 67630,
+      "js_files": 3,
+      "hits": 0,
+      "tarball_sha256": "2096d481bb3e6a0f2706384ecb15a1cd7b5cf05455b13ff7e89be835903feefd"
+    },
+    {
+      "package": "@clerk/hono",
+      "version": "0.1.83",
+      "weekly_downloads": 67432,
+      "js_files": 6,
+      "hits": 0,
+      "tarball_sha256": "8159a77a1997bdb76de0e4455fd9b77863395b1c2d5c1631b725751e3ac7d3c7"
+    },
+    {
+      "package": "get-jwks",
+      "version": "11.0.3",
+      "weekly_downloads": 66151,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "40f837c824f3429140a9a4d6c70fa134b7e07220768eb010145a4f243f732ae9"
+    },
+    {
+      "package": "@atlassian/atlassian-jwt",
+      "version": "2.2.0",
+      "weekly_downloads": 60791,
+      "js_files": 2,
+      "hits": 0,
+      "tarball_sha256": "63f87faf66aa06932a588431028a809e58ef1ff1e53c0c06fe470e419b6ee0a8"
+    },
+    {
+      "package": "dag-jose",
+      "version": "5.1.1",
+      "weekly_downloads": 60710,
+      "js_files": 4,
+      "hits": 0,
+      "tarball_sha256": "541041da4fe1bf5af73105627e64f910bbe818b9a1c0ce8a8736c37fa81b5764"
+    },
+    {
+      "package": "@auth/sveltekit",
+      "version": "1.11.3",
+      "weekly_downloads": 53977,
+      "js_files": 113,
+      "hits": 0,
+      "tarball_sha256": "0768e7edb4547c62199f990e93e88e2a8df38035cb5acde87ade56d9b0e6c674"
+    },
+    {
+      "package": "jsonwebtoken-esm",
+      "version": "2.0.1",
+      "weekly_downloads": 52949,
+      "js_files": 24,
+      "hits": 0,
+      "tarball_sha256": "fea237ac3da78c743a3e197e7bbf01fb01a369a33e6fa5776cf54c4cfb989ffc"
+    }
+  ]
+}

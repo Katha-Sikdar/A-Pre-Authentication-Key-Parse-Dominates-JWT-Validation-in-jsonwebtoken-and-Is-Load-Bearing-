@@ -259,3 +259,19 @@ with the ARM64 host. `PSAO_ENV_LABEL=x86_64-cloud-vm` in every row. Driven by
 
 `HOST-OPENSSL-DRIFT` does not apply to these runs: every row records the
 OpenSSL version the process actually loaded.
+
+## 2026-09-30T08-09-10Z-keypath-runtime-matrix (JSS revision, reviewer M2)
+
+Distribution-packaged Node.js against official images, on an x86_64 cloud VM
+(Intel Xeon @ 2.10GHz, 4 vCPUs, Ubuntu 24.04 host, Docker 29.3.1), not the
+arm64 host of the other matrix run. `psao/distro-node:ubuntu24.04` is built by
+`experiments/distro/Dockerfile.ubuntu24.04` (Ubuntu's `nodejs` package, v18.19.1,
+linked dynamically to the system libssl3, OpenSSL 3.0.13; recorded in
+environments.csv). Reference images: node:18.20.8-alpine and node:26.6.0-alpine.
+Five conditions, 10 rounds, 20,000 calls after 10,000 warmup per process.
+
+One invocation failed with no output: node:18.20.8-alpine / jwt_hs_preparsed /
+round 7 (`docker run` exited non-zero; nothing was written). That cell has 9
+processes instead of 10 and the runner exited 1 for that reason; no other
+invocation failed. The Debian 12 image could not be built: deb.debian.org was
+not reachable from this VM (see TODO_EXPERIMENTS.md).

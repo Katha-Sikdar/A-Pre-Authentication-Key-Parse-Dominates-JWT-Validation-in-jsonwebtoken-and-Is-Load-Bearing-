@@ -1,0 +1,16 @@
+{
+  "frame": "jwt",
+  "queries": [
+    "keywords:jwt",
+    "keywords:jsonwebtoken",
+    "keywords:jose",
+    "keywords:jws",
+    "keywords:jwk",
+    "keywords:jwks"
+  ],
+  "api": "https://registry.npmjs.org/-/v1/search",
+  "min_weekly_downloads": 50000,
+  "captured_at_utc": "2026-09-30T08:26:45+00:00",
+  "packages_returned": 1727,
+  "packages_in_frame": 64
+}

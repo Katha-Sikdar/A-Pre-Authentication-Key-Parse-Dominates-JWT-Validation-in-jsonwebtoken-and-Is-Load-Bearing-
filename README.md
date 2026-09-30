@@ -96,3 +96,21 @@ recipe is included.
 
 MIT. See `LICENSE`. The development JWT secret in `testbed/service-a` is a
 placeholder for local testing only.
+
+## Added for the JSS revision
+
+| Path | Reviewer item | What it does |
+|---|---|---|
+| `experiments/distro/`, run `2026-09-30T08-09-10Z-keypath-runtime-matrix` | M2 | Ubuntu 24.04's packaged Node.js (system OpenSSL 3.0) measured beside official images |
+| `bench/forged-token.js`, `bench/keypath-equivalence.js`, `experiments/run_forged_tokens.sh`, run `2026-09-30T08-25-14Z-forged-tokens` | M7, minor 15 | Cost of rejected forged tokens (stock, narrow fix, pre-parsed); stock vs narrow fix behaviour on 252 cases per runtime; secret length |
+| `survey/libsurvey/` | M1 | npm frame (registry search + download threshold) and a parser-based detector for a failing parse used as a type test; hits adjudicated |
+| `survey/second_rater/` | M6 | Blinded stratified rating sheets, codebook and Cohen's kappa script (ratings not yet done) |
+| `survey/refetch_corpus.py` | minor 16 | Re-fetches the survey corpus from the manifest and checks every hash |
+| `experiments/run_ab_alternating.sh`, `analysis/ab_alternating.py`, `testbed/service-a/Dockerfile.{node24,ubuntu24.04}` | M2, M3 | Alternating, randomised A/B on the testbed and on supported images (not yet run) |
+| `analysis/make_review_macros.py` | all | Generates every value added in the revision (`macros/review_macros.tex` + provenance map) |
+| `analysis/keypath_stats.py --ci-method bca` | minor 9 | Optional BCa intervals; default output unchanged |
+| `TODO_EXPERIMENTS.md` | | Everything that still needs the authors' hardware, testbed or a second rater |
+
+```sh
+python3 -m analysis.make_review_macros --out macros/review_macros.tex --map macros/review_macros_provenance.csv
+```

@@ -1,0 +1,10 @@
+{
+  "name": "psao-libsurvey",
+  "private": true,
+  "description": "M1: search published npm packages for key material resolved by a failing parse used as a type test",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "8.14.0",
+    "acorn-walk": "8.3.4"
+  }
+}
