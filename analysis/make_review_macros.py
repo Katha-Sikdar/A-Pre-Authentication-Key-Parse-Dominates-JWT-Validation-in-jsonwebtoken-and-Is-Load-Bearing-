@@ -106,7 +106,9 @@ if drun is not None:
         put(pre + 'Openssl', envs[image]['openssl_version'], drun / 'environments.csv')
         for cond, name in (('probe_throws', 'ProbeThrows'), ('probe_succeeds', 'ProbeSucceeds'),
                            ('jwt_hs_string', 'JwtString'), ('jwt_hs_preparsed', 'JwtPreparsed'),
-                           ('jwt_hs_string_safe', 'JwtStringSafe')):
+                           ('jwt_hs_string_safe', 'JwtStringSafe'),
+                           ('jwt_hs_string_keyonly', 'JwtStringKeyonly'),
+                           ('jwt_sign_string', 'SignString'), ('jwt_sign_preparsed', 'SignPreparsed')):
             if cond in c:
                 put(pre + name, sig(c[cond]['median_of_medians_us']), stats)
         pen = (e.get('contrasts') or {}).get('string_key_penalty_hs256')
@@ -119,8 +121,19 @@ if drun is not None:
         if (md.get('run_parameters') or {}).get('iterations') else None, drun / 'run_metadata.json')
     put('DistroCpus', (md.get('run_parameters') or {}).get('docker_cpus'), drun / 'run_metadata.json')
     df = pd.read_csv(drun / 'keypath_mechanism.csv')
-    put('DistroFailedInvocations', int(len(DISTRO) * 5 * int((md.get('run_parameters') or {}).get('rounds', 0)) - len(df)),
+    rp = md.get('run_parameters') or {}
+    n_cond = len((rp.get('conditions') or '').split())
+    put('DistroConditions', n_cond, drun / 'run_metadata.json')
+    put('DistroFailedInvocations', int(len(DISTRO) * n_cond * int(rp.get('rounds', 0)) - len(df)),
         drun / 'keypath_mechanism.csv')
+    rng_d = np.random.default_rng(ks.SEED)
+    for image, pre in DISTRO.items():
+        sub = df[df['environment'] == image]
+        d = ks.paired_diff(sub, 'jwt_sign_string', 'jwt_sign_preparsed', rng_d)
+        if d:
+            put(pre + 'SignPenalty', sig(d['median_diff_us']), drun / 'keypath_mechanism.csv')
+            put(pre + 'SignPenaltyCiLo', sig(d['ci95'][0]), drun / 'keypath_mechanism.csv')
+            put(pre + 'SignPenaltyCiHi', sig(d['ci95'][1]), drun / 'keypath_mechanism.csv')
 else:
     MISSING.append('DistroUbuntu')
 
@@ -130,7 +143,8 @@ FENV = {'host': 'Host', 'node:18.20.8-alpine': 'Eighteen', 'node:26.6.0-alpine':
 FCOND = {'forged_rs_string': 'RsString', 'forged_rs_string_safe': 'RsSafe',
          'forged_rs_preparsed': 'RsPreparsed', 'forged_hs_string': 'HsString',
          'forged_hs_string_safe': 'HsSafe', 'forged_hs_preparsed': 'HsPreparsed',
-         'probe_throws_s16': 'ProbeSixteen', 'probe_throws_s256': 'ProbeTwoFiftySix'}
+         'probe_throws_s16': 'ProbeSixteen', 'probe_throws_s256': 'ProbeTwoFiftySix',
+         'forged_rs_string_keyonly': 'RsKeyonly', 'forged_hs_string_keyonly': 'HsKeyonly'}
 frun = latest('*-forged-tokens')
 if frun is not None and (frun / 'forged_tokens.csv').exists():
     df = pd.read_csv(frun / 'forged_tokens.csv')
@@ -166,10 +180,104 @@ if frun is not None and (frun / 'forged_tokens.csv').exists():
         put('EquivCasesPerRuntime', len(list(csv.DictReader(eq[0].open()))), eq[0])
         put('EquivRuntimes', len(eq), frun)
         put('EquivDiffs', diffs, frun)
+        dk = [sum(1 for r in csv.DictReader(p.open()) if r.get('identical_keyonly') != 'true') for p in eq]
+        put('EquivDiffsKeyonly', sum(dk) if all('identical_keyonly' in (next(csv.DictReader(p.open())) or {}) for p in eq) else None, frun)
         kinds = {r['key_material'] for r in csv.DictReader(eq[0].open())}
         put('EquivKeyKinds', len(kinds), eq[0])
 else:
     MISSING.append('Forged')
+
+# --- library test suite for each variant (item 1) ----------------------------
+srun = latest('*-upstream-suite-variants')
+if srun is not None and (srun / 'summary.csv').exists():
+    rows = list(csv.DictReader((srun / 'summary.csv').open()))
+    put('SuiteVariantRuntimes', len({r['runtime'] for r in rows}), srun / 'summary.csv')
+    for v, name in (('stock', 'Stock'), ('safe', 'Safe'), ('keyonly', 'Keyonly'), ('naive', 'Naive')):
+        for extra, tag in (('none', ''), ('keypath', 'Plus')):
+            rr = [r for r in rows if r['variant'] == v and r['extra_tests'] == extra]
+            p_, f_ = {r['passing'] for r in rr}, {r['failing'] for r in rr}
+            # One value only if every runtime agrees; otherwise the macro is missing.
+            put('SuiteVar' + name + tag + 'Passing', p_.pop() if len(p_) == 1 else None, srun / 'summary.csv')
+            put('SuiteVar' + name + tag + 'Failing', f_.pop() if len(f_) == 1 else None, srun / 'summary.csv')
+    put('SuiteVarCommit', (srun / 'tag_commit.txt').read_text().strip()[:7], srun / 'tag_commit.txt')
+else:
+    MISSING.append('SuiteVar')
+
+# --- rejection breakdown: stack capture (item 4) ------------------------------
+rrun = latest('*-rejection-breakdown')
+if rrun is not None and (rrun / 'rejection_breakdown.csv').exists():
+    df = pd.read_csv(rrun / 'rejection_breakdown.csv')
+    for env, pre in FENV.items():
+        for cond, c in (('forged_rs_preparsed', 'Rs'), ('forged_hs_preparsed', 'Hs')):
+            for stl, st in (('default', 'Stack'), ('0', 'NoStack')):
+                v = df[(df['environment'] == f'{env}|stack={stl}') & (df['condition'] == cond)]['median_us'].to_numpy()
+                put('Rej' + pre + c + st, sig(float(np.median(v))) if v.size else None, rrun / 'rejection_breakdown.csv')
+    put('RejInvocations', int(df.groupby(['environment', 'condition']).size().min()), rrun / 'rejection_breakdown.csv')
+else:
+    MISSING.append('Rej')
+
+# --- host VM run for Figure 9 (item 1) ----------------------------------------
+vrun = None
+for d in sorted(RUNS.glob('*-keypath-mechanism'), reverse=True):
+    if (d / 'process_versions.json').exists():
+        vrun = d; break
+if vrun is not None:
+    st = vrun / 'keypath_stats.json'
+    if not st.exists():
+        ks.main(['--run', str(vrun)])
+    js = json.loads(st.read_text())
+    (env, e), = js['environments'].items()
+    pv = json.loads((vrun / 'process_versions.json').read_text())
+    put('VmbNode', pv['node'], vrun / 'process_versions.json')
+    put('VmbOpenssl', pv['openssl'], vrun / 'process_versions.json')
+    for cond, name in (('jwt_hs_string', 'JwtString'), ('jwt_hs_preparsed', 'JwtPreparsed'),
+                       ('jwt_hs_string_safe', 'JwtStringSafe'), ('jwt_hs_string_keyonly', 'JwtStringKeyonly')):
+        put('Vmb' + name, sig(e['conditions'][cond]['median_of_medians_us']) if cond in e['conditions'] else None, st)
+else:
+    MISSING.append('Vmb')
+
+# --- machines (item 3) --------------------------------------------------------
+def meta(d):
+    p = RUNS / d / 'run_metadata.json'
+    return json.loads(p.read_text()) if p.exists() else {}
+_mac = meta('2026-09-17T08-42-17Z-keypath-mechanism')
+_mx = meta('2026-09-17T08-57-13Z-keypath-runtime-matrix')
+_vma = meta('2026-09-24T17-10-07Z-openssl-c-probe')
+_vmam = meta('2026-09-24T17-44-01Z-keypath-runtime-matrix')
+_vmb = meta(drun.name) if drun is not None else {}
+def plat(m):
+    return (m.get('host') or {}).get('platform', '')
+put('MachMacOs', re.sub(r'^macOS-([0-9.]+)-.*', r'macOS \1', plat(_mac)) or None, RUNS / '2026-09-17T08-42-17Z-keypath-mechanism/run_metadata.json')
+put('MachDockerCpus', (_mx.get('run_parameters') or {}).get('docker_cpus'), RUNS / '2026-09-17T08-57-13Z-keypath-runtime-matrix/run_metadata.json')
+_cpu_a = (_vma.get('host') or {}).get('cpu_model') or (_vma.get('run_parameters') or {}).get('cpu_model') or ''
+put('MachVmaCpu', re.sub(r'\(R\)', '', _cpu_a).replace('  ', ' ') or None, RUNS / '2026-09-24T17-10-07Z-openssl-c-probe/run_metadata.json')
+put('MachVmaCpus', (_vmam.get('run_parameters') or {}).get('docker_cpus'), RUNS / '2026-09-24T17-44-01Z-keypath-runtime-matrix/run_metadata.json')
+put('MachVmaKernel', re.sub(r'^Linux-([^-]+-[^-]+-[^-]+)-.*', r'\1', plat(_vma)) or None, RUNS / '2026-09-24T17-10-07Z-openssl-c-probe/run_metadata.json')
+put('MachVmaLibc', re.sub(r'.*with-glibc', 'glibc ', plat(_vma)) or None, RUNS / '2026-09-24T17-10-07Z-openssl-c-probe/run_metadata.json')
+if frun is not None:
+    _cpu_b = (json.loads((frun / 'run_metadata.json').read_text()).get('run_parameters') or {}).get('cpu_model') or ''
+    put('MachVmbCpu', re.sub(r'\(R\)', '', _cpu_b).replace('  ', ' ') or None, frun / 'run_metadata.json')
+    put('MachVmbCpus', (json.loads((frun / 'run_metadata.json').read_text()).get('run_parameters') or {}).get('nproc'), frun / 'run_metadata.json')
+    put('MachVmbKernel', re.sub(r'^Linux-([^-]+-[^-]+-[^-]+)-.*', r'\1', plat(json.loads((frun / 'run_metadata.json').read_text()))) or None, frun / 'run_metadata.json')
+
+_mb = RUNS / 'MACHINE-vm-b-2026-09-30' / 'machine.txt'
+if _mb.exists():
+    _t = _mb.read_text()
+    _m = re.search(r'PRETTY_NAME="([^"]+)"', _t)
+    put('MachVmbOs', _m.group(1) if _m else None, _mb)
+else:
+    MISSING.append('MachVmbOs')
+
+# --- Ubuntu 24.04 nodejs package status (item 5) -------------------------------
+ub = RUNS / '2026-09-30-ubuntu-nodejs-support' / 'apt_nodejs.txt'
+if ub.exists():
+    t = ub.read_text()
+    m = re.search(r'nodejs \| ([^ ]+) \| \S+ (\S+)/(\S+) ', t)
+    put('UbuntuNodejsPkg', m.group(1).replace('~', '\\textasciitilde{}') if m else None, ub)
+    put('UbuntuNodejsComponent', m.group(3) if m else None, ub)
+    put('UbuntuNodejsCaptured', t.strip().splitlines()[0][:10], ub)
+else:
+    MISSING.append('UbuntuNodejs')
 
 # --- npm library survey (M1) -------------------------------------------------
 for frame, pre in (('jwt', 'LibJwt'), ('crypto', 'LibCrypto')):

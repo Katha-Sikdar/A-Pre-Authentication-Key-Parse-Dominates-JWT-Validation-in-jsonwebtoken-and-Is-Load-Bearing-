@@ -1,0 +1,53 @@
+key-path mechanism — 2026-09-30T09-16-09Z-keypath-runtime-matrix
+
+### node:18.20.8-alpine    node=v18.20.8 | openssl=3.0.16 | platform=linux/x64
+
+condition              invocs   median us                   95% CI    CV%
+jwt_hs_string              10     688.937       [687.089, 696.082]    0.9
+jwt_sign_string            10     652.299       [648.798, 657.503]    1.0
+probe_throws               10     635.681       [634.200, 638.441]    0.4
+probe_succeeds             10     192.870       [192.474, 196.534]    1.5
+jwt_hs_string_safe         10      12.823         [12.672, 12.922]    1.4
+jwt_hs_string_keyonly      10      12.795         [12.613, 12.941]    1.5
+jwt_hs_preparsed           10      10.415         [10.236, 10.565]    1.5
+jwt_sign_preparsed         10       7.949           [7.880, 8.002]    0.9
+  string_key_penalty_hs256: 678.369 us [676.660, 685.795] over 10 rounds
+  safe_patch_saving_hs256: 675.955 us [674.404, 683.180] over 10 rounds
+  safe_patch_residual: 2.476 us [2.213, 2.615] over 10 rounds
+
+### node:26.6.0-alpine    node=v26.6.0 | openssl=3.5.7 | platform=linux/x64
+
+condition              invocs   median us                   95% CI    CV%
+jwt_hs_string              10      58.926         [58.344, 59.876]    1.7
+jwt_sign_string            10      51.057         [50.650, 51.861]    1.4
+probe_throws               10      39.584         [39.311, 39.791]    0.7
+probe_succeeds             10      18.954         [18.848, 19.577]    5.2
+jwt_hs_string_keyonly      10       9.719           [9.643, 9.832]    1.5
+jwt_hs_string_safe         10       9.647           [9.581, 9.724]    0.9
+jwt_hs_preparsed           10       8.303           [8.183, 8.493]    2.2
+jwt_sign_preparsed         10       6.553           [6.509, 6.645]    1.4
+  string_key_penalty_hs256: 50.528 us [50.114, 51.513] over 10 rounds
+  safe_patch_saving_hs256: 49.202 us [48.698, 50.319] over 10 rounds
+  safe_patch_residual: 1.368 us [1.156, 1.457] over 10 rounds
+
+### psao/distro-node:ubuntu24.04    node=v18.19.1 | openssl=3.0.13 | platform=linux/x64
+
+condition              invocs   median us                   95% CI    CV%
+jwt_hs_string              10     451.492       [449.635, 453.236]    0.6
+jwt_sign_string            10     443.346       [441.233, 447.717]    1.0
+probe_throws               10     423.758       [418.467, 424.997]    2.5
+probe_succeeds             10     123.851       [123.120, 124.618]    0.8
+jwt_hs_string_keyonly      10      12.721         [12.492, 12.861]    2.6
+jwt_hs_string_safe         10      12.527         [12.447, 12.834]    2.2
+jwt_hs_preparsed           10       9.867          [9.744, 10.045]    1.9
+jwt_sign_preparsed         10       7.372           [7.290, 7.431]    1.9
+  string_key_penalty_hs256: 441.546 us [439.653, 443.485] over 10 rounds
+  safe_patch_saving_hs256: 438.970 us [436.875, 440.417] over 10 rounds
+  safe_patch_residual: 2.700 us [2.413, 2.995] over 10 rounds
+
+### ratio vs node:18.20.8-alpine
+
+environment                 jwt_hs_prepars   jwt_hs_string  jwt_hs_string_  jwt_hs_string_  jwt_sign_prepa  jwt_sign_strin  probe_succeeds    probe_throws
+node:26.6.0-alpine                    0.80            0.09            0.76            0.75            0.82            0.08            0.10            0.06
+psao/distro-node:ubuntu24.04            0.95            0.66            0.99            0.98            0.93            0.68            0.64            0.67
+

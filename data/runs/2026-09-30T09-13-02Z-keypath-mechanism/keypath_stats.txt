@@ -1,0 +1,13 @@
+key-path mechanism — 2026-09-30T09-13-02Z-keypath-mechanism
+
+### host-openssl3.5.5    node=v22.22.2 | openssl=3.5.5 | platform=linux/x64
+
+condition              invocs   median us                   95% CI    CV%
+jwt_hs_string              15      29.163         [28.971, 29.263]    0.7
+jwt_hs_string_safe         15       8.238           [8.117, 8.303]    1.9
+jwt_hs_string_keyonly      15       8.236           [8.085, 8.270]    1.8
+jwt_hs_preparsed           15       6.624           [6.474, 6.745]    2.5
+  string_key_penalty_hs256: 22.403 us [22.286, 22.904] over 15 rounds
+  safe_patch_saving_hs256: 20.910 us [20.716, 21.137] over 15 rounds
+  safe_patch_residual: 1.571 us [1.456, 1.679] over 15 rounds
+

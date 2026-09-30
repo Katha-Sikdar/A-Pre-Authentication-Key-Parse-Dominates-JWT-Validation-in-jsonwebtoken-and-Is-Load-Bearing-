@@ -24,6 +24,7 @@ const OUT = outArg > 0 ? process.argv[outArg + 1] : null;
 
 const stock = require(patch.PKG);
 const safe = require(patch.build('safe'));
+const keyonly = require(patch.build('keyonly'));
 
 const SECRET = 'your-super-secret-key-that-is-long';
 const rsa = crypto.generateKeyPairSync('rsa', { modulusLength: 2048 });
@@ -43,6 +44,10 @@ const KEYS = {
   'PEM EC public key as string': EC_PUB_PEM,
   'JWK RSA public key as string': RSA_PUB_JWK,
   'empty string': '',
+  'PEM RSA public key with leading newline': '\n  ' + RSA_PUB_PEM,
+  'PEM RSA public key as Buffer': Buffer.from(RSA_PUB_PEM),
+  'JSON text that is not a JWK': '{"k":"not-a-jwk"}',
+  'string containing -----BEGIN mid-way': 'secret-----BEGIN-not-pem',
 };
 
 const claims = { sub: 'user0' };
@@ -79,20 +84,24 @@ function run(lib, token, key, opts) {
 }
 
 let cases = 0, diffs = 0;
-const rows = ['key_material,token,options,stock,narrow_fix,identical'];
+const rows = ['key_material,token,options,stock,narrow_fix,identical,keyonly,identical_keyonly'];
+let diffsKeyonly = 0;
 for (const [kn, key] of Object.entries(KEYS)) {
   for (const [tn, token] of Object.entries(TOKENS)) {
     for (const [on, opts] of Object.entries(OPTIONS)) {
       cases += 1;
       const a = run(stock, token, key, opts);
       const b = run(safe, token, key, opts);
+      const k = run(keyonly, token, key, opts);
       const same = a === b;
-      if (!same) { diffs += 1; console.log(`DIFFERENT: [${kn}] [${tn}] [${on}]\n  stock: ${a}\n  safe:  ${b}`); }
+      const sameK = a === k;
+      if (!same) { diffs += 1; console.log(`DIFFERENT (safe): [${kn}] [${tn}] [${on}]\n  stock: ${a}\n  safe:  ${b}`); }
+      if (!sameK) { diffsKeyonly += 1; console.log(`DIFFERENT (keyonly): [${kn}] [${tn}] [${on}]\n  stock:   ${a}\n  keyonly: ${k}`); }
       const q = (s) => `"${s.replace(/"/g, '""')}"`;
-      rows.push([q(kn), q(tn), q(on), q(a), q(b), same].join(','));
+      rows.push([q(kn), q(tn), q(on), q(a), q(b), same, q(k), sameK].join(','));
     }
   }
 }
 if (OUT) fs.writeFileSync(OUT, rows.join('\n') + '\n');
-console.log(`node ${process.version} openssl ${process.versions.openssl}: ${cases} cases, ${diffs} differ`);
-process.exit(diffs === 0 ? 0 : 1);
+console.log(`node ${process.version} openssl ${process.versions.openssl}: ${cases} cases, ${diffs} differ (narrow fix), ${diffsKeyonly} differ (key-material-only)`);
+process.exit(diffs === 0 && diffsKeyonly === 0 ? 0 : 1);

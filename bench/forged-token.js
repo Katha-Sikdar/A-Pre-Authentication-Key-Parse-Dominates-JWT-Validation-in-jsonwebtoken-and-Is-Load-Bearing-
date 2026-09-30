@@ -15,6 +15,8 @@
  *   forged_hs_string          stock library, string secret, token declares HS256, bad signature
  *   forged_hs_string_safe     narrow fix,    string secret, token declares HS256, bad signature
  *   forged_hs_preparsed       stock library, KeyObject secret, HS256, bad signature
+ *   forged_rs_string_keyonly  key-material-only fix, string secret, token declares RS256
+ *   forged_hs_string_keyonly  key-material-only fix, string secret, HS256, bad signature
  *   probe_throws_s16          createPublicKey() on a 16-character secret (fails)
  *   probe_throws_s256         createPublicKey() on a 256-character secret (fails)
  *
@@ -56,6 +58,8 @@ const FORGED_HS = `${b64u({ alg: 'HS256', typ: 'JWT' })}.${b64u(CLAIMS)}.${FAKE_
 
 let jwtSafe = null;
 const safeLib = () => (jwtSafe || (jwtSafe = require(patch.build('safe'))));
+let jwtKeyonly = null;
+const keyonlyLib = () => (jwtKeyonly || (jwtKeyonly = require(patch.build('keyonly'))));
 
 // verify() throws on rejection; the error is caught and discarded, as a
 // request handler would, and its message is checked once below.
@@ -71,6 +75,8 @@ const CONDITIONS = {
   forged_hs_string:      () => reject(jwtStock, FORGED_HS, HMAC_SECRET),
   forged_hs_string_safe: () => reject(safeLib(), FORGED_HS, HMAC_SECRET),
   forged_hs_preparsed:   () => reject(jwtStock, FORGED_HS, HMAC_KEYOBJECT),
+  forged_rs_string_keyonly: () => reject(keyonlyLib(), FORGED_RS, HMAC_SECRET),
+  forged_hs_string_keyonly: () => reject(keyonlyLib(), FORGED_HS, HMAC_SECRET),
   probe_throws_s16:      () => () => { try { crypto.createPublicKey(SECRET_16); } catch (_) { return 0; } return 1; },
   probe_throws_s256:     () => () => { try { crypto.createPublicKey(SECRET_256); } catch (_) { return 0; } return 1; },
 };

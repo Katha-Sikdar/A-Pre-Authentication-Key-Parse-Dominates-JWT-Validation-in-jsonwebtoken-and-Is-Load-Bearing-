@@ -9,7 +9,11 @@
 #
 # Usage:
 #   experiments/run_forged_tokens.sh [--rounds 10] [--iterations 20000]
-#       [--warmup 10000] [--images "a b"] [--no-host] [--run-dir DIR]
+#       [--warmup 10000] [--images "a b"] [--no-host] [--run-dir DIR [--finish]]
+#
+# With --run-dir, several invocations can fill one run directory (for example
+# one image each, to stay within a job time limit); pass --finish on the last
+# one to write run_metadata.json.
 set -euo pipefail
 # shellcheck source=common.sh
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/common.sh"
@@ -18,9 +22,10 @@ ROUNDS=10
 ITERATIONS=20000
 WARMUP=10000
 HOST=1
+FINISH=0
 RUN_DIR_ARG=""
 IMAGES="node:18.20.8-alpine node:26.6.0-alpine psao/distro-node:ubuntu24.04"
-CONDITIONS="forged_rs_string forged_rs_string_safe forged_rs_preparsed forged_hs_string forged_hs_string_safe forged_hs_preparsed probe_throws_s16 probe_throws_s256"
+CONDITIONS="forged_rs_string forged_rs_string_safe forged_rs_string_keyonly forged_rs_preparsed forged_hs_string forged_hs_string_safe forged_hs_string_keyonly forged_hs_preparsed probe_throws_s16 probe_throws_s256"
 
 while [ $# -gt 0 ]; do
   case "$1" in
@@ -30,6 +35,7 @@ while [ $# -gt 0 ]; do
     --images) IMAGES="$2"; shift 2 ;;
     --no-host) HOST=0; shift ;;
     --run-dir) RUN_DIR_ARG="$2"; shift 2 ;;
+    --finish) FINISH=1; shift ;;
     -h|--help) sed -n '2,13p' "$0"; exit 0 ;;
     *) psao::die "unknown argument: $1" ;;
   esac
@@ -40,14 +46,14 @@ else RUN_DIR="$(psao::new_run_dir "forged-tokens")"; fi
 psao::log "run directory: $RUN_DIR"
 OUT="$RUN_DIR/forged_tokens.csv"
 DOCKER_UID="$(id -u):$(id -g)"
-echo "environment,node_version,openssl_version,v8_version,arch,image_id" > "$RUN_DIR/environments.csv"
+[ -s "$RUN_DIR/environments.csv" ] || echo "environment,node_version,openssl_version,v8_version,arch,image_id" > "$RUN_DIR/environments.csv"
 
 ident='console.log([process.version, process.versions.openssl, process.versions.v8, process.arch].join(","))'
 status=0
 
 # The patched library is built once, before any timed process, so no measured
 # process pays for building it and no two processes race to write it.
-node -e "require('$PSAO_ROOT/bench/keypath-patch.js').build('safe')"
+node -e "const p=require('$PSAO_ROOT/bench/keypath-patch.js'); p.build('safe'); p.build('keyonly')"
 
 envs=()
 if [ "$HOST" = 1 ]; then
@@ -90,7 +96,7 @@ for env in "${envs[@]}"; do
   fi
 done
 
-if [ -z "$RUN_DIR_ARG" ]; then
+if [ -z "$RUN_DIR_ARG" ] || [ "$FINISH" = 1 ]; then
   PSAO_NAMESPACE="${PSAO_NAMESPACE:-default}" psao::write_metadata "$RUN_DIR" \
     "experiment=forged-tokens" "rounds=$ROUNDS" "iterations=$ITERATIONS" "warmup=$WARMUP" \
     "images=$IMAGES" "host=$HOST" "conditions=$CONDITIONS" \

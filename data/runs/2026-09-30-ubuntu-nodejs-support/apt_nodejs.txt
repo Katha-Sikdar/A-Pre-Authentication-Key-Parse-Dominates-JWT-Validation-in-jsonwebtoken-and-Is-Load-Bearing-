@@ -1,0 +1,18 @@
+2026-09-30T09:05:11Z
+
+nodejs:
+  Installed: 18.19.1+dfsg-6ubuntu5
+  Candidate: 18.19.1+dfsg-6ubuntu5
+  Version table:
+ *** 18.19.1+dfsg-6ubuntu5 500
+        500 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+        100 /var/lib/dpkg/status
+
+    nodejs | 18.19.1+dfsg-6ubuntu5 | http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages
+
+Package: nodejs
+Version: 18.19.1+dfsg-6ubuntu5
+Section: universe/web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@alioth-lists.debian.net>

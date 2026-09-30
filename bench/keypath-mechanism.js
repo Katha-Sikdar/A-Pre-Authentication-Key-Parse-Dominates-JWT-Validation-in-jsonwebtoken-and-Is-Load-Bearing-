@@ -23,6 +23,9 @@
  *   hmac_keyobject       createHmac('sha256', KeyObject) -> digest
  *   decode_only          structural decode, no signature check
  *   timer_overhead       empty body: the floor this clock can resolve
+ *   jwt_hs_string_keyonly  key-material-only patched library, HS256, string secret
+ *   jwt_sign_string      stock jwt.sign(), HS256, string secret  (revision item 2)
+ *   jwt_sign_preparsed   stock jwt.sign(), HS256, KeyObject
  *
  * Usage:
  *   node bench/keypath-mechanism.js --condition jwt_hs_string \
@@ -61,6 +64,9 @@ const DOT2 = HS_TOKEN.indexOf('.', DOT1 + 1);
 // must not pay to construct them, and must not have them in its module graph.
 let jwtSafe = null;
 const safeLib = () => (jwtSafe || (jwtSafe = require(patch.build('safe'))));
+let jwtKeyonly = null;
+const keyonlyLib = () => (jwtKeyonly || (jwtKeyonly = require(patch.build('keyonly'))));
+const SIGN_CLAIMS = { sub: 'user0', name: 'Load User 0' };
 
 const CONDITIONS = {
   jwt_hs_string:      () => jwtStock.verify(HS_TOKEN, HMAC_SECRET,      { algorithms: ['HS256'] }),
@@ -79,8 +85,15 @@ const CONDITIONS = {
     return h.alg.length + p.sub.length;
   },
   timer_overhead:     () => {},
+  jwt_hs_string_keyonly: null, // installed below, after the library is built
+  jwt_sign_string:    () => jwtStock.sign(SIGN_CLAIMS, HMAC_SECRET,    { algorithm: 'HS256', noTimestamp: true }),
+  jwt_sign_preparsed: () => jwtStock.sign(SIGN_CLAIMS, HMAC_KEYOBJECT, { algorithm: 'HS256', noTimestamp: true }),
 };
 
+if (args.condition === 'jwt_hs_string_keyonly') {
+  const lib = keyonlyLib();
+  CONDITIONS.jwt_hs_string_keyonly = () => lib.verify(HS_TOKEN, HMAC_SECRET, { algorithms: ['HS256'] });
+}
 if (args.condition === 'jwt_hs_string_safe') {
   const lib = safeLib();
   CONDITIONS.jwt_hs_string_safe = () => lib.verify(HS_TOKEN, HMAC_SECRET, { algorithms: ['HS256'] });

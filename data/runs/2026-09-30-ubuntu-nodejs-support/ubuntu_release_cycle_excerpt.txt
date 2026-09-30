@@ -1,0 +1,7 @@
+source: https://ubuntu.com/about/release-cycle
+captured_at_utc: 2026-09-30T09:05:15
+- Learn more about Ubuntu Pro › Ubuntu package categories Ubuntu packages are grouped into four main categories: 'Main' and 'Restricted' (the base system), and 'Universe' and 'Multiverse' (community and extra packages).
+- 'Main' and 'Universe' are open source, while 'Restricted' and 'Multiverse' contain some non-open source software.
+- Expanded Security Maintenance (ESM) ESM extends the life of LTS releases by providing 10 years of security updates for the 'Main' repository and also adds 10 years of security coverage for the 'Universe' repository.
+- Available through Ubuntu Pro, it provides continued critical and high security patches after standard security maintenance ends for packages in Main, and for thousands of open-source packages in the Universe repository.
+- Support Full phone and ticketing break and bug fix support is available for Ubuntu Main and Universe repositories and the full open source stack, from infrastructure to applications, with Ubuntu Pro + Support.

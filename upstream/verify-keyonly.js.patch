@@ -1,0 +1,31 @@
+--- a/verify.js	2026-09-30 08:08:19.352324973 +0000
++++ b/verify.js	2026-09-30 09:05:25.296490178 +0000
+@@ -118,14 +118,25 @@
+     }
+ 
+     if (secretOrPublicKey != null && !(secretOrPublicKey instanceof KeyObject)) {
+-      try {
+-        secretOrPublicKey = createPublicKey(secretOrPublicKey);
+-      } catch (_) {
++      var __kpPlainString = typeof secretOrPublicKey === 'string'
++        && secretOrPublicKey.indexOf('-----BEGIN') === -1
++        && secretOrPublicKey.trim().charAt(0) !== '{';
++      if (__kpPlainString) {
+         try {
+           secretOrPublicKey = createSecretKey(typeof secretOrPublicKey === 'string' ? Buffer.from(secretOrPublicKey) : secretOrPublicKey);
+         } catch (_) {
+           return done(new JsonWebTokenError('secretOrPublicKey is not valid key material'))
+         }
++      } else {
++        try {
++          secretOrPublicKey = createPublicKey(secretOrPublicKey);
++        } catch (_) {
++          try {
++            secretOrPublicKey = createSecretKey(typeof secretOrPublicKey === 'string' ? Buffer.from(secretOrPublicKey) : secretOrPublicKey);
++          } catch (_) {
++            return done(new JsonWebTokenError('secretOrPublicKey is not valid key material'))
++          }
++        }
+       }
+     }
+ 

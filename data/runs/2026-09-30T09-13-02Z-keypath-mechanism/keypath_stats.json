@@ -1,0 +1,111 @@
+{
+  "run_dir": "/home/user/a-pre-authentication-key-parse-dominates-jwt-validation-in-jsonwebtoken-and-is-load-bearing-/data/runs/2026-09-30T09-13-02Z-keypath-mechanism",
+  "source_csv": "/home/user/a-pre-authentication-key-parse-dominates-jwt-validation-in-jsonwebtoken-and-is-load-bearing-/data/runs/2026-09-30T09-13-02Z-keypath-mechanism/keypath_mechanism.csv",
+  "bootstrap_resamples": 10000,
+  "bootstrap_ci_method": "percentile",
+  "bootstrap_seed": 20260917,
+  "unit_of_measurement": "one process invocation; each contributes its median of N calls",
+  "environments": {
+    "host-openssl3.5.5": {
+      "runtime": {
+        "node_version": [
+          "v22.22.2"
+        ],
+        "openssl_version": [
+          "3.5.5"
+        ],
+        "platform": [
+          "linux/x64"
+        ]
+      },
+      "conditions": {
+        "jwt_hs_preparsed": {
+          "n_invocations": 15,
+          "calls_per_invocation": 40000,
+          "median_of_medians_us": 6.624,
+          "ci95": [
+            6.474,
+            6.745
+          ],
+          "between_invocation_cv_pct": 2.542441597583508,
+          "median_p99_us": 24.052,
+          "median_timer_overhead_us": 0.062
+        },
+        "jwt_hs_string": {
+          "n_invocations": 15,
+          "calls_per_invocation": 40000,
+          "median_of_medians_us": 29.163,
+          "ci95": [
+            28.971,
+            29.263
+          ],
+          "between_invocation_cv_pct": 0.7405005863076143,
+          "median_p99_us": 76.675,
+          "median_timer_overhead_us": 0.062
+        },
+        "jwt_hs_string_keyonly": {
+          "n_invocations": 15,
+          "calls_per_invocation": 40000,
+          "median_of_medians_us": 8.236,
+          "ci95": [
+            8.085,
+            8.27
+          ],
+          "between_invocation_cv_pct": 1.8361700022763041,
+          "median_p99_us": 29.049,
+          "median_timer_overhead_us": 0.062
+        },
+        "jwt_hs_string_safe": {
+          "n_invocations": 15,
+          "calls_per_invocation": 40000,
+          "median_of_medians_us": 8.238,
+          "ci95": [
+            8.117,
+            8.303
+          ],
+          "between_invocation_cv_pct": 1.9358631766506689,
+          "median_p99_us": 30.039,
+          "median_timer_overhead_us": 0.062
+        }
+      },
+      "contrasts": {
+        "string_key_penalty_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 15,
+          "median_diff_us": 22.403000000000002,
+          "ci95": [
+            22.286,
+            22.904
+          ]
+        },
+        "safe_patch_saving_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_string_safe",
+          "n_rounds": 15,
+          "median_diff_us": 20.91,
+          "ci95": [
+            20.716,
+            21.137
+          ]
+        },
+        "safe_patch_residual": {
+          "a": "jwt_hs_string_safe",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 15,
+          "median_diff_us": 1.5709999999999997,
+          "ci95": [
+            1.4560000000000004,
+            1.6790000000000003
+          ]
+        },
+        "string_key_penalty_rs256": null
+      },
+      "decomposition": null
+    }
+  },
+  "cross_environment": {
+    "reference": "host-openssl3.5.5",
+    "ratio_vs_reference": {}
+  }
+}

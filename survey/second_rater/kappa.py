@@ -18,6 +18,10 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 DATA = HERE.parent / 'data'
+# --sheets DIR reads the two rating sheets from DIR instead (used for the
+# dry run on dummy ratings: make_dummy_ratings.py).
+if '--sheets' in sys.argv:
+    HERE = Path(sys.argv[sys.argv.index('--sheets') + 1]).resolve()
 
 
 def kappa(a, b):

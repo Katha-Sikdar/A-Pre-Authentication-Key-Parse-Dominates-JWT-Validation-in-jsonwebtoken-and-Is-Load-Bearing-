@@ -1,0 +1,470 @@
+{
+  "run_dir": "/home/user/a-pre-authentication-key-parse-dominates-jwt-validation-in-jsonwebtoken-and-is-load-bearing-/data/runs/2026-09-30T09-16-09Z-keypath-runtime-matrix",
+  "source_csv": "/home/user/a-pre-authentication-key-parse-dominates-jwt-validation-in-jsonwebtoken-and-is-load-bearing-/data/runs/2026-09-30T09-16-09Z-keypath-runtime-matrix/keypath_mechanism.csv",
+  "bootstrap_resamples": 10000,
+  "bootstrap_ci_method": "percentile",
+  "bootstrap_seed": 20260917,
+  "unit_of_measurement": "one process invocation; each contributes its median of N calls",
+  "environments": {
+    "node:18.20.8-alpine": {
+      "runtime": {
+        "node_version": [
+          "v18.20.8"
+        ],
+        "openssl_version": [
+          "3.0.16"
+        ],
+        "platform": [
+          "linux/x64"
+        ]
+      },
+      "conditions": {
+        "jwt_hs_preparsed": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 10.4155,
+          "ci95": [
+            10.2365,
+            10.565
+          ],
+          "between_invocation_cv_pct": 1.5145405260205795,
+          "median_p99_us": 32.602999999999994,
+          "median_timer_overhead_us": 0.0755
+        },
+        "jwt_hs_string": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 688.937,
+          "ci95": [
+            687.0889999999999,
+            696.082
+          ],
+          "between_invocation_cv_pct": 0.8588095078015768,
+          "median_p99_us": 1069.953,
+          "median_timer_overhead_us": 0.076
+        },
+        "jwt_hs_string_keyonly": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 12.795,
+          "ci95": [
+            12.613,
+            12.940749999999996
+          ],
+          "between_invocation_cv_pct": 1.4920520704432667,
+          "median_p99_us": 45.092,
+          "median_timer_overhead_us": 0.0765
+        },
+        "jwt_hs_string_safe": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 12.823,
+          "ci95": [
+            12.672,
+            12.922
+          ],
+          "between_invocation_cv_pct": 1.4119983631997917,
+          "median_p99_us": 44.583,
+          "median_timer_overhead_us": 0.0765
+        },
+        "jwt_sign_preparsed": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 7.9485,
+          "ci95": [
+            7.8805,
+            8.0025
+          ],
+          "between_invocation_cv_pct": 0.8798366539302905,
+          "median_p99_us": 31.7425,
+          "median_timer_overhead_us": 0.075
+        },
+        "jwt_sign_string": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 652.299,
+          "ci95": [
+            648.798,
+            657.5025
+          ],
+          "between_invocation_cv_pct": 0.9611381642172369,
+          "median_p99_us": 1011.9065,
+          "median_timer_overhead_us": 0.0775
+        },
+        "probe_succeeds": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 192.86950000000002,
+          "ci95": [
+            192.474,
+            196.534
+          ],
+          "between_invocation_cv_pct": 1.5440758081077925,
+          "median_p99_us": 308.3005,
+          "median_timer_overhead_us": 0.0765
+        },
+        "probe_throws": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 635.681,
+          "ci95": [
+            634.2004999999999,
+            638.441
+          ],
+          "between_invocation_cv_pct": 0.44389147428926296,
+          "median_p99_us": 905.9345000000001,
+          "median_timer_overhead_us": 0.0755
+        }
+      },
+      "contrasts": {
+        "string_key_penalty_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 10,
+          "median_diff_us": 678.3685,
+          "ci95": [
+            676.66,
+            685.795
+          ]
+        },
+        "safe_patch_saving_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_string_safe",
+          "n_rounds": 10,
+          "median_diff_us": 675.9545,
+          "ci95": [
+            674.404,
+            683.18
+          ]
+        },
+        "safe_patch_residual": {
+          "a": "jwt_hs_string_safe",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 10,
+          "median_diff_us": 2.476,
+          "ci95": [
+            2.2125000000000004,
+            2.6149999999999984
+          ]
+        },
+        "string_key_penalty_rs256": null
+      },
+      "decomposition": null
+    },
+    "node:26.6.0-alpine": {
+      "runtime": {
+        "node_version": [
+          "v26.6.0"
+        ],
+        "openssl_version": [
+          "3.5.7"
+        ],
+        "platform": [
+          "linux/x64"
+        ]
+      },
+      "conditions": {
+        "jwt_hs_preparsed": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 8.303,
+          "ci95": [
+            8.183,
+            8.492999999999999
+          ],
+          "between_invocation_cv_pct": 2.1942696056103044,
+          "median_p99_us": 51.542,
+          "median_timer_overhead_us": 0.06
+        },
+        "jwt_hs_string": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 58.926,
+          "ci95": [
+            58.3445,
+            59.876000000000005
+          ],
+          "between_invocation_cv_pct": 1.6911021715809935,
+          "median_p99_us": 171.81099999999998,
+          "median_timer_overhead_us": 0.061
+        },
+        "jwt_hs_string_keyonly": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 9.719000000000001,
+          "ci95": [
+            9.643,
+            9.8325
+          ],
+          "between_invocation_cv_pct": 1.4792512159470037,
+          "median_p99_us": 59.647,
+          "median_timer_overhead_us": 0.0605
+        },
+        "jwt_hs_string_safe": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 9.647,
+          "ci95": [
+            9.581,
+            9.724
+          ],
+          "between_invocation_cv_pct": 0.9215282922654204,
+          "median_p99_us": 58.071,
+          "median_timer_overhead_us": 0.06
+        },
+        "jwt_sign_preparsed": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 6.5525,
+          "ci95": [
+            6.509,
+            6.645
+          ],
+          "between_invocation_cv_pct": 1.3528294808581112,
+          "median_p99_us": 47.944,
+          "median_timer_overhead_us": 0.061
+        },
+        "jwt_sign_string": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 51.057,
+          "ci95": [
+            50.6495,
+            51.8615
+          ],
+          "between_invocation_cv_pct": 1.377518388574375,
+          "median_p99_us": 155.1455,
+          "median_timer_overhead_us": 0.06
+        },
+        "probe_succeeds": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 18.954,
+          "ci95": [
+            18.848,
+            19.576999999999998
+          ],
+          "between_invocation_cv_pct": 5.238674509597827,
+          "median_p99_us": 64.3065,
+          "median_timer_overhead_us": 0.06
+        },
+        "probe_throws": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 39.5835,
+          "ci95": [
+            39.311,
+            39.7915
+          ],
+          "between_invocation_cv_pct": 0.716241334195286,
+          "median_p99_us": 98.00200000000001,
+          "median_timer_overhead_us": 0.0605
+        }
+      },
+      "contrasts": {
+        "string_key_penalty_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 10,
+          "median_diff_us": 50.5275,
+          "ci95": [
+            50.114000000000004,
+            51.513000000000005
+          ]
+        },
+        "safe_patch_saving_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_string_safe",
+          "n_rounds": 10,
+          "median_diff_us": 49.202,
+          "ci95": [
+            48.69799999999999,
+            50.319
+          ]
+        },
+        "safe_patch_residual": {
+          "a": "jwt_hs_string_safe",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 10,
+          "median_diff_us": 1.3675000000000006,
+          "ci95": [
+            1.1560000000000006,
+            1.4569999999999999
+          ]
+        },
+        "string_key_penalty_rs256": null
+      },
+      "decomposition": null
+    },
+    "psao/distro-node:ubuntu24.04": {
+      "runtime": {
+        "node_version": [
+          "v18.19.1"
+        ],
+        "openssl_version": [
+          "3.0.13"
+        ],
+        "platform": [
+          "linux/x64"
+        ]
+      },
+      "conditions": {
+        "jwt_hs_preparsed": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 9.8675,
+          "ci95": [
+            9.744,
+            10.045
+          ],
+          "between_invocation_cv_pct": 1.851549762040831,
+          "median_p99_us": 33.791,
+          "median_timer_overhead_us": 0.0785
+        },
+        "jwt_hs_string": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 451.492,
+          "ci95": [
+            449.635,
+            453.236
+          ],
+          "between_invocation_cv_pct": 0.5757502617191396,
+          "median_p99_us": 798.5485,
+          "median_timer_overhead_us": 0.079
+        },
+        "jwt_hs_string_keyonly": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 12.721,
+          "ci95": [
+            12.4925,
+            12.86055
+          ],
+          "between_invocation_cv_pct": 2.619607880672958,
+          "median_p99_us": 42.298500000000004,
+          "median_timer_overhead_us": 0.077
+        },
+        "jwt_hs_string_safe": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 12.527000000000001,
+          "ci95": [
+            12.4465,
+            12.834
+          ],
+          "between_invocation_cv_pct": 2.172345275216039,
+          "median_p99_us": 43.3475,
+          "median_timer_overhead_us": 0.078
+        },
+        "jwt_sign_preparsed": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 7.372,
+          "ci95": [
+            7.2895,
+            7.431
+          ],
+          "between_invocation_cv_pct": 1.9370091776375484,
+          "median_p99_us": 29.2015,
+          "median_timer_overhead_us": 0.078
+        },
+        "jwt_sign_string": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 443.346,
+          "ci95": [
+            441.233,
+            447.717
+          ],
+          "between_invocation_cv_pct": 1.0092999526433595,
+          "median_p99_us": 759.306,
+          "median_timer_overhead_us": 0.079
+        },
+        "probe_succeeds": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 123.85149999999999,
+          "ci95": [
+            123.12,
+            124.618
+          ],
+          "between_invocation_cv_pct": 0.8365979412755185,
+          "median_p99_us": 219.554,
+          "median_timer_overhead_us": 0.08
+        },
+        "probe_throws": {
+          "n_invocations": 10,
+          "calls_per_invocation": 20000,
+          "median_of_medians_us": 423.75750000000005,
+          "ci95": [
+            418.467,
+            424.99699999999996
+          ],
+          "between_invocation_cv_pct": 2.483726896213754,
+          "median_p99_us": 696.796,
+          "median_timer_overhead_us": 0.078
+        }
+      },
+      "contrasts": {
+        "string_key_penalty_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 10,
+          "median_diff_us": 441.54600000000005,
+          "ci95": [
+            439.65299999999996,
+            443.4845
+          ]
+        },
+        "safe_patch_saving_hs256": {
+          "a": "jwt_hs_string",
+          "b": "jwt_hs_string_safe",
+          "n_rounds": 10,
+          "median_diff_us": 438.97,
+          "ci95": [
+            436.8755,
+            440.41700000000003
+          ]
+        },
+        "safe_patch_residual": {
+          "a": "jwt_hs_string_safe",
+          "b": "jwt_hs_preparsed",
+          "n_rounds": 10,
+          "median_diff_us": 2.6999999999999993,
+          "ci95": [
+            2.4130000000000003,
+            2.995
+          ]
+        },
+        "string_key_penalty_rs256": null
+      },
+      "decomposition": null
+    }
+  },
+  "cross_environment": {
+    "reference": "node:18.20.8-alpine",
+    "ratio_vs_reference": {
+      "node:26.6.0-alpine": {
+        "jwt_hs_preparsed": 0.797,
+        "jwt_hs_string": 0.086,
+        "jwt_hs_string_keyonly": 0.76,
+        "jwt_hs_string_safe": 0.752,
+        "jwt_sign_preparsed": 0.824,
+        "jwt_sign_string": 0.078,
+        "probe_succeeds": 0.098,
+        "probe_throws": 0.062
+      },
+      "psao/distro-node:ubuntu24.04": {
+        "jwt_hs_preparsed": 0.947,
+        "jwt_hs_string": 0.655,
+        "jwt_hs_string_keyonly": 0.994,
+        "jwt_hs_string_safe": 0.977,
+        "jwt_sign_preparsed": 0.927,
+        "jwt_sign_string": 0.68,
+        "probe_succeeds": 0.642,
+        "probe_throws": 0.667
+      }
+    }
+  }
+}

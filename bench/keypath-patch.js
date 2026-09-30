@@ -108,6 +108,23 @@ ${SYMMETRIC_BRANCH}
 ${ORIGINAL_BRANCH}
       }
     }`,
+
+  // keyonly  (revision item 1) Dispatch on the KEY MATERIAL alone, whatever
+  //          the token declares: a string with no PEM header and no JSON
+  //          object goes straight to createSecretKey(). createPublicKey() on
+  //          such a string cannot succeed (a string is parsed as PEM, which
+  //          needs a header), so the resulting KeyObject is the one the stock
+  //          library would reach through the exception, for every token.
+  keyonly: `    if (secretOrPublicKey != null && !(secretOrPublicKey instanceof KeyObject)) {
+      var __kpPlainString = typeof secretOrPublicKey === 'string'
+        && secretOrPublicKey.indexOf('-----BEGIN') === -1
+        && secretOrPublicKey.trim().charAt(0) !== '{';
+      if (__kpPlainString) {
+${SYMMETRIC_BRANCH}
+      } else {
+${ORIGINAL_BRANCH}
+      }
+    }`,
 };
 
 function copyDir(src, dst) {

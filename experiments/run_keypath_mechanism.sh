@@ -14,7 +14,13 @@
 #
 # Usage:
 #   experiments/run_keypath_mechanism.sh [--rounds 15] [--iterations 40000]
-#                                        [--warmup 20000]
+#                                        [--warmup 20000] [--conditions "a b"]
+#                                        [--environment LABEL] [--run-dir DIR]
+#
+# Every row carries node_version and openssl_version (process.versions) from
+# the measuring process. The default --environment is
+# "host-openssl<version>", so runs on different OpenSSL releases are never
+# pooled under one label (see data/runs/HOST-OPENSSL-DRIFT-2026-09-17.md).
 
 set -euo pipefail
 # shellcheck source=common.sh
@@ -23,13 +29,19 @@ source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/common.sh"
 ROUNDS=15
 ITERATIONS=40000
 WARMUP=20000
+CONDITIONS_ARG=""
+ENVIRONMENT=""
+RUN_DIR_ARG=""
 
 while [ $# -gt 0 ]; do
   case "$1" in
     --rounds) ROUNDS="$2"; shift 2 ;;
     --iterations) ITERATIONS="$2"; shift 2 ;;
     --warmup) WARMUP="$2"; shift 2 ;;
-    -h|--help) sed -n '2,20p' "$0"; exit 0 ;;
+    --conditions) CONDITIONS_ARG="$2"; shift 2 ;;
+    --environment) ENVIRONMENT="$2"; shift 2 ;;
+    --run-dir) RUN_DIR_ARG="$2"; shift 2 ;;
+    -h|--help) sed -n '2,27p' "$0"; exit 0 ;;
     *) psao::die "unknown argument: $1" ;;
   esac
 done
@@ -42,8 +54,12 @@ CONDITIONS=(
   probe_throws probe_succeeds create_secret_key
   hmac_string hmac_keyobject decode_only timer_overhead
 )
+[ -n "$CONDITIONS_ARG" ] && read -r -a CONDITIONS <<< "$CONDITIONS_ARG"
+[ -n "$ENVIRONMENT" ] || ENVIRONMENT="host-openssl$(node -p 'process.versions.openssl')"
 
-RUN_DIR="$(psao::new_run_dir "keypath-mechanism")"
+if [ -n "$RUN_DIR_ARG" ]; then RUN_DIR="$RUN_DIR_ARG"; mkdir -p "$RUN_DIR"
+else RUN_DIR="$(psao::new_run_dir "keypath-mechanism")"; fi
+node -e 'console.log(JSON.stringify(process.versions, null, 2))' > "$RUN_DIR/process_versions.json"
 psao::log "run directory: $RUN_DIR"
 
 PSAO_NAMESPACE="${PSAO_NAMESPACE:-default}" psao::write_metadata "$RUN_DIR" \
@@ -52,6 +68,8 @@ PSAO_NAMESPACE="${PSAO_NAMESPACE:-default}" psao::write_metadata "$RUN_DIR" \
   "iterations=$ITERATIONS" \
   "warmup=$WARMUP" \
   "conditions=${CONDITIONS[*]}" \
+  "environment=$ENVIRONMENT" \
+  "cpu_model=$( (lscpu 2>/dev/null | sed -n 's/^Model name: *//p') || sysctl -n machdep.cpu.brand_string 2>/dev/null)" \
   "jsonwebtoken_version=$(node -e "console.log(require('$PSAO_ROOT/bench/node_modules/jsonwebtoken/package.json').version)")" \
   "needs_cluster=false" >/dev/null
 
@@ -75,7 +93,7 @@ for round in $(seq 1 "$ROUNDS"); do
   for condition in "${CONDITIONS[@]}"; do
     node "$PSAO_ROOT/bench/keypath-mechanism.js" \
       --condition "$condition" --iterations "$ITERATIONS" \
-      --warmup "$WARMUP" --invocation "$round" --out "$OUT" \
+      --warmup "$WARMUP" --invocation "$round" --environment "$ENVIRONMENT" --out "$OUT" \
       >> "$RUN_DIR/keypath_mechanism.log" 2>&1 \
       || { psao::log "WARNING: $condition round $round exited $?"; status=1; }
   done

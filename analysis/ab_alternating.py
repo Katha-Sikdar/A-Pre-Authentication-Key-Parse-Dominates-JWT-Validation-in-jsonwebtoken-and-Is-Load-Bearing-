@@ -18,9 +18,26 @@ import numpy as np
 LOAD = re.compile(r'load averages?: *([0-9.]+)')
 
 
+def make_dummy_window(arm, out, seed):
+    """SYNTHETIC window for --dry-run only. Marked dummy; never a measurement."""
+    rng = np.random.default_rng(seed)
+    out = Path(out); out.mkdir(parents=True, exist_ok=True)
+    cpu = (146.0 if arm == 'jwt' else 70.0) + rng.normal(0, 3)
+    with (out / 'openloop_ramp.csv').open('w', newline='') as f:
+        w = csv.writer(f); w.writerow(['cpu_app_millicores', 'achieved_rps', 'dummy'])
+        w.writerow([f'{cpu:.3f}', '200.0', 'true'])
+    (out / 'run_metadata.json').write_text(json.dumps({
+        'dummy': True, 'host': {'uptime_at_run_start': f'load averages: {rng.uniform(1, 5):.2f} 1.00 1.00'}}))
+
+
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--run', required=True)
-    run = Path(ap.parse_args().run)
+    ap = argparse.ArgumentParser(); ap.add_argument('--run')
+    ap.add_argument('--make-dummy-window', action='store_true')
+    ap.add_argument('--arm'); ap.add_argument('--out'); ap.add_argument('--seed', type=int, default=0)
+    a = ap.parse_args()
+    if a.make_dummy_window:
+        make_dummy_window(a.arm, a.out, a.seed); return
+    run = Path(a.run)
     order = list(csv.DictReader((run / 'order.csv').open()))
     per, windows = {}, []
     for o in order:
@@ -38,7 +55,9 @@ def main():
     rng = np.random.default_rng(20260917)
     idx = rng.integers(0, len(diff), size=(10000, len(diff)))
     ci = np.percentile(np.median(diff[idx], axis=1), [2.5, 97.5]).tolist()
-    out = {'pairs': len(pairs), 'median_diff_us': float(np.median(diff)), 'ci95': ci,
+    dummy = any(json.loads((run / f"window-{w['window']:02d}-{w['arm']}" / 'run_metadata.json').read_text()).get('dummy')
+                for w in windows)
+    out = {'dummy_data': dummy, 'pairs': len(pairs), 'median_diff_us': float(np.median(diff)), 'ci95': ci,
            'per_pair_diff_us': diff.tolist(), 'median_share_pct': float(np.median(share)),
            'windows': windows}
     (run / 'ab_alternating.json').write_text(json.dumps(out, indent=2) + '\n')

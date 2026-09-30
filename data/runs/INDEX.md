@@ -275,3 +275,12 @@ round 7 (`docker run` exited non-zero; nothing was written). That cell has 9
 processes instead of 10 and the runner exited 1 for that reason; no other
 invocation failed. The Debian 12 image could not be built: deb.debian.org was
 not reachable from this VM (see TODO_EXPERIMENTS.md).
+
+## Second revision runs (2026-09-30, VM B: Intel Xeon @ 2.10GHz, 4 vCPUs, Ubuntu 24.04.4)
+
+- `2026-09-30T09-07-54Z-upstream-suite-variants`: jsonwebtoken's own mocha suite at v9.0.3 against stock, narrow (`safe`), key-material (`keyonly`) and naive verify.js, with and without `upstream/verify-keypath.tests.js`, on the VM's Node and three containers (`experiments/run_upstream_suite.sh`). summary.csv has counts and failing titles.
+- `2026-09-30T09-13-02Z-keypath-mechanism`: host (VM B) run of stock / narrow / key-material / pre-parsed verify(), 15 rounds x 40,000 calls; first run with `process_versions.json` and `host-openssl<ver>` labelling.
+- `2026-09-30T09-14-12Z-rejection-breakdown`: forged RS256/HS256 rejection with a pre-parsed key, with and without `--stack-trace-limit=0` (`experiments/run_rejection_breakdown.sh`).
+- `2026-09-30T09-16-09Z-keypath-runtime-matrix`: Table 6 re-run (Ubuntu 24.04 packaged Node, node:18, node:26) with the key-material fix and jwt.sign(); 0 failed invocations. Supersedes `2026-09-30T08-09-10Z-keypath-runtime-matrix` for the paper.
+- `2026-09-30T09-45-00Z-forged-tokens`: Table 10 re-run with the key-material fix and the extended equivalence test (364 cases per runtime). Filled by three invocations of `run_forged_tokens.sh --run-dir` (host + node:26, node:18, Ubuntu + `--finish`) because background jobs are stopped after 30 minutes in the revision environment; a first attempt stopped at that limit was deleted. Supersedes `2026-09-30T08-25-14Z-forged-tokens` for the paper.
+- `2026-09-30-ubuntu-nodejs-support`, `MACHINE-vm-b-2026-09-30`: package-status evidence and machine identity.
