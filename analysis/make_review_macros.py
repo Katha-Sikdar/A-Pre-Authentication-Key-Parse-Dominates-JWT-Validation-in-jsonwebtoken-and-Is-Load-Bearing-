@@ -307,6 +307,40 @@ for frame, pre in (('jwt', 'LibJwt'), ('crypto', 'LibCrypto')):
         MISSING.append(pre + 'Adjudicated')
 
 
+# --- drift over a run: passively cooled host (thermal throttling) ------------
+# Throttling lowers the clock under sustained load, so it would show as timings
+# that rise with run order. Compared: the first and last third of each run.
+mech_csv = RUNS / '2026-09-17T08-42-17Z-keypath-mechanism' / 'keypath_mechanism.csv'
+if mech_csv.exists():
+    g = pd.read_csv(mech_csv)
+    g = g[g.condition == 'jwt_hs_string'].sort_values('invocation')
+    k = len(g) // 3
+    put('DriftHostProcs', len(g), mech_csv)
+    put('DriftHostFirst', float(g.median_us.iloc[:k].median()), mech_csv)
+    put('DriftHostLast', float(g.median_us.iloc[-k:].median()), mech_csv)
+else:
+    MISSING.append('DriftHost')
+for mode, pre in (('jwt', 'DriftAbJwt'), ('none', 'DriftAbNone')):
+    f = RUNS / f'INSITU-AB-authmode-{mode}' / 'pod_cpu_samples.csv'
+    if not f.exists():
+        MISSING.append(pre); continue
+    s = pd.read_csv(f, comment='#')
+    s = s[s.container == 'service-a'].sort_values('t_unix')
+    k = len(s) // 3
+    put(pre + 'First', float(s.cpu_millicores.iloc[:k].median()), f, '{:.1f}')
+    put(pre + 'Last', float(s.cpu_millicores.iloc[-k:].median()), f, '{:.1f}')
+sweep = RUNS / '2026-09-14T05-57-22Z-verifyrate-hs256' / 'verify_rate_curve.csv'
+if sweep.exists():
+    v = pd.read_csv(sweep).pivot(index='rate_rps', columns='pass', values='verify_mean_us')
+    pct = (v['desc'] / v['asc'] - 1) * 100
+    put('DriftSweepRates', len(pct), sweep)
+    put('DriftSweepSlowerRates', int((pct > 0).sum()), sweep)
+    put('DriftSweepMedianPct', float(pct.median()), sweep, '{:.1f}')
+    put('DriftSweepMaxPct', float(pct.max()), sweep, '{:.1f}')
+else:
+    MISSING.append('DriftSweep')
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument('--out', default=str(ROOT / 'macros' / 'review_macros.tex'))
